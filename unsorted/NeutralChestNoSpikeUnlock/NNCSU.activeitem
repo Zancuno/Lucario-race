@@ -1,0 +1,24 @@
+{
+  "itemName" : "NNCSU",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Unlocks recipes for ^red;|Neutral No Chest Spike|^white chest type.",
+  "shortdescription" : "^orange;NCNSU^white;",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "NNCSUicon.png",
+  "animation" : "NNCSU.animation",
+  "animationCustom" : {},
+  "scripts" : ["NNCSU.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "NCNSU",
+    "level" : 1
+  }
+}

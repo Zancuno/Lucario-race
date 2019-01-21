@@ -1,0 +1,24 @@
+{
+  "itemName" : "RTUN",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Unlocks recipes for ^red;|Neutral Riolu Tail|^white;",
+  "shortdescription" : "^orange;RTUN^white;",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "RTUNicon.png",
+  "animation" : "RTUN.animation",
+  "animationCustom" : {},
+  "scripts" : ["RTUN.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "RTUN",
+    "level" : 1
+  }
+}

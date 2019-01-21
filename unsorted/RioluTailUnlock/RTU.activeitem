@@ -1,0 +1,24 @@
+{
+  "itemName" : "RTU",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Unlocks recipes for ^red;|Gender Riolu Tail|^white;",
+  "shortdescription" : "^cyan;RTU^white;",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "RTUicon.png",
+  "animation" : "RTU.animation",
+  "animationCustom" : {},
+  "scripts" : ["RTU.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "RTU",
+    "level" : 1
+  }
+}
