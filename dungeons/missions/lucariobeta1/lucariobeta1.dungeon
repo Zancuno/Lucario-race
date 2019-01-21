@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "name" : "lucariobeta1",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "lucariobeta1" ],
+    "gravity" : 80,
+    "maxRadius" : 500,
+    "maxParts" : 1000,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "lucariobeta1",
+      "rules" : [],
+      "def" : [ "tmx", "lucariobeta1.json" ]
+    }
+  ]
+}
