@@ -1,0 +1,18 @@
+[
+	{
+	"op": "add",
+	"path": "/lucariobeta1",
+	"value": {
+		"primaryDungeon" : "lucariobeta1",
+		"threatLevel" : 2,
+		"gravity" : 80,
+		"worldSize" : [500, 200],
+		"dungeonBaseHeight" : 200,
+		"dungeonSurfaceHeight" : 1,
+		"ambientLightLevel" : [128, 128, 128],
+		"musicTrack" : "/sfx/environmental/crystal_underground.ogg",
+		"environmentStatusEffects" : ["dontstarve"],
+		"biome" : "lunarbase"
+	}
+	}
+]
