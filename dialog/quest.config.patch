@@ -1,0 +1,322 @@
+[
+
+{ 
+"op" : "add",
+"path" : "/share_secret/pleaseTakeReply/lucario", 
+"value" : {
+			"default" : [
+				"Please take this reply to <questGiver> back for me."
+			]
+		}
+},
+
+{ 
+"op" : "add", 
+"path" : "/intimidate/intimidated/lucario", 
+"value" : {
+			"default" : [
+				"Put that <item> down! Tell <questGiver> I will do what is required!"
+			]
+		}
+},
+
+{ 
+"op" : "add", 
+"path" : "/intimidate/notIntimidated/lucario", 
+"value" : {
+			"default" : [
+				"Why should I do <questGiver>'s request?",
+				"<questGiver> sent you to threaten me? Why should I care?"
+			]
+		}
+},
+
+{ 
+"op" : "add",
+"path" : "/bribe/giftAccepted/lucario", 
+"value" : {
+			"default" : [
+				"I'm being bribed? This is new. Give <questGiver> my regards.",
+				"Oh a gift!? Wait.. this is a bribe from <questGiver> isn't it? Tell <questGiver> thanks."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/bribe/giftAccepted2/lucario", 
+"value" : {
+			"default" : [
+				"I wonder what <questGiver> wants of me?..."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/bribe/requestAdditionToHouse/lucario", 
+"value" : {
+			"default" : [
+				"This would look great inside my home, do you mind placing it?",
+				"This is a good gift, place it somewhere please that is fitting."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/gift/giftAccepted/lucario", 
+"value" : {
+			"default" : [
+				"Oh wow! please give <questGiver> my thanks!",
+				"Please tell <questGiver> how much this means to me!"
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/gift/giftAccepted2/lucario", 
+"value" : {
+			"default" : [
+				"<questGiver> must give me much thought.",
+				"<questGiver> is such a nice friend!",
+				"<questGiver> is so thoughtful, I must invite for tea later."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/gift/requestAdditionToHouse/lucario", 
+"value" : {
+			"default" : [
+				"This would look great inside my home, do you mind placing it?",
+				"This is a good gift, place it somewhere please that is fitting."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/return_stolen/objectTaken/lucario", 
+"value" : {
+			"default" : [
+				"That <item> has been a hindrance since I took it, you can take it away.",
+				"That <item> wasn't stolen but you may take it back to resolve issues."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/collect_fine/fineCollected/lucario", 
+"value" : {
+			"default" : [
+				"Fine I will repay what is owed!",
+				"Take this and settle the matter, it is time for me to repay anyways."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/collect_gift/giftProvided/lucario", 
+"value" : {
+			"default" : [
+				"Here's the <item> required, bring it to <questGiver> for me.",
+				"Here's the <item> that was promised!"
+			]
+		}
+},
+
+{ 
+"op" : "add", 
+"path" : "/request_craft/giftProvided/lucario", 
+"value" : {
+			"default" : [
+				"I sensed this coming and prepared one in advance!",
+				"Here is the <item> I was commissioned for."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/borrow/giftProvided/lucario", 
+"value" : {
+			"default" : [
+				"Sure, I believe <questGiver> could make better use of the <item> for now.",
+				"<questGiver> can borrow my <item> for now, only if it returns."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/extort/giftProvided/lucario", 
+"value" : {
+			"default" : [
+				"Just.. take the <item> and leave me in peace..",
+				"End the negativity, just take the <item>...."
+			]
+		}
+},
+
+{ 
+"op" : "add", 
+"path" : "/hat/crafting/lucario", 
+"value" : {
+			"default" : [
+				"You brought the materials? Give me just a sec.",
+				"Glad you thought ahead and grabbed the materials, give me just a moment."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/hat/crafted/lucario", 
+"value" : {
+			"default" : [
+				"Alright done! give this parcel to <questGiver> for me.",
+				"Thank you for waiting! take this parcel to <questGiver> for me."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/helmet/crafting/lucario", 
+"value" : {
+			"default" : [
+				"With these materials, I can make something sturdy!",
+				"Thank you for gathering the materials, I will be done armor smithing soon."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/helmet/crafted/lucario", 
+"value" : {
+			"default" : [
+				"Alright done! give this parcel to <questGiver> for me.",
+				"Thank you for waiting! take this parcel to <questGiver> for me."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/new_stock/trade/lucario", 
+"value" : {
+			"default" : [
+				"Thanks for the shipment, here is <questGiver>'s parcel.",
+				"Thanks for the stock, take this parcel to <questGiver> to complete the trade."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/kidnapping/kidnappersDead/lucario", 
+"value" : {
+			"default" : [
+				"Thank you for saving me! I'm grateful!",
+				"I was in a bit of trouble there! Thank you for saving me!"
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/kidnapping/followHome/lucario", 
+"value" : {
+			"default" : [
+				"I would go myself but after this.. I.. please take me back to <questGiver>.",
+				"I don't think I should go alone, lead me to <questGiver> please."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/escort/found/lucario", 
+"value" : {
+			"default" : [
+				"I seem to have lost my way, can you take me to <questGiver>?",
+				"I've wondered so far to lose <questGiver>'s aura, can you lead me back to <questGiver>?"
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/barter/trade/lucario", 
+"value" : {
+			"default" : [
+				"Thank you for the goods, please gift <questGiver> their <receivedItems>.",
+				"Thanks for the supplies, give <questGiver> my regards and their <receivedItems>."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/escort_trade/collectDelivery/lucario", 
+"value" : {
+			"default" : [
+				"Do you have a delivery for me?",
+				"Is that the delivery I was waiting for?"
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/escort_trade/provideDelivery/lucario", 
+"value" : {
+			"default" : [
+				"Here's you goods!",
+				"Enjoy!"
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/kill_npcs/assistantIntro/lucario", 
+"value" : {
+			"default" : [
+				"I was summoned by <questGiver> to fight beside you against <enemy>.",
+				"<questGiver> asked me to aid you in battle against <enemy>."
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/kill_npc/surrender/lucario", 
+"value" : {
+			"default" : [
+				"I forfeit! Please put away the weapon!",
+				"I give up! Please put up your weapon!",
+				"I surrender to the better fighter, put away your weapon!"
+			]
+		}	
+},
+
+{ 
+"op" : "add", 
+"path" : "/kill_npc/betray/lucario", 
+"value" : {
+			"default" : [
+				"You should have expected this!",
+				"I never give up!!!",
+				"It was foolish to think I would stop!!"
+			]
+		}	
+}
+
+]

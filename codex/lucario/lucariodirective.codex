@@ -1,0 +1,18 @@
+{
+  "id" : "lucariodirective",
+  "title" : "The New Direction",
+  "description" : "A new day; A new millennium.",
+  "icon" : "lucariocover1.png",
+  "contentPages" : [
+
+    "Oh fluffy one... You have taken a step into the deep and dark waters of the unknown. It is in this new frontier, the great abyss of space, that you have one goal:
+	
+	To find and stop that monster that destroyed earth, grow colonies to teach your ways, and to explore the vast universe.
+	May many blessings and good fortune be upon you!"
+  ],
+  
+  "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

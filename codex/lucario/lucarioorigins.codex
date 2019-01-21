@@ -1,0 +1,25 @@
+{
+  "id" : "lucarioorigins",
+  "title" : "A Lucario Introduction",
+  "description" : "The tragic lucario.",
+  "icon" : "lucariocover3.png",
+  "contentPages" : [
+
+    "In the past lucario lived on a world governed by humans but populated by pokemon. Although an event one day changed the lives of a very few lucario. As history tells, one day a rift had appeared before a group. This group laid it's eyes briefly upon a new world before being sucked in this tear of space time. Awoke in a new world, on an alternate version of their own, the lucario awoke to that of a civilization of anthropomorphic beings on a planet named Earth.",
+	
+	"At first came the Apex, sharing some similarities to the lucario, who welcomed them in. Although the lucario were wary of the humans. The Apex provided the basis of interstellar education to the lucario. In being over time, tried to integrate them into their forces. The lucario being noble, and wishing to pay back the kindness they received, adopted the Apex uniform. Although.... The Apex had other plans for the lucario, not knowing the full extent of a lucario's power. They were intrigued by their ability to perceive auras.",
+	
+	"It wasn't before long that the lucario were watched by Apex under Big Ape on Earth. Some lucario were captured, and thus everything began. The Apex under Big Ape, wanted to experiment on the lucario and take their powers for their own. Although they had underestimated to fluffy beings they just seized. A retaliation, a battle, a fight commenced, and the lucario fought well. In their time of need, something came crashing in... From beyond the walls of the complex came the Protectorate. They helped the lucario on their toes and subdued the Apex.",
+	
+	"From the looks of things, the lucario were having doubts about the Apex until they saw fellow Apex among the Protectorate's rank. After the long confrontation, the lucario integrated into the protectorate. Using their knowledge of the Aura Guardians, they fit right into the ranks. Before long, the lucario spread across the universe in their travels. A now new home, the lucario established colonies on various planets. Although the kindness of the Protectorate isn't to go without gratitude. The honest lucario send some of their riolu to train under the Protectorate.",
+	
+	"Alas over the generations of peace held by the Protectorate, came a new lucario. This lucario is you.
+	It's your graduation day, make us proud~"
+
+  ],
+  
+  "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}
