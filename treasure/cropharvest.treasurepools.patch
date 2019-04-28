@@ -1,0 +1,47 @@
+[
+
+{
+	"op":"add",
+	"path":"/chestoberryHarvest",
+	"value":[
+		[0, {
+			"pool":[
+				{"weight" : 0.6, "item" : "chestoberry"}, 
+				{"weight" : 0.2, "item" : "chestoberryseed"}, 
+				{"weight" : 0.2, "item" : "plantfibre"}
+			],
+			"poolRounds":[
+				[0.4,1],
+				[0.3,2],
+				[0.2,4],
+				[0.1,16]
+			]
+			}
+		]
+	]
+},
+
+{
+	"op":"add",
+	"path":"/pechaberryHarvest",
+	"value":[
+		[0, {
+			"pool":[
+				{"weight" : 0.6, "item" : "pechaberry"}, 
+				{"weight" : 0.2, "item" : "pechaberryseed"}, 
+				{"weight" : 0.2, "item" : "plantfibre"}
+			],
+			"poolRounds":[
+				[0.4,1],
+				[0.3,2],
+				[0.2,4],
+				[0.1,16]
+			]
+			}
+		]
+	]
+}
+
+]
+
+ 

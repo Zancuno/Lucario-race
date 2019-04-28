@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "eaura", "count" : 1 },
+	{ "item" : "auracite", "count" : 2 },
+	{ "item" : "aegisaltore", "count" : 1}
+  ],
+  "output" : {
+  "item" : "crosauracite", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "crystalizestation", "all" ]
+}

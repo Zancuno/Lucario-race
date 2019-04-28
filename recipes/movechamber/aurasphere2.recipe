@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "bauracite", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "aurasphere2",
+    "count" : 1
+  },
+  "groups" : [ "movechamber", "all" ]
+}

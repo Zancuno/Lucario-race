@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "cobblestonematerial", "count" : 4 },
+	{ "item" : "livingroot", "count" : 1 },
+	{ "item" : "coalore", "count" : 4}
+  ],
+  "output" : {
+    "item" : "movechamber",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "craftingstations", "all" ]
+}

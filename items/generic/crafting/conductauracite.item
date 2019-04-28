@@ -1,0 +1,11 @@
+{
+  "itemName" : "conductauracite",
+  "price" : 10,
+  "rarity" : "common",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "inventoryIcon" : "conductiveauracite.png",
+  "description" : "A crystal formed from copper by the method aura crystallization. It seems to be able to absorb electricity.",
+  "shortdescription" : " Conductive Auracite Crystal"
+
+}

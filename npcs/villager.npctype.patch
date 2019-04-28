@@ -1,0 +1,43 @@
+[
+
+{ "op" : "add", "path" : "/items/lucario", "value" : [
+		[0, [
+			{
+				"head" : [ "" ], 
+				"chest" : [ "" ], 
+				"legs" : [ "" ] 
+			}, 
+			{ 
+				"head" : [ "" ], 
+				"chest" : [ 
+					{ "name" : "lucariocommanderjacketns", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+					{ "name" : "lucarionavyjacketns", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }, 
+					{ "name" : "lucarioofficerjacketns", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }, 
+					{ "name" : "lucariospecialistjacketns", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+				],
+				"legs" : [  
+					{ "name" : "lucariocommanderpantsN", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }, 
+					{ "name" : "lucarionavypantsN", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }, 
+					{ "name" : "lucarioofficerpantsN", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }, 
+					{ "name" : "lucariospecialistpantsN", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } 
+				] 
+			}, 
+			{ 
+				"head" : [ "" ], 
+				"chest" : [ 
+					{ "name" : "commandersleevesL", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+				],
+				"legs" : [ 
+					{ "name" : "commandersuitLns", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } 
+				] 
+			},
+			{ 
+				"head" : [ { "name" : "lucariotier1head", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+				"chest" : [ { "name" : "lucariotier1chestns", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+				"legs" : [ { "name" : "lucariotier1pantsN", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ]
+			} 
+		] ] 
+	]
+}
+
+]

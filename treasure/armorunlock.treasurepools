@@ -1,0 +1,210 @@
+{
+
+  "FTU" : [
+    [1, {
+      "fill" : [
+        {"item" : "lucariotier4pantsf-recipe" },
+		{"item" : "lucariotier4pantsfa-recipe" }
+      ]
+    }]
+  ],
+  
+  "FTUN" : [
+    [1, {
+      "fill" : [
+        {"item" : "lucariotier4pantsNf-recipe" },
+		{"item" : "lucariotier4pantsNfa-recipe" }
+      ]
+    }]
+  ],
+
+   "RTU" : [
+    [1, {
+      "fill" : [
+        {"item" : "lucariotier4pantsr-recipe" },
+		{"item" : "lucariotier4pantsra-recipe" }
+      ]
+    }]
+  ],
+  
+   "RTUN" : [
+    [1, {
+      "fill" : [
+        {"item" : "lucariotier4pantsNr-recipe" },
+		{"item" : "lucariotier4pantsNra-recipe" }
+      ]
+    }]
+  ],
+  
+    "LTU" : [
+    [1, {
+      "fill" : [
+        {"item" : "lucariotier4pantsl-recipe" },
+		{"item" : "lucariotier4pantsla-recipe" }
+      ]
+    }]
+  ],
+  
+    "LTUN" : [
+    [1, {
+      "fill" : [
+        {"item" : "lucariotier4pantsNl-recipe" },
+		{"item" : "lucariotier4pantsNla-recipe" }
+      ]
+    }]
+  ],
+  
+    "GLU" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "lucariotier1pants-recipe"}
+      ],
+	  "fill" : [
+		{"item" : "lucariocommanderpants-recipe" },
+		{"item" : "lucarioofficerpants-recipe" },
+		{"item" : "lucarionavypants-recipe" },
+		{"item" : "lucariospecialistpants-recipe" },
+		{"item" : "LTU" },
+		{"item" : "RTU" },
+		{"item" : "FTU" },
+		{"item" : "GCU" },
+		{"item" : "GNCSU" },
+		{"item" : "GCNPSU" },
+		{"item" : "GNCSNPSU" }
+	  ]
+    }]
+  ],
+  
+    "NLU" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "lucariotier1pantsN-recipe"}
+      ],
+	  "fill" : [
+		{"item" : "lucariocommanderpantsN-recipe" },
+		{"item" : "lucarioofficerpantsN-recipe" },
+		{"item" : "lucarionavypantsN-recipe" },
+		{"item" : "lucariospecialistpantsN-recipe" },
+		{"item" : "LTUN" },
+		{"item" : "RTUN" },
+		{"item" : "FTUN" },
+		{"item" : "NCU" },
+		{"item" : "NNCSU" },
+		{"item" : "NCNPSU" },
+		{"item" : "NNCSNPSU" }
+	  ]
+    }]
+  ],
+  
+    "GCU" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "lucariotier1chest-recipe"}
+      ],
+	  "fill" : [
+        {"item" : "lucariocommanderjacket-recipe" },
+		{"item" : "lucarioofficerjacket-recipe" },
+		{"item" : "lucarionavyjacket-recipe" },
+		{"item" : "lucariospecialistjacket-recipe" }
+	  ]
+    }]
+  ],
+  
+    "NCU" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "lucariotier1chestN-recipe"}
+      ],
+	  "fill" : [
+        {"item" : "lucariocommanderjacketN-recipe" },
+		{"item" : "lucarioofficerjacketN-recipe" },
+		{"item" : "lucarionavyjacketN-recipe" },
+		{"item" : "lucariospecialistjacketN-recipe" }
+	  ]
+    }]
+  ],
+  
+    "GCNSU" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "lucariotier1chestns-recipe"}
+      ],
+	  "fill" : [
+        {"item" : "lucariocommanderjacketns-recipe" },
+		{"item" : "lucarioofficerjacketns-recipe" },
+		{"item" : "lucarionavyjacketns-recipe" },
+		{"item" : "lucariospecialistjacketns-recipe" }
+	  ]
+    }]
+  ],
+  
+    "NCNSU" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "lucariotier1chestNns-recipe"}
+      ],
+	  "fill" : [
+        {"item" : "lucariocommanderjacketNns-recipe" },
+		{"item" : "lucarioofficerjacketNns-recipe" },
+		{"item" : "lucarionavyjacketNns-recipe" },
+		{"item" : "lucariospecialistjacketNns-recipe" }
+	  ]
+    }]
+  ],
+  
+    "GCNPSU" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "lucariotier1chestNPS-recipe"}
+      ],
+	  "fill" : [
+        {"item" : "lucariocommanderjacket-recipe" },
+		{"item" : "lucarioofficerjacket-recipe" },
+		{"item" : "lucarionavyjacket-recipe" },
+		{"item" : "lucariospecialistjacket-recipe" }
+	  ]
+    }]
+  ],
+  
+    "NCNPSU" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "lucariotier1chestNNPS-recipe"}
+      ],
+	  "fill" : [
+        {"item" : "lucariocommanderjacketN-recipe" },
+		{"item" : "lucarioofficerjacketN-recipe" },
+		{"item" : "lucarionavyjacketN-recipe" },
+		{"item" : "lucariospecialistjacketN-recipe" }
+	  ]
+    }]
+  ],
+  
+    "GCNSNPSU" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "lucariotier1chestnsNPS-recipe"}
+      ],
+	  "fill" : [
+        {"item" : "lucariocommanderjacketns-recipe" },
+		{"item" : "lucarioofficerjacketns-recipe" },
+		{"item" : "lucarionavyjacketns-recipe" },
+		{"item" : "lucariospecialistjacketns-recipe" }
+	  ]
+    }]
+  ],
+  
+    "NCNSNPSU" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "lucariotier1chestNnsNPS-recipe"}
+      ],
+	  "fill" : [
+        {"item" : "lucariocommanderjacketNns-recipe" },
+		{"item" : "lucarioofficerjacketNns-recipe" },
+		{"item" : "lucarionavyjacketNns-recipe" },
+		{"item" : "lucariospecialistjacketNns-recipe" }
+	  ]
+    }]
+  ]
+}

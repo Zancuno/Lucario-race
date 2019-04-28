@@ -1,0 +1,7 @@
+[
+	{ "op" : "add",
+		"path" : "/initialquests/lucario",
+		"value" : [ "protectorate", "lucario_bodyType" ]
+	}
+]
+

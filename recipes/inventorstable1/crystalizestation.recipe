@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "eaura", "count" : 3 },
+	{ "item" : "ironbar", "count" : 4 },
+	{ "item" : "coalore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "crystalizestation",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "craftingstations", "all" ]
+}

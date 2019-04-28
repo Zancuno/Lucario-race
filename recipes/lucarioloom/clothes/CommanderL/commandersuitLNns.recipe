@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : { "item" : "commandersuitLNns", "count" : 1 },
+  "groups" : [ "craftingwheel", "NCNSU" ]
+}

@@ -1,0 +1,18 @@
+[	
+	{ "op" : "add",
+      "path" : "/zangift",
+      "value" : [
+      [1, {
+        "pool" : [
+		  {"weight" : 0.9, "item" : ["ceruliumcompound", 20]},
+		  {"weight" : 0.9, "item" : ["imperviumcompound", 20]},
+		  {"weight" : 0.9, "item" : ["feroziumcompound", 20]}
+        ],
+        "poolRounds" : [
+          [1, 1]
+        ]
+      }]
+      ]
+    }
+
+]

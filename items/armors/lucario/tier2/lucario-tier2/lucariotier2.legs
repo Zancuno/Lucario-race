@@ -1,0 +1,72 @@
+{
+  "itemName" : "lucariotier2pants",
+  "price" : 50,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "legarmour",
+  "description" : "^red;|Gender Legs|^white;
+  The uniform of the Aura Guardians as the lower armor.",
+  "shortdescription" : "^cyan;|GLU|^white;Guardian Uniform ",
+  "tooltipKind" : "armor",
+  "bodyType" : "GLU",
+
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsf.png",
+
+  "level" : 2,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier2armour" ],
+
+  "colorOptions" : [
+    /* STEEL */
+    { "7babd1" : "7babd1", "00295b" : "00295b", "000033" : "000033" },
+    /* BLACK */
+    { "7babd1" : "838383", "00295b" : "555555", "000033" : "383838" },
+    /* GREY */
+    { "7babd1" : "b5b5b5", "00295b" : "808080", "000033" : "555555" },
+    /* WHITE */
+    { "7babd1" : "e6e6e6", "00295b" : "b6b6b6", "000033" : "7b7b7b" },
+    /* RED */
+    { "7babd1" : "f4988c", "00295b" : "d93a3a", "000033" : "932625" },
+    /* ORANGE */
+    { "7babd1" : "ffd495", "00295b" : "ea9931", "000033" : "af4e00" },
+    /* YELLOW */
+    { "7babd1" : "ffffa7", "00295b" : "e2c344", "000033" : "a46e06" },
+    /* GREEN */
+    { "7babd1" : "b2e89d", "00295b" : "51bd3b", "000033" : "247824" },
+    /* BLUE */
+    { "7babd1" : "96cbe7", "00295b" : "5588d4", "000033" : "344495" },
+    /* PURPLE */
+    { "7babd1" : "d29ce7", "00295b" : "a451c4", "000033" : "6a2284" },
+    /* PINK */
+    { "7babd1" : "eab3db", "00295b" : "d35eae", "000033" : "97276d" },
+    /* BROWN */
+    { "7babd1" : "ccae7c", "00295b" : "a47844", "000033" : "754c23" }
+	 
+  ],
+  
+  "learnBlueprintsOnPickup" : [ "lucariotier3pants" ]
+}

@@ -1,0 +1,20 @@
+{
+  "projectileName" : "aura",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "aura.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 2,
+  "power" : 5.0,
+  "speed" : 50,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/aurahit/aurahit.config"
+    }
+  ],
+  "damageKind" : "plasma"
+  
+}

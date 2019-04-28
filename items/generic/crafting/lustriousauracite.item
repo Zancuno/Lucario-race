@@ -1,0 +1,11 @@
+{
+  "itemName" : "lustriousauracite",
+  "price" : 1000,
+  "rarity" : "legendary",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "inventoryIcon" : "lustriousauracite.png",
+  "description" : "An auracite formed from aegisalt and solarium. It's brilliant sheen blinds many, study reveals light repellent properties.",
+  "shortdescription" : "Lustrious Auracite Crystal"
+
+}

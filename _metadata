@@ -6,9 +6,9 @@
   "includes" : ["Wardrobe"],
   "link" : "https://steamcommunity.com/sharedfiles/filedetails/?id=1356955138",
   "name" : "lucario",
-  "priority" : 9998,
+  "priority" : 9999,
   "requires" : [],
   "steamContentId" : "1356955138",
   "tags" : "Crafting and Building|NPCs and Creatures|Weapons|Ships|Species|Furniture and Objects|Character Improvements|Food and Farming|Armor and Clothes",
-  "version" : "1.3.3.1.9"
+  "version" : "1.3.3.2.0"
 }

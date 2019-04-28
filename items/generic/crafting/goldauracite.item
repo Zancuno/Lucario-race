@@ -1,0 +1,13 @@
+{
+  "itemName" : "goldauracite",
+  "price" : 500,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "inventoryIcon" : "goldauracite.png",
+  "description" : "An auracite formed from gold. It can be energy conductive. It is highly priced at markets.",
+  "shortdescription" : " Gold Auracite Crystal",
+  
+  "learnBlueprintsOnPickup" : [ "quadauracite" ]
+
+}

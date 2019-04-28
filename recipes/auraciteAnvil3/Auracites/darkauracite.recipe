@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "eaura", "count" : 1 },
+	{ "item" : "auracite", "count" : 2 },
+	{ "item" : "violiumore", "count" : 1}
+  ],
+  "output" : {
+  "item" : "darkauracite", "count" : 1 },
+  "groups" : [ "craftingseparator", "crystalizestation", "all" ]
+}

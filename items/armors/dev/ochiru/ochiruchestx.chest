@@ -1,0 +1,32 @@
+{
+  "itemName" : "ochiruchestx",
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "chestarmour",
+  "description" : "Ochiru Yuki's sleeves, for those kind of people",
+  "shortdescription" : "Ochiru arms",
+  "tooltipKind" : "armor",
+  "bodyType" : "PLSDONT",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  
+  "mask" : {
+    "backSleeve" : "bsleevemask.png",
+    "frontSleeve" : "fsleevemask.png"
+  },
+
+  "statusEffects" : [
+  ]
+
+}

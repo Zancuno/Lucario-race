@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 10 }
+  ],
+  "output" : {
+  "item" : "eaura", "count" : 1 },
+  "groups" : [ "movechamber", "other", "all" ]
+}

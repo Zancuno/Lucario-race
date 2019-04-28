@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "frozenauracite", "count" : 3 },
+	{ "item" : "crosauracite", "count" : 3 },
+	{ "item" : "darkauracite", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "aurasphere4",
+    "count" : 1
+  },
+  "groups" : [ "movechamber", "all" ]
+}

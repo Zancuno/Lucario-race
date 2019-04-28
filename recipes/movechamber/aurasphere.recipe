@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "eaura", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "aurasphere",
+    "count" : 1
+  },
+  "groups" : [ "movechamber", "all" ]
+}
