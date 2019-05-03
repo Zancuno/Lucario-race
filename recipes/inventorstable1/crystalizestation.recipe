@@ -1,8 +1,6 @@
 {
   "input" : [
-    { "item" : "eaura", "count" : 3 },
-	{ "item" : "ironbar", "count" : 4 },
-	{ "item" : "coalore", "count" : 1 }
+	{ "item" : "money", "count" : 1 }
   ],
   "output" : {
     "item" : "crystalizestation",

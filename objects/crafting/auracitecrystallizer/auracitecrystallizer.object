@@ -1,6 +1,6 @@
 {
   "objectName" : "crystalizestation",
-  "colonyTags" : ["crafting"],
+  "colonyTags" : ["crafting", "Zancuno"],
   "category" : "crafting",
   "rarity" : "rare",
   "interactAction" : "OpenCraftingInterface",
