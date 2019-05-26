@@ -77,6 +77,9 @@
  
  [Honorable Contributions after Original Mod]
  
+ "Sayter" :
+ "Helping to make the weapons conversion from pre-1.0 to .activeitems."
+ 
  "DaWrecka" :
  "Sorting out compatibility errors with the mod and providing files for patch fixes."
  
@@ -88,6 +91,12 @@
  
  "Shadow_TSL" :
  "Modified Audio to create female sounds."
+ 
+ "Malefact☢rix DBug" :
+ "Remastered the Essence of Aura treasure files."
+ 
+ "Chaika? Yes. Chaika" :
+ "Provided further compatibility training after Zancuno was schooled hard about test patching."
  
  ================================================================
  

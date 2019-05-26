@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "eaura", "count" : 3 },
+	{ "item" : "livingroot", "count" : 6 },
+	{ "item" : "tungstenbar", "count" : 1},
+	{ "item" : "auracite", "count" : 5}
+  ],
+  "output" : {
+  "item" : "bauracite", "count" : 3 },
+  "groups" : [ "craftinganvil", "crystalizestation", "all" ]
+}

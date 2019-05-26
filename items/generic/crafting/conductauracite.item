@@ -6,6 +6,6 @@
   "itemTags" : [ "reagent" ],
   "inventoryIcon" : "conductiveauracite.png",
   "description" : "A crystal formed from copper by the method aura crystallization. It seems to be able to absorb electricity.",
-  "shortdescription" : " Conductive Auracite Crystal"
+  "shortdescription" : "Conductracite Crystal"
 
 }

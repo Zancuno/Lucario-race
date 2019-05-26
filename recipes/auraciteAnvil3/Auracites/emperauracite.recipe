@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "eaura", "count" : 1 },
+    { "item" : "eaura", "count" : 10 },
 	{ "item" : "auracite", "count" : 2 },
 	{ "item" : "violiumore", "count" : 1},
 	{ "item" : "solariumstar", "count" : 1}

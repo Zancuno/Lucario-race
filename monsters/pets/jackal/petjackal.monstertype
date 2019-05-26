@@ -200,7 +200,7 @@
       }
     },
 
-    "mouthOffset" : [0, 0],
+    "mouthOffset" : [6, 0],
     "feetOffset" : [0, -8]
   }
 }

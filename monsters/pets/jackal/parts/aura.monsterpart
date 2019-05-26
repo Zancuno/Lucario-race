@@ -1,0 +1,9 @@
+{
+  "name" : "aura",
+  "category" : "petjackal",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "aura.png"
+  }
+}

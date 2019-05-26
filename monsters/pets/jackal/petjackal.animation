@@ -13,15 +13,15 @@
           },
           "run" : {
             "frames" : 4,
-            "cycle" : 0.25,
+            "cycle" : 0.3,
             "mode" : "loop"
           },
           "blink" : {
             "frames" : 1
           },
           "walk" : {
-            "frames" : 8,
-            "cycle" : 0.6,
+            "frames" : 6,
+            "cycle" : 0.8,
             "mode" : "loop"
           },
           "jumping" : {
@@ -64,7 +64,7 @@
             }
           },
           "swim" : {
-            "frames" : 6,
+            "frames" : 4,
             "cycle" : 0.6
           },
           "sound" : {

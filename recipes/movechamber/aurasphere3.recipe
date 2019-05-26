@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "trauracite", "count" : 10 }
+	{ "item" : "aurasphere2", "count" : 2 },
+    { "item" : "trauracite", "count" : 5 }
   ],
   "output" : {
     "item" : "aurasphere3",

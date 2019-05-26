@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "eaura", "count" : 1 },
+    { "item" : "eaura", "count" : 10 },
 	{ "item" : "auracite", "count" : 2 },
-	{ "item" : "aegisaltore", "count" : 1},
-	{ "item" : "solariumstar", "count" : 1}
+	{ "item" : "aegisaltore", "count" : 1 },
+	{ "item" : "solariumstar", "count" : 1 }
   ],
   "output" : {
   "item" : "lustriousauracite", "count" : 1 },

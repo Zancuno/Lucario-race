@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "eaura", "count" : 20 },
+	{ "item" : "auracite", "count" : 5 },
+	{ "item" : "livingroot", "count" : 10 },
+	{ "item" : "refinedaegisalt", "count" : 2 },
+	{ "item" : "solariumstar", "count" : 2 }
+  ],
+  "output" : {
+  "item" : "lustriousauracite", "count" : 3 },
+  "groups" : [ "craftingaccelerator", "crystalizestation", "all" ]
+}

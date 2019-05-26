@@ -1,8 +1,9 @@
 {
   "input" : [
-    { "item" : "frozenauracite", "count" : 3 },
-	{ "item" : "crosauracite", "count" : 3 },
-	{ "item" : "darkauracite", "count" : 3 }
+	{ "item" : "aurasphere3", "count" : 1 },
+    { "item" : "frozenauracite", "count" : 2 },
+	{ "item" : "crosauracite", "count" : 2 },
+	{ "item" : "darkauracite", "count" : 2 }
   ],
   "output" : {
     "item" : "aurasphere4",

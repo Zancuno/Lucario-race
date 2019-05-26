@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "money", "count" : 1 }
+    { "item" : "fabric", "count" : 5 }
   ],
   "output" : { "item" : "lucarioofficerjacketNns", "count" : 1 },
   "groups" : [ "craftingwheel", "NCNSU" ]

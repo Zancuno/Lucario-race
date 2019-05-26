@@ -42,7 +42,7 @@
     }
   },
 
-  "altAbilityType" : "flipslash",
+  "altAbilityType" : "parry",
   
   "palette" : "/items/active/weapons/colors/materia.weaponcolors",
   
