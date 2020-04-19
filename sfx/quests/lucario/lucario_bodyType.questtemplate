@@ -1,8 +1,0 @@
-{
-  "id" : "lucario_bodyType",
-  "mainQuest" : false,
-  "canBeAbandoned" : false,
-  "invisible": true,
-  "updateDelta" : 10,
-  "script" : "/quests/lucario/bodyType.lua"
-}

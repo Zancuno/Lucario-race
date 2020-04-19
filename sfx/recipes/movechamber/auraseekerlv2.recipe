@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "emperauracite", "count" : 10 },
-	{ "item" : "manipulatormodule", "count" : 10}
-  ],
-  "output" : {
-  "item" : "auraseekerlv2", "count" : 1 },
-  "groups" : [ "movechamber", "all" ]
-}

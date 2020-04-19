@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "auracite", "count" : 1 },
-    { "item" : "fabric", "count" : 10 }
-  ],
-  "output" : { "item" : "aurabed", "count" : 1 },
-  "groups" : [ "craftingfurniture", "beds", "all" ]
-}

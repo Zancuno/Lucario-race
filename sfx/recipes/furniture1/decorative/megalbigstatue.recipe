@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "auracite", "count" : 2 }
-  ],
-  "output" : { "item" : "megalbigstatue", "count" : 1 },
-  "groups" : [ "craftingfurniture", "decoration", "all" ]
-}

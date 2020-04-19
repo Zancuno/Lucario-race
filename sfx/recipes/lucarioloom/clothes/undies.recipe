@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 1 }
-  ],
-  "output" : { "item" : "undies", "count" : 1 },
-  "groups" : [ "craftingwheel", "LALL" ]
-}

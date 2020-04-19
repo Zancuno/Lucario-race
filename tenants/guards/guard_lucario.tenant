@@ -13,8 +13,8 @@
     {
       "spawn": "npc",
       "species": "lucario",
-      "level": 1,
-      "type": "lucarioguard",
+      "level": 0,
+      "type": "lucarioguardtenant",
       "overrides": {
        }
      }

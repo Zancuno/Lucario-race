@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "solariumstar", "count" : 20 },
-    { "item" : "lucariotier5schest", "count" : 1 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "lucariotier6schest", "count" : 1 },
-  "groups" : [ "craftingseparator", "armours", "all", "ALALL" ]
-}

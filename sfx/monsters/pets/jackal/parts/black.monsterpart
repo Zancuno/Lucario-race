@@ -1,9 +1,0 @@
-{
-  "name" : "black",
-  "category" : "petjackal",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "black.png"
-  }
-}
