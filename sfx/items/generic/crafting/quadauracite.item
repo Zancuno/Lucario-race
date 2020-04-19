@@ -1,0 +1,13 @@
+{
+  "itemName" : "quadauracite",
+  "price" : 550,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "inventoryIcon" : "quadauracite.png",
+  "description" : "An auracite formed from four ores. A combination of energies channel throughout the crystal.",
+  "shortdescription" : "Auracite Quad-Compound",
+  
+  "learnBlueprintsOnPickup" : [ "frozenauracite", "darkauracite", "crosauracite" ]
+
+}

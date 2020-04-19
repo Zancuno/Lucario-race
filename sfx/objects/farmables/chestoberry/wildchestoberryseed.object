@@ -1,0 +1,54 @@
+{
+  "objectName" : "wildchestoberryseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A berry with a dry flavour and energy providing attributes.",
+  "shortdescription" : "Chesto Berry Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 50,
+  "hasObjectItem" : false,
+
+  "apexDescription" : "A berry of the lucarios, good for an energy boost.",
+  "avianDescription" : "Now ill never have to sleep again!",
+  "floranDescription" : "Berry keepsss floran on the hunt.",
+  "glitchDescription" : "Excitement: A secondary source of energy.",
+  "humanDescription" : "Bottle them up and call it 5 second energy! I'm Rich!",
+  "hylotlDescription" : "A little dry in taste but help you keep on the go! Handy.",
+
+  "inventoryIcon" : "chestoberryseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "chestoberryseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [55, 65]
+    },
+    {
+      "duration" : [200, 210]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "chestoberryHarvest",
+      "resetToStage" : 0
+    }
+  ],
+  
+  "breakDropOptions" : [
+    [ [ "chestoberryseed", 1, { } ] ]
+  ]
+}

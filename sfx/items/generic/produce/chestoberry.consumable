@@ -1,0 +1,33 @@
+{
+  "itemName" : "chestoberry",
+  "rarity" : "Common",
+  "price" : 30,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "chestoberry.png",
+  "description" : "A berry that provides a energy boost and is dry tasting.",
+  "shortdescription" : "Chesto Berry",
+  "effects" : [ [
+		{
+        "effect" : "maxenergyboostaugment1",
+        "duration" : 60
+    },
+	    {
+        "effect" : "jumpboost20",
+        "duration" : 60
+    },
+	    {
+        "effect" : "runboost20",
+        "duration" : 60
+    }
+  ] ],
+  "foodValue" : 5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 50,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

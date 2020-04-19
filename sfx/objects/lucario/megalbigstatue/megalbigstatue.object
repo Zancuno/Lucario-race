@@ -1,0 +1,31 @@
+{
+  "objectName" : "megalbigstatue",
+  "colonyTags" : ["lucario","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 250,
+  "description" : "A statue of a history's first mega lucario, finely made of aura traced crystal.",
+  "shortdescription" : "Mega Lucario Statue",
+  "race" : "lucario",
+
+  "apexDescription" : "A majestic, imposing Mega Lucario.",
+  "avianDescription" : "No doubt this Lucario broke the limits of evolution.",
+  "floranDescription" : "Just sssome guy. Florans make better hunters.",
+  "glitchDescription" : "Hypothesis. The lucario here evolved further and became recorded.",
+  "humanDescription" : "I bet the history books have a lot to say about this Lucario.",
+  "hylotlDescription" : "A hideous, mocking Lucario. Immortalised in crystal.",
+
+  "inventoryIcon" : "megalbigstatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "megalbigstatue.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

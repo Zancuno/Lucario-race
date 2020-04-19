@@ -1,0 +1,11 @@
+{
+  "itemName" : "rainauracite",
+  "price" : 1000,
+  "rarity" : "legendary",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "inventoryIcon" : "rainfallauracite.png",
+  "description" : "An auracite formed from ferozium and solarium. Energy emits from this crystal as if rain is pouring slowly.",
+  "shortdescription" : "Rain Fall Auracite Crystal"
+
+}

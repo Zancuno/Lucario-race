@@ -1,0 +1,13 @@
+{
+  "itemName" : "resistantauracite",
+  "price" : 30,
+  "rarity" : "uncommon",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "inventoryIcon" : "resistantauracite.png",
+  "description" : "An auracite formed from titanium. This white crystal emits a form of light and is oddly sturdy.",
+  "shortdescription" : "Resistant Auracite Crystal",
+  
+  "learnBlueprintsOnPickup" : [ "trauracite" ]
+
+}

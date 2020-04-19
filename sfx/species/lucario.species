@@ -1,0 +1,4391 @@
+{
+  "kind" : "lucario",
+  "charCreationTooltip" : {
+      "title" : "Lucario",
+      "subTitle" : "L",
+      "description" : "Despite their fluffy appearance, this species is incredibly adaptive. They are no strangers to fighting and have their own unique power named Aura. In past they were guardians of their home world, and merged perfectly with the Protectorate."
+  },
+  "nameGen" : [ "/species/lucarionamegen.config:names", "/species/lucarionamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/maleluhurt.ogg", "/sfx/humanoid/femaleluhurt.ogg" ],
+  "charGenTextLabels" : [ "Tail:Fur Colour", "Hair Style", "Shirt", "Pants", "Lock:Hair Colour", "Mega:Eye Colour", "Shirt Colour", "Pants Colour", "LUCARIO", "Personality" ],
+  "skull" : "/humanoid/lucario/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=89eff1FF?replace=9bd4ffFF=4f76cfFF?replace=31a6ffFF=6b5b88FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+	
+// Empty Hands
+      { "item" : "flaglucario" },
+	  { "item" : "chestolight" },
+	  { "item" : "type-cb" },
+
+// Anvil
+	  { "item" : "lucariotier1head" },
+	  { "item" : "lucariotier1chestns" },
+	  { "item" : "lucariotier1pantsN" },
+	  { "item" : "lucariotier2head" },
+	  { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+
+// Anvil2
+	  { "item" : "lucariotier3head" },
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+	  
+// Anvil3
+      { "item" : "lucariotier4head" },
+
+      { "item" : "lucariotier5ahead" },
+      { "item" : "lucariotier5achest" },
+      { "item" : "lucariotier5apants" },
+	  { "item" : "lucariotier6ahead" },
+      { "item" : "lucariotier6achest" },
+      { "item" : "lucariotier6apants" },
+	  
+	  { "item" : "lucariotier5mhead" },
+      { "item" : "lucariotier5mchest" },
+      { "item" : "lucariotier5mpants" },
+	  { "item" : "lucariotier6mhead" },
+      { "item" : "lucariotier6mchest" },
+      { "item" : "lucariotier6mpants" },
+	  
+	  { "item" : "lucariotier5shead" },
+      { "item" : "lucariotier5schest" },
+      { "item" : "lucariotier5spants" },
+	  { "item" : "lucariotier6shead" },
+      { "item" : "lucariotier6schest" },
+      { "item" : "lucariotier6spants" },
+	  
+	  { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+	  
+// Furniture Table
+	  
+// Furniture Table 2
+      { "item" : "humanstoragelocker" },
+      { "item" : "lucarioshipdoor" },
+      { "item" : "lucarioshiphatch" },
+	  
+// Spinning Wheel
+	  { "item" : "lucariocommanderjacketns" },
+	  { "item" : "lucariocommanderpantsN" },
+	  { "item" : "lucarionavyjacketns" },
+	  { "item" : "lucarionavypantsN" },
+	  { "item" : "lucarioofficerjacketns" },
+	  { "item" : "lucarioofficerpantsN" },
+	  { "item" : "lucariospecialistjacketns" },
+	  { "item" : "lucariospecialistpantsN" },
+      { "item" : "conceptchest" },
+      { "item" : "coolchest" },
+      { "item" : "sweatervestchest" },
+      { "item" : "workoutchest" },
+	  { "item" : "nogearL" },
+	  { "item" : "nohatL" },
+	  { "item" : "nopantsL" },
+	  { "item" : "undies" },
+
+	  { "item" : "backpack" },
+	  { "item" : "travelpack" },
+	  
+// Inventors Table
+      { "item" : "movechamber" },
+	  { "item" : "lucarioloom" },
+	  { "item" : "lsu" },
+      { "item" : "dangift" },
+	  
+	  { "item" : "guardianssword" },
+	  { "item" : "nightsend" },
+	  { "item" : "materiablade" },
+	  
+// Cooking Table	  
+	  { "item" : "ricepudding" },
+	  { "item" : "ricecake" },
+	  { "item" : "burger" },
+      { "item" : "vegetablesoup" },
+      { "item" : "bread" },
+      { "item" : "sweetcorn" },
+      { "item" : "candyapple" },
+      { "item" : "icecream" }  
+	  
+// Aura Crystallization Station
+
+	 
+// Move Chamber
+     
+	  
+	]
+  },
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "altOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
+
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/malelu.png",
+      "characterImage" : "/interface/title/lumale.png",
+	  "hairGroup" : "hair",
+      "hair" : [ "male0", "male1", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18", "male19", "male20", "male21", "male22", "male23", "male24", "male25", "male26", "male27", "male28" ],
+      "shirt" : [ "nogearL", "lucariocommanderjacketns", "lucarionavyjacketns", "lucarioofficerjacketns", "lucariospecialistjacketns" ],
+      "pants" : [ "nopantsL", "lucariocommanderpantsN", "lucarionavypantsN", "lucarioofficerpantsN", "lucariospecialistpantsN" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/femalelu.png",
+      "characterImage" : "/interface/title/lufem.png",
+	  "hairGroup" : "hair",
+      "hair" : [ "fem0", "fem1", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29" ],
+      "shirt" : [ "nogearL", "lucariocommanderjacketns", "lucarionavyjacketns", "lucarioofficerjacketns", "lucariospecialistjacketns" ],
+      "pants" : [ "nopantsL", "lucariocommanderpantsN", "lucarionavypantsN", "lucarioofficerpantsN",  "lucariospecialistpantsN" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  
+  
+  "bodyColor" : [ 
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "104a7b", "4a9cee" : "4a9cee", "73bdf6" : "73bdf6", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "104a7b", 
+		"6b5b88" : "104a7b", 
+		"89eff1" : "104a7b", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "4a9cee", 
+		"5e6fc0" : "4a9cee", 
+		"748db8" : "104a7b",
+		"7e99c2" : "104a7b",
+		"373a7d" : "104a7b",
+		"414686" : "104a7b", 
+		"654384" : "104a7b", 
+		"6f4f8d" : "104a7b", 
+
+		"242d67" : "4a9cee",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965", 
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //default
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "104a7b", "4a9cee" : "4a9cee", "73bdf6" : "73bdf6", 
+		"110064" : "104a7b", "280bb7" : "4a9cee",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "104a7b", 
+		"6b5b88" : "4a9cee", 
+		"89eff1" : "00000000", 
+
+		"371571" : "104a7b",
+		"42217b" : "104a7b", 
+		"431a9b" : "4a9cee", 
+		"4d26a5" : "4a9cee", 
+		"5463b7" : "4a9cee", 
+		"5e6fc0" : "4a9cee", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "104a7b", 
+		"414686" : "104a7b", 
+		"654384" : "4a9cee",
+		"6f4f8d" : "4a9cee", 
+
+		"242d67" : "4a9cee",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //default
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "104a7b", "4a9cee" : "4a9cee", "73bdf6" : "73bdf6",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "104a7b", "744393" : "4a9cee",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "104a7b", 
+		"42217b" : "4a9cee",
+		"431a9b" : "104a7b",
+		"4d26a5" : "4a9cee",
+		"5463b7" : "104a7b",
+		"5e6fc0" : "4a9cee",
+		"748db8" : "104a7b",
+		"7e99c2" : "4a9cee",
+		"373a7d" : "104a7b",
+		"414686" : "4a9cee",
+		"654384" : "104a7b",
+		"6f4f8d" : "4a9cee",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683",
+		"b8a393" : "e6e69c",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965",
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c",
+		"b056b5" : "e6e69c",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //default
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "0669b2", "4a9cee" : "157dca", "73bdf6" : "2897e9", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "0669b2", 
+		"6b5b88" : "0669b2", 
+		"89eff1" : "0669b2", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "157dca", 
+		"5e6fc0" : "157dca", 
+		"748db8" : "0669b2",
+		"7e99c2" : "0669b2",
+		"373a7d" : "0669b2",
+		"414686" : "0669b2", 
+		"654384" : "0669b2", 
+		"6f4f8d" : "0669b2", 
+
+		"242d67" : "157dca",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965", 
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //blue
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "0669b2", "4a9cee" : "157dca", "73bdf6" : "2897e9", 
+		"110064" : "0669b2", "280bb7" : "157dca",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "0669b2", 
+		"6b5b88" : "157dca", 
+		"89eff1" : "00000000", 
+
+		"371571" : "0669b2",
+		"42217b" : "0669b2", 
+		"431a9b" : "157dca", 
+		"4d26a5" : "157dca", 
+		"5463b7" : "157dca", 
+		"5e6fc0" : "157dca", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "0669b2", 
+		"414686" : "0669b2", 
+		"654384" : "157dca",
+		"6f4f8d" : "157dca", 
+
+		"242d67" : "157dca",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //blue
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "0669b2", "4a9cee" : "157dca", "73bdf6" : "2897e9",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "0669b2", "744393" : "157dca",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "0669b2", 
+		"42217b" : "157dca",
+		"431a9b" : "0669b2",
+		"4d26a5" : "157dca",
+		"5463b7" : "0669b2",
+		"5e6fc0" : "157dca",
+		"748db8" : "0669b2",
+		"7e99c2" : "157dca",
+		"373a7d" : "0669b2",
+		"414686" : "157dca",
+		"654384" : "0669b2",
+		"6f4f8d" : "157dca",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683",
+		"b8a393" : "e6e69c",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965",
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c",
+		"b056b5" : "e6e69c",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //blue
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "000d58", "4a9cee" : "00137f", "73bdf6" : "0026ff", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "000d58", 
+		"6b5b88" : "000d58", 
+		"89eff1" : "000d58", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "00137f", 
+		"5e6fc0" : "00137f", 
+		"748db8" : "000d58",
+		"7e99c2" : "000d58",
+		"373a7d" : "000d58",
+		"414686" : "000d58", 
+		"654384" : "000d58", 
+		"6f4f8d" : "000d58", 
+
+		"242d67" : "00137f",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965", 
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //sapphire
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "000d58", "4a9cee" : "00137f", "73bdf6" : "0026ff", 
+		"110064" : "000d58", "280bb7" : "00137f",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "000d58", 
+		"6b5b88" : "00137f", 
+		"89eff1" : "00000000", 
+
+		"371571" : "000d58",
+		"42217b" : "000d58", 
+		"431a9b" : "00137f", 
+		"4d26a5" : "00137f", 
+		"5463b7" : "00137f", 
+		"5e6fc0" : "00137f", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "000d58", 
+		"414686" : "000d58", 
+		"654384" : "00137f",
+		"6f4f8d" : "00137f", 
+
+		"242d67" : "00137f",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //sapphire
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "000d58", "4a9cee" : "00137f", "73bdf6" : "0026ff",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "000d58", "744393" : "00137f",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "000d58", 
+		"42217b" : "00137f",
+		"431a9b" : "000d58",
+		"4d26a5" : "00137f",
+		"5463b7" : "000d58",
+		"5e6fc0" : "00137f",
+		"748db8" : "000d58",
+		"7e99c2" : "00137f",
+		"373a7d" : "000d58",
+		"414686" : "00137f",
+		"654384" : "000d58",
+		"6f4f8d" : "00137f",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683",
+		"b8a393" : "e6e69c",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965",
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c",
+		"b056b5" : "e6e69c",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //sapphire
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "1f3355", "4a9cee" : "2f4daa", "73bdf6" : "395dcc", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "1f3355", 
+		"6b5b88" : "1f3355", 
+		"89eff1" : "1f3355", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "2f4daa", 
+		"5e6fc0" : "2f4daa", 
+		"748db8" : "1f3355",
+		"7e99c2" : "1f3355",
+		"373a7d" : "1f3355",
+		"414686" : "1f3355", 
+		"654384" : "1f3355", 
+		"6f4f8d" : "1f3355", 
+
+		"242d67" : "2f4daa",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "bebebe", "d6d683" : "d2d2d2", "e6e69c" : "ebebeb", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "d2d2d2", 
+		"b8a393" : "ebebeb", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "bebebe", 
+
+		"504900" : "bebebe", 
+		"d2f1ff" : "bebebe", 
+		"5e2761" : "ebebeb", 
+		"b056b5" : "ebebeb", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //cerulean
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "1f3355", "4a9cee" : "2f4daa", "73bdf6" : "395dcc", 
+		"110064" : "1f3355", "280bb7" : "2f4daa",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "1f3355", 
+		"6b5b88" : "2f4daa", 
+		"89eff1" : "00000000", 
+
+		"371571" : "1f3355",
+		"42217b" : "1f3355", 
+		"431a9b" : "2f4daa", 
+		"4d26a5" : "2f4daa", 
+		"5463b7" : "2f4daa", 
+		"5e6fc0" : "2f4daa", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "1f3355", 
+		"414686" : "1f3355", 
+		"654384" : "2f4daa",
+		"6f4f8d" : "2f4daa", 
+
+		"242d67" : "2f4daa",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "bebebe", "d6d683" : "d2d2d2", "e6e69c" : "ebebeb", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d2d2d2", 
+		"b8a393" : "ebebeb", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "bebebe", 
+
+		"504900" : "bebebe", 
+		"d2f1ff" : "bebebe",
+		"5e2761" : "ebebeb", 
+		"b056b5" : "ebebeb", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //cerulean
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "1f3355", "4a9cee" : "2f4daa", "73bdf6" : "395dcc",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "1f3355", "744393" : "2f4daa",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "1f3355", 
+		"42217b" : "2f4daa",
+		"431a9b" : "1f3355",
+		"4d26a5" : "2f4daa",
+		"5463b7" : "1f3355",
+		"5e6fc0" : "2f4daa",
+		"748db8" : "1f3355",
+		"7e99c2" : "2f4daa",
+		"373a7d" : "1f3355",
+		"414686" : "2f4daa",
+		"654384" : "1f3355",
+		"6f4f8d" : "2f4daa",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "bebebe", "d6d683" : "d2d2d2", "e6e69c" : "ebebeb", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d2d2d2",
+		"b8a393" : "ebebeb",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "bebebe",
+
+		"504900" : "bebebe", 
+		"d2f1ff" : "bebebe",
+		"5e2761" : "ebebeb",
+		"b056b5" : "ebebeb",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //cerulean
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "607d00", "4a9cee" : "60a400", "73bdf6" : "60e300", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "607d00", 
+		"6b5b88" : "607d00", 
+		"89eff1" : "607d00", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "60a400", 
+		"5e6fc0" : "60a400", 
+		"748db8" : "607d00",
+		"7e99c2" : "607d00",
+		"373a7d" : "607d00",
+		"414686" : "607d00", 
+		"654384" : "607d00", 
+		"6f4f8d" : "607d00", 
+
+		"242d67" : "60a400",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "665100", "d6d683" : "aa8700", "e6e69c" : "c69e00", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "aa8700", 
+		"b8a393" : "c69e00", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "665100", 
+
+		"504900" : "665100", 
+		"d2f1ff" : "665100", 
+		"5e2761" : "c69e00", 
+		"b056b5" : "c69e00", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //swamp
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "607d00", "4a9cee" : "60a400", "73bdf6" : "60e300", 
+		"110064" : "607d00", "280bb7" : "60a400",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "607d00", 
+		"6b5b88" : "60a400", 
+		"89eff1" : "00000000", 
+
+		"371571" : "607d00",
+		"42217b" : "607d00", 
+		"431a9b" : "60a400", 
+		"4d26a5" : "60a400", 
+		"5463b7" : "60a400", 
+		"5e6fc0" : "60a400", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "607d00", 
+		"414686" : "607d00", 
+		"654384" : "60a400",
+		"6f4f8d" : "60a400", 
+
+		"242d67" : "60a400",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "665100", "d6d683" : "aa8700", "e6e69c" : "c69e00", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "aa8700", 
+		"b8a393" : "c69e00", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "665100", 
+
+		"504900" : "665100", 
+		"d2f1ff" : "665100", 
+		"5e2761" : "c69e00", 
+		"b056b5" : "c69e00", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //swamp
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "607d00", "4a9cee" : "60a400", "73bdf6" : "60e300",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "607d00", "744393" : "60a400",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "607d00", 
+		"42217b" : "60a400",
+		"431a9b" : "607d00",
+		"4d26a5" : "60a400",
+		"5463b7" : "607d00",
+		"5e6fc0" : "60a400",
+		"748db8" : "607d00",
+		"7e99c2" : "60a400",
+		"373a7d" : "607d00",
+		"414686" : "60a400",
+		"654384" : "607d00",
+		"6f4f8d" : "60a400",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "665100", "d6d683" : "aa8700", "e6e69c" : "c69e00", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "aa8700",
+		"b8a393" : "c69e00",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "665100",
+
+		"504900" : "665100", 
+		"d2f1ff" : "665100",
+		"5e2761" : "c69e00",
+		"b056b5" : "c69e00",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //swamp
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "7ba340", "4a9cee" : "94bd57", "73bdf6" : "abd46e", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "7ba340", 
+		"6b5b88" : "7ba340", 
+		"89eff1" : "7ba340", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "94bd57", 
+		"5e6fc0" : "94bd57", 
+		"748db8" : "7ba340",
+		"7e99c2" : "7ba340",
+		"373a7d" : "7ba340",
+		"414686" : "7ba340", 
+		"654384" : "7ba340", 
+		"6f4f8d" : "7ba340", 
+
+		"242d67" : "94bd57",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965", 
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //green
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "7ba340", "4a9cee" : "94bd57", "73bdf6" : "abd46e", 
+		"110064" : "7ba340", "280bb7" : "94bd57",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "7ba340", 
+		"6b5b88" : "94bd57", 
+		"89eff1" : "00000000", 
+
+		"371571" : "7ba340",
+		"42217b" : "7ba340", 
+		"431a9b" : "94bd57", 
+		"4d26a5" : "94bd57", 
+		"5463b7" : "94bd57", 
+		"5e6fc0" : "94bd57", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "7ba340", 
+		"414686" : "7ba340", 
+		"654384" : "94bd57",
+		"6f4f8d" : "94bd57", 
+
+		"242d67" : "94bd57",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //green
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "7ba340", "4a9cee" : "94bd57", "73bdf6" : "abd46e",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "7ba340", "744393" : "94bd57",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "7ba340", 
+		"42217b" : "94bd57",
+		"431a9b" : "7ba340",
+		"4d26a5" : "94bd57",
+		"5463b7" : "7ba340",
+		"5e6fc0" : "94bd57",
+		"748db8" : "7ba340",
+		"7e99c2" : "94bd57",
+		"373a7d" : "7ba340",
+		"414686" : "94bd57",
+		"654384" : "7ba340",
+		"6f4f8d" : "94bd57",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683",
+		"b8a393" : "e6e69c",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965",
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c",
+		"b056b5" : "e6e69c",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //green
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "61c673", "4a9cee" : "7dff93", "73bdf6" : "beff93", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "61c673", 
+		"6b5b88" : "61c673", 
+		"89eff1" : "61c673", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "7dff93", 
+		"5e6fc0" : "7dff93", 
+		"748db8" : "61c673",
+		"7e99c2" : "61c673",
+		"373a7d" : "61c673",
+		"414686" : "61c673", 
+		"654384" : "61c673", 
+		"6f4f8d" : "61c673", 
+
+		"242d67" : "7dff93",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "131417", "d6d683" : "434430", "e6e69c" : "565866", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "434430", 
+		"b8a393" : "565866", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "131417", 
+
+		"504900" : "131417", 
+		"d2f1ff" : "131417", 
+		"5e2761" : "565866", 
+		"b056b5" : "565866", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //toxic
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "61c673", "4a9cee" : "7dff93", "73bdf6" : "beff93", 
+		"110064" : "61c673", "280bb7" : "7dff93",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "61c673", 
+		"6b5b88" : "7dff93", 
+		"89eff1" : "00000000", 
+
+		"371571" : "61c673",
+		"42217b" : "61c673", 
+		"431a9b" : "7dff93", 
+		"4d26a5" : "7dff93", 
+		"5463b7" : "7dff93", 
+		"5e6fc0" : "7dff93", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "61c673", 
+		"414686" : "61c673", 
+		"654384" : "7dff93",
+		"6f4f8d" : "7dff93", 
+
+		"242d67" : "7dff93",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "131417", "d6d683" : "434430", "e6e69c" : "565866", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "434430", 
+		"b8a393" : "565866", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "131417", 
+
+		"504900" : "131417", 
+		"d2f1ff" : "131417",
+		"5e2761" : "565866", 
+		"b056b5" : "565866", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //toxic
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "61c673", "4a9cee" : "7dff93", "73bdf6" : "beff93",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "61c673", "744393" : "7dff93",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "61c673", 
+		"42217b" : "7dff93",
+		"431a9b" : "61c673",
+		"4d26a5" : "7dff93",
+		"5463b7" : "61c673",
+		"5e6fc0" : "7dff93",
+		"748db8" : "61c673",
+		"7e99c2" : "7dff93",
+		"373a7d" : "61c673",
+		"414686" : "7dff93",
+		"654384" : "61c673",
+		"6f4f8d" : "7dff93",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "131417", "d6d683" : "434430", "e6e69c" : "565866", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "434430",
+		"b8a393" : "565866",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "131417",
+
+		"504900" : "131417", 
+		"d2f1ff" : "131417",
+		"5e2761" : "565866",
+		"b056b5" : "565866",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //toxic
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "a6a633", "4a9cee" : "c3c34d", "73bdf6" : "e5e55d", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "a6a633", 
+		"6b5b88" : "a6a633", 
+		"89eff1" : "a6a633", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "c3c34d", 
+		"5e6fc0" : "c3c34d", 
+		"748db8" : "a6a633",
+		"7e99c2" : "a6a633",
+		"373a7d" : "a6a633",
+		"414686" : "a6a633", 
+		"654384" : "a6a633", 
+		"6f4f8d" : "a6a633", 
+
+		"242d67" : "c3c34d",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965", 
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //yellow
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "a6a633", "4a9cee" : "c3c34d", "73bdf6" : "e5e55d", 
+		"110064" : "a6a633", "280bb7" : "c3c34d",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "a6a633", 
+		"6b5b88" : "c3c34d", 
+		"89eff1" : "00000000", 
+
+		"371571" : "a6a633",
+		"42217b" : "a6a633", 
+		"431a9b" : "c3c34d", 
+		"4d26a5" : "c3c34d", 
+		"5463b7" : "c3c34d", 
+		"5e6fc0" : "c3c34d", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "a6a633", 
+		"414686" : "a6a633", 
+		"654384" : "c3c34d",
+		"6f4f8d" : "c3c34d", 
+
+		"242d67" : "c3c34d",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //yellow
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "a6a633", "4a9cee" : "c3c34d", "73bdf6" : "e5e55d",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "a6a633", "744393" : "c3c34d",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "a6a633", 
+		"42217b" : "c3c34d",
+		"431a9b" : "a6a633",
+		"4d26a5" : "c3c34d",
+		"5463b7" : "a6a633",
+		"5e6fc0" : "c3c34d",
+		"748db8" : "a6a633",
+		"7e99c2" : "c3c34d",
+		"373a7d" : "a6a633",
+		"414686" : "c3c34d",
+		"654384" : "a6a633",
+		"6f4f8d" : "c3c34d",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683",
+		"b8a393" : "e6e69c",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965",
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c",
+		"b056b5" : "e6e69c",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //yellow
+    {
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "736b21", "4a9cee" : "ada529", "73bdf6" : "e7ef7b", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "736b21", 
+		"6b5b88" : "736b21", 
+		"89eff1" : "736b21", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "ada529", 
+		"5e6fc0" : "ada529", 
+		"748db8" : "736b21",
+		"7e99c2" : "736b21",
+		"373a7d" : "736b21",
+		"414686" : "736b21", 
+		"654384" : "736b21", 
+		"6f4f8d" : "736b21", 
+
+		"242d67" : "ada529",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "45839e", "d6d683" : "67a3bc", "e6e69c" : "7bb5ce", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "67a3bc", 
+		"b8a393" : "7bb5ce", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "45839e", 
+
+		"504900" : "45839e", 
+		"d2f1ff" : "45839e", 
+		"5e2761" : "7bb5ce", 
+		"b056b5" : "7bb5ce", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //shiny
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "736b21", "4a9cee" : "ada529", "73bdf6" : "e7ef7b", 
+		"110064" : "736b21", "280bb7" : "ada529",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "736b21", 
+		"6b5b88" : "ada529", 
+		"89eff1" : "00000000", 
+
+		"371571" : "736b21",
+		"42217b" : "736b21", 
+		"431a9b" : "ada529", 
+		"4d26a5" : "ada529", 
+		"5463b7" : "ada529", 
+		"5e6fc0" : "ada529", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "736b21", 
+		"414686" : "736b21", 
+		"654384" : "ada529",
+		"6f4f8d" : "ada529", 
+
+		"242d67" : "ada529",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "45839e", "d6d683" : "67a3bc", "e6e69c" : "7bb5ce", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "67a3bc", 
+		"b8a393" : "7bb5ce", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "45839e", 
+
+		"504900" : "45839e", 
+		"d2f1ff" : "45839e",
+		"5e2761" : "7bb5ce", 
+		"b056b5" : "7bb5ce", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //shiny
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "736b21", "4a9cee" : "ada529", "73bdf6" : "e7ef7b",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "736b21", "744393" : "ada529",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "736b21", 
+		"42217b" : "ada529",
+		"431a9b" : "736b21",
+		"4d26a5" : "ada529",
+		"5463b7" : "736b21",
+		"5e6fc0" : "ada529",
+		"748db8" : "736b21",
+		"7e99c2" : "ada529",
+		"373a7d" : "736b21",
+		"414686" : "ada529",
+		"654384" : "736b21",
+		"6f4f8d" : "ada529",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "45839e", "d6d683" : "67a3bc", "e6e69c" : "7bb5ce", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "67a3bc",
+		"b8a393" : "7bb5ce",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "45839e",
+
+		"504900" : "45839e", 
+		"d2f1ff" : "45839e",
+		"5e2761" : "7bb5ce",
+		"b056b5" : "7bb5ce",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //shiny
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "e98e4a", "4a9cee" : "f6a162", "73bdf6" : "fbb988", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "e98e4a", 
+		"6b5b88" : "e98e4a", 
+		"89eff1" : "e98e4a", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "f6a162", 
+		"5e6fc0" : "f6a162", 
+		"748db8" : "e98e4a",
+		"7e99c2" : "e98e4a",
+		"373a7d" : "e98e4a",
+		"414686" : "e98e4a", 
+		"654384" : "e98e4a", 
+		"6f4f8d" : "e98e4a", 
+
+		"242d67" : "f6a162",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965", 
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //orange
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "e98e4a", "4a9cee" : "f6al62", "73bdf6" : "fbb988", 
+		"110064" : "e98e4a", "280bb7" : "f6al62",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "e98e4a", 
+		"6b5b88" : "f6al62", 
+		"89eff1" : "00000000", 
+
+		"371571" : "e98e4a",
+		"42217b" : "e98e4a", 
+		"431a9b" : "f6al62", 
+		"4d26a5" : "f6al62", 
+		"5463b7" : "f6al62", 
+		"5e6fc0" : "f6al62", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "e98e4a", 
+		"414686" : "e98e4a", 
+		"654384" : "f6al62",
+		"6f4f8d" : "f6al62", 
+
+		"242d67" : "f6al62",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //orange
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "e98e4a", "4a9cee" : "f6a162", "73bdf6" : "fbb988",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "e98e4a", "744393" : "f6a162",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "e98e4a", 
+		"42217b" : "f6a162",
+		"431a9b" : "e98e4a",
+		"4d26a5" : "f6a162",
+		"5463b7" : "e98e4a",
+		"5e6fc0" : "f6a162",
+		"748db8" : "e98e4a",
+		"7e99c2" : "f6a162",
+		"373a7d" : "e98e4a",
+		"414686" : "f6a162",
+		"654384" : "e98e4a",
+		"6f4f8d" : "f6a162",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683",
+		"b8a393" : "e6e69c",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965",
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c",
+		"b056b5" : "e6e69c",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //orange
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "8c4209", "4a9cee" : "b56311", "73bdf6" : "efb584", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "8c4209", 
+		"6b5b88" : "8c4209", 
+		"89eff1" : "8c4209", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "b56311", 
+		"5e6fc0" : "b56311", 
+		"748db8" : "8c4209",
+		"7e99c2" : "8c4209",
+		"373a7d" : "8c4209",
+		"414686" : "8c4209", 
+		"654384" : "8c4209", 
+		"6f4f8d" : "8c4209", 
+
+		"242d67" : "b56311",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "191963", "d6d683" : "35358a", "e6e69c" : "46469a", 
+
+		"808b5e" : "000000", 
+		"eddfd4" : "000000", 
+		"97463d" : "000000", 
+
+		"ba8b67" : "35358a", 
+		"b8a393" : "46469a", 
+
+		"713608" : "000000", 
+
+		"0c0750" : "191963", 
+
+		"504900" : "191963", 
+		"d2f1ff" : "191963", 
+		"5e2761" : "46469a", 
+		"b056b5" : "46469a", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "000000"
+	}, //nega
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "8c4209", "4a9cee" : "b56311", "73bdf6" : "efb584", 
+		"110064" : "8c4209", "280bb7" : "b56311",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "8c4209", 
+		"6b5b88" : "b56311", 
+		"89eff1" : "00000000", 
+
+		"371571" : "8c4209",
+		"42217b" : "8c4209", 
+		"431a9b" : "b56311", 
+		"4d26a5" : "b56311", 
+		"5463b7" : "b56311", 
+		"5e6fc0" : "b56311", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "8c4209", 
+		"414686" : "8c4209", 
+		"654384" : "b56311",
+		"6f4f8d" : "b56311", 
+
+		"242d67" : "b56311",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "191963", "d6d683" : "35358a", "e6e69c" : "46469a", 
+
+		"808b5e" : "000000", 
+		"eddfd4" : "000000", 
+		"97463d" : "000000",
+
+		"ba8b67" : "35358a", 
+		"b8a393" : "46469a", 
+
+		"713608" : "000000",
+
+		"0c0750" : "191963", 
+
+		"504900" : "191963", 
+		"d2f1ff" : "191963",
+		"5e2761" : "46469a", 
+		"b056b5" : "46469a", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "000000"
+	}, //nega
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "8c4209", "4a9cee" : "b56311", "73bdf6" : "efb584",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "8c4209", "744393" : "b56311",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "8c4209", 
+		"42217b" : "b56311",
+		"431a9b" : "8c4209",
+		"4d26a5" : "b56311",
+		"5463b7" : "8c4209",
+		"5e6fc0" : "b56311",
+		"748db8" : "8c4209",
+		"7e99c2" : "b56311",
+		"373a7d" : "8c4209",
+		"414686" : "b56311",
+		"654384" : "8c4209",
+		"6f4f8d" : "b56311",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "191963", "d6d683" : "35358a", "e6e69c" : "46469a", 
+
+		"808b5e" : "000000",
+		"eddfd4" : "000000",
+		"97463d" : "000000",
+
+		"ba8b67" : "35358a",
+		"b8a393" : "46469a",
+
+		"713608" : "000000",
+
+		"0c0750" : "191963",
+
+		"504900" : "191963", 
+		"d2f1ff" : "191963",
+		"5e2761" : "46469a",
+		"b056b5" : "46469a",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "000000"
+	}, //nega
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "6c000a", "4a9cee" : "9f0816", "73bdf6" : "d01022", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "6c000a", 
+		"6b5b88" : "6c000a", 
+		"89eff1" : "6c000a", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "9f0816", 
+		"5e6fc0" : "9f0816", 
+		"748db8" : "6c000a",
+		"7e99c2" : "6c000a",
+		"373a7d" : "6c000a",
+		"414686" : "6c000a", 
+		"654384" : "6c000a", 
+		"6f4f8d" : "6c000a", 
+
+		"242d67" : "9f0816",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965", 
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //red
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "6c000a", "4a9cee" : "9f0816", "73bdf6" : "d01022", 
+		"110064" : "6c000a", "280bb7" : "9f0816",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "6c000a", 
+		"6b5b88" : "9f0816", 
+		"89eff1" : "00000000", 
+
+		"371571" : "6c000a",
+		"42217b" : "6c000a", 
+		"431a9b" : "9f0816", 
+		"4d26a5" : "9f0816", 
+		"5463b7" : "9f0816", 
+		"5e6fc0" : "9f0816", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "6c000a", 
+		"414686" : "6c000a", 
+		"654384" : "9f0816",
+		"6f4f8d" : "9f0816", 
+
+		"242d67" : "9f0816",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //red
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "6c000a", "4a9cee" : "9f0816", "73bdf6" : "d01022",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "6c000a", "744393" : "9f0816",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "6c000a", 
+		"42217b" : "9f0816",
+		"431a9b" : "6c000a",
+		"4d26a5" : "9f0816",
+		"5463b7" : "6c000a",
+		"5e6fc0" : "9f0816",
+		"748db8" : "6c000a",
+		"7e99c2" : "9f0816",
+		"373a7d" : "6c000a",
+		"414686" : "9f0816",
+		"654384" : "6c000a",
+		"6f4f8d" : "9f0816",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683",
+		"b8a393" : "e6e69c",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965",
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c",
+		"b056b5" : "e6e69c",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //red
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "ff988b", "4a9cee" : "ffb9b0", "73bdf6" : "ffdeda", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "ff988b", 
+		"6b5b88" : "ff988b", 
+		"89eff1" : "ff988b", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "ffb9b0", 
+		"5e6fc0" : "ffb9b0", 
+		"748db8" : "ff988b",
+		"7e99c2" : "ff988b",
+		"373a7d" : "ff988b",
+		"414686" : "ff988b", 
+		"654384" : "ff988b", 
+		"6f4f8d" : "ff988b", 
+
+		"242d67" : "ffb9b0",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "e00000", "d6d683" : "ff3e3e", "e6e69c" : "ff6363", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "ff3e3e", 
+		"b8a393" : "ff6363", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "e00000", 
+
+		"504900" : "e00000", 
+		"d2f1ff" : "e00000", 
+		"5e2761" : "ff6363", 
+		"b056b5" : "ff6363", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //princess
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "ff988b", "4a9cee" : "ffb9b0", "73bdf6" : "ffdeda", 
+		"110064" : "ff988b", "280bb7" : "ffb9b0",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "ff988b", 
+		"6b5b88" : "ffb9b0", 
+		"89eff1" : "00000000", 
+
+		"371571" : "ff988b",
+		"42217b" : "ff988b", 
+		"431a9b" : "ffb9b0", 
+		"4d26a5" : "ffb9b0", 
+		"5463b7" : "ffb9b0", 
+		"5e6fc0" : "ffb9b0", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "ff988b", 
+		"414686" : "ff988b", 
+		"654384" : "ffb9b0",
+		"6f4f8d" : "ffb9b0", 
+
+		"242d67" : "ffb9b0",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "e00000", "d6d683" : "ff3e3e", "e6e69c" : "ff6363", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "ff3e3e", 
+		"b8a393" : "ff6363", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "e00000", 
+
+		"504900" : "e00000", 
+		"d2f1ff" : "e00000", 
+		"5e2761" : "ff6363", 
+		"b056b5" : "ff6363", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //princess
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "ff988b", "4a9cee" : "ffb9b0", "73bdf6" : "ffdeda",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "ff988b", "744393" : "ffb9b0",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "ff988b", 
+		"42217b" : "ffb9b0",
+		"431a9b" : "ff988b",
+		"4d26a5" : "ffb9b0",
+		"5463b7" : "ff988b",
+		"5e6fc0" : "ffb9b0",
+		"748db8" : "ff988b",
+		"7e99c2" : "ffb9b0",
+		"373a7d" : "ff988b",
+		"414686" : "ffb9b0",
+		"654384" : "ff988b",
+		"6f4f8d" : "ffb9b0",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "e00000", "d6d683" : "ff3e3e", "e6e69c" : "ff6363", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "ff3e3e",
+		"b8a393" : "ff6363",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "e00000",
+
+		"504900" : "e00000", 
+		"d2f1ff" : "e00000",
+		"5e2761" : "ff6363",
+		"b056b5" : "ff6363",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //princess
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "eb8aab", "4a9cee" : "f59fbc", "73bdf6" : "fcbdd2", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "eb8aab", 
+		"6b5b88" : "eb8aab", 
+		"89eff1" : "eb8aab", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "f59fbc", 
+		"5e6fc0" : "f59fbc", 
+		"748db8" : "eb8aab",
+		"7e99c2" : "eb8aab",
+		"373a7d" : "eb8aab",
+		"414686" : "eb8aab", 
+		"654384" : "eb8aab", 
+		"6f4f8d" : "eb8aab", 
+
+		"242d67" : "f59fbc",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965", 
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //pink
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "eb8aab", "4a9cee" : "f59fbc", "73bdf6" : "fcbdd2", 
+		"110064" : "eb8aab", "280bb7" : "f59fbc",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "eb8aab", 
+		"6b5b88" : "f59fbc", 
+		"89eff1" : "00000000", 
+
+		"371571" : "eb8aab",
+		"42217b" : "eb8aab", 
+		"431a9b" : "f59fbc", 
+		"4d26a5" : "f59fbc", 
+		"5463b7" : "f59fbc", 
+		"5e6fc0" : "f59fbc", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "eb8aab", 
+		"414686" : "eb8aab", 
+		"654384" : "f59fbc",
+		"6f4f8d" : "f59fbc", 
+
+		"242d67" : "f59fbc",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //pink
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "eb8aab", "4a9cee" : "f59fbc", "73bdf6" : "fcbdd2",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "eb8aab", "744393" : "f59fbc",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "eb8aab", 
+		"42217b" : "f59fbc",
+		"431a9b" : "eb8aab",
+		"4d26a5" : "f59fbc",
+		"5463b7" : "eb8aab",
+		"5e6fc0" : "f59fbc",
+		"748db8" : "eb8aab",
+		"7e99c2" : "f59fbc",
+		"373a7d" : "eb8aab",
+		"414686" : "f59fbc",
+		"654384" : "eb8aab",
+		"6f4f8d" : "f59fbc",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683",
+		"b8a393" : "e6e69c",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965",
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c",
+		"b056b5" : "e6e69c",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //pink
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "816ba2", "4a9cee" : "9681b6", "73bdf6" : "b09fca", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "816ba2", 
+		"6b5b88" : "816ba2", 
+		"89eff1" : "816ba2", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "9681b6", 
+		"5e6fc0" : "9681b6", 
+		"748db8" : "816ba2",
+		"7e99c2" : "816ba2",
+		"373a7d" : "816ba2",
+		"414686" : "816ba2", 
+		"654384" : "816ba2", 
+		"6f4f8d" : "816ba2", 
+
+		"242d67" : "9681b6",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965", 
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //purple
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "816ba2", "4a9cee" : "9681b6", "73bdf6" : "b09fca", 
+		"110064" : "816ba2", "280bb7" : "9681b6",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "816ba2", 
+		"6b5b88" : "9681b6", 
+		"89eff1" : "00000000", 
+
+		"371571" : "816ba2",
+		"42217b" : "816ba2", 
+		"431a9b" : "9681b6", 
+		"4d26a5" : "9681b6", 
+		"5463b7" : "9681b6", 
+		"5e6fc0" : "9681b6", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "816ba2", 
+		"414686" : "816ba2", 
+		"654384" : "9681b6",
+		"6f4f8d" : "9681b6", 
+
+		"242d67" : "9681b6",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //purple
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "816ba2", "4a9cee" : "9681b6", "73bdf6" : "b09fca",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "816ba2", "744393" : "9681b6",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "816ba2", 
+		"42217b" : "9681b6",
+		"431a9b" : "816ba2",
+		"4d26a5" : "9681b6",
+		"5463b7" : "816ba2",
+		"5e6fc0" : "9681b6",
+		"748db8" : "816ba2",
+		"7e99c2" : "9681b6",
+		"373a7d" : "816ba2",
+		"414686" : "9681b6",
+		"654384" : "816ba2",
+		"6f4f8d" : "9681b6",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683",
+		"b8a393" : "e6e69c",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965",
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c",
+		"b056b5" : "e6e69c",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //purple
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "9d8cca", "4a9cee" : "b2a3d2", "73bdf6" : "94c9c8", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "9d8cca", 
+		"6b5b88" : "9d8cca", 
+		"89eff1" : "9d8cca", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "b2a3d2", 
+		"5e6fc0" : "b2a3d2", 
+		"748db8" : "9d8cca",
+		"7e99c2" : "9d8cca",
+		"373a7d" : "9d8cca",
+		"414686" : "9d8cca", 
+		"654384" : "9d8cca", 
+		"6f4f8d" : "9d8cca", 
+
+		"242d67" : "b2a3d2",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "d0cded", "d6d683" : "b4e4dd", "e6e69c" : "dbecec", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "b4e4dd", 
+		"b8a393" : "dbecec", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "d0cded", 
+
+		"504900" : "d0cded", 
+		"d2f1ff" : "d0cded", 
+		"5e2761" : "dbecec", 
+		"b056b5" : "dbecec", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //melty
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "9d8cca", "4a9cee" : "b2a3d2", "73bdf6" : "94c9c8", 
+		"110064" : "9d8cca", "280bb7" : "b2a3d2",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "9d8cca", 
+		"6b5b88" : "b2a3d2", 
+		"89eff1" : "00000000", 
+
+		"371571" : "9d8cca",
+		"42217b" : "9d8cca", 
+		"431a9b" : "b2a3d2", 
+		"4d26a5" : "b2a3d2", 
+		"5463b7" : "b2a3d2", 
+		"5e6fc0" : "b2a3d2", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "9d8cca", 
+		"414686" : "9d8cca", 
+		"654384" : "b2a3d2",
+		"6f4f8d" : "b2a3d2", 
+
+		"242d67" : "b2a3d2",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "d0cded", "d6d683" : "b4e4dd", "e6e69c" : "dbecec", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "b4e4dd", 
+		"b8a393" : "dbecec", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "d0cded", 
+
+		"504900" : "d0cded", 
+		"d2f1ff" : "d0cded",
+		"5e2761" : "dbecec", 
+		"b056b5" : "dbecec", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //melty
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "9d8cca", "4a9cee" : "b2a3d2", "73bdf6" : "94c9c8",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "9d8cca", "744393" : "b2a3d2",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "9d8cca", 
+		"42217b" : "b2a3d2",
+		"431a9b" : "9d8cca",
+		"4d26a5" : "b2a3d2",
+		"5463b7" : "9d8cca",
+		"5e6fc0" : "b2a3d2",
+		"748db8" : "9d8cca",
+		"7e99c2" : "b2a3d2",
+		"373a7d" : "9d8cca",
+		"414686" : "b2a3d2",
+		"654384" : "9d8cca",
+		"6f4f8d" : "b2a3d2",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "d0cded", "d6d683" : "b4e4dd", "e6e69c" : "dbecec", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "b4e4dd",
+		"b8a393" : "dbecec",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "d0cded",
+
+		"504900" : "d0cded", 
+		"d2f1ff" : "d0cded",
+		"5e2761" : "dbecec",
+		"b056b5" : "dbecec",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //melty
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "818181", "4a9cee" : "b4b4b4", "73bdf6" : "dadada", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "818181", 
+		"6b5b88" : "818181", 
+		"89eff1" : "818181", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "b4b4b4", 
+		"5e6fc0" : "b4b4b4", 
+		"748db8" : "818181",
+		"7e99c2" : "818181",
+		"373a7d" : "818181",
+		"414686" : "818181", 
+		"654384" : "818181", 
+		"6f4f8d" : "818181", 
+
+		"242d67" : "b4b4b4",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965", 
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //white
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "818181", "4a9cee" : "b4b4b4", "73bdf6" : "dadada", 
+		"110064" : "818181", "280bb7" : "b4b4b4",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "818181", 
+		"6b5b88" : "b4b4b4", 
+		"89eff1" : "00000000", 
+
+		"371571" : "818181",
+		"42217b" : "818181", 
+		"431a9b" : "b4b4b4", 
+		"4d26a5" : "b4b4b4", 
+		"5463b7" : "b4b4b4", 
+		"5e6fc0" : "b4b4b4", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "818181", 
+		"414686" : "818181", 
+		"654384" : "b4b4b4",
+		"6f4f8d" : "b4b4b4", 
+
+		"242d67" : "b4b4b4",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //white
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "818181", "4a9cee" : "b4b4b4", "73bdf6" : "dadada",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "818181", "744393" : "b4b4b4",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "818181", 
+		"42217b" : "b4b4b4",
+		"431a9b" : "818181",
+		"4d26a5" : "b4b4b4",
+		"5463b7" : "818181",
+		"5e6fc0" : "b4b4b4",
+		"748db8" : "818181",
+		"7e99c2" : "b4b4b4",
+		"373a7d" : "818181",
+		"414686" : "b4b4b4",
+		"654384" : "818181",
+		"6f4f8d" : "b4b4b4",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683",
+		"b8a393" : "e6e69c",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965",
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c",
+		"b056b5" : "e6e69c",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //white
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "d5d5d5", "4a9cee" : "e3e3e3", "73bdf6" : "ffffff", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "d5d5d5", 
+		"6b5b88" : "d5d5d5", 
+		"89eff1" : "d5d5d5", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "e3e3e3", 
+		"5e6fc0" : "e3e3e3", 
+		"748db8" : "d5d5d5",
+		"7e99c2" : "d5d5d5",
+		"373a7d" : "d5d5d5",
+		"414686" : "d5d5d5", 
+		"654384" : "d5d5d5", 
+		"6f4f8d" : "d5d5d5", 
+
+		"242d67" : "e3e3e3",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "00b000", "d6d683" : "00e600", "e6e69c" : "00f900", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "00e600", 
+		"b8a393" : "00f900", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "00b000", 
+
+		"504900" : "00b000", 
+		"d2f1ff" : "00b000", 
+		"5e2761" : "00f900", 
+		"b056b5" : "00f900", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //crown
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "d5d5d5", "4a9cee" : "e3e3e3", "73bdf6" : "ffffff", 
+		"110064" : "d5d5d5", "280bb7" : "e3e3e3",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "d5d5d5", 
+		"6b5b88" : "e3e3e3", 
+		"89eff1" : "00000000", 
+
+		"371571" : "d5d5d5",
+		"42217b" : "d5d5d5", 
+		"431a9b" : "e3e3e3", 
+		"4d26a5" : "e3e3e3", 
+		"5463b7" : "e3e3e3", 
+		"5e6fc0" : "e3e3e3", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "d5d5d5", 
+		"414686" : "d5d5d5", 
+		"654384" : "e3e3e3",
+		"6f4f8d" : "e3e3e3", 
+
+		"242d67" : "e3e3e3",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "00b000", "d6d683" : "00e600", "e6e69c" : "00f900", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "00e600", 
+		"b8a393" : "00f900", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "00b000", 
+
+		"504900" : "00b000", 
+		"d2f1ff" : "00b000",
+		"5e2761" : "00f900", 
+		"b056b5" : "00f900", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //crown
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "d5d5d5", "4a9cee" : "e3e3e3", "73bdf6" : "ffffff",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "d5d5d5", "744393" : "e3e3e3",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "d5d5d5", 
+		"42217b" : "e3e3e3",
+		"431a9b" : "d5d5d5",
+		"4d26a5" : "e3e3e3",
+		"5463b7" : "d5d5d5",
+		"5e6fc0" : "e3e3e3",
+		"748db8" : "d5d5d5",
+		"7e99c2" : "e3e3e3",
+		"373a7d" : "d5d5d5",
+		"414686" : "e3e3e3",
+		"654384" : "d5d5d5",
+		"6f4f8d" : "e3e3e3",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "00b000", "d6d683" : "00e600", "e6e69c" : "00f900", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "00e600",
+		"b8a393" : "00f900",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "00b000",
+
+		"504900" : "00b000", 
+		"d2f1ff" : "00b000",
+		"5e2761" : "00f900",
+		"b056b5" : "00f900",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //crown
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "818181", "4a9cee" : "b4b4b4", "73bdf6" : "dadada", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "818181", 
+		"6b5b88" : "818181", 
+		"89eff1" : "818181", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "b4b4b4", 
+		"5e6fc0" : "b4b4b4", 
+		"748db8" : "818181",
+		"7e99c2" : "818181",
+		"373a7d" : "818181",
+		"414686" : "818181", 
+		"654384" : "818181", 
+		"6f4f8d" : "818181", 
+
+		"242d67" : "b4b4b4",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "818181", "d6d683" : "b4b4b4", "e6e69c" : "dadada", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "b4b4b4", 
+		"b8a393" : "dadada", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "818181", 
+
+		"504900" : "818181", 
+		"d2f1ff" : "818181", 
+		"5e2761" : "dadada", 
+		"b056b5" : "dadada", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //brawl
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "818181", "4a9cee" : "b4b4b4", "73bdf6" : "dadada", 
+		"110064" : "818181", "280bb7" : "b4b4b4",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "818181", 
+		"6b5b88" : "b4b4b4", 
+		"89eff1" : "00000000", 
+
+		"371571" : "818181",
+		"42217b" : "818181", 
+		"431a9b" : "b4b4b4", 
+		"4d26a5" : "b4b4b4", 
+		"5463b7" : "b4b4b4", 
+		"5e6fc0" : "b4b4b4", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "818181", 
+		"414686" : "818181", 
+		"654384" : "b4b4b4",
+		"6f4f8d" : "b4b4b4", 
+
+		"242d67" : "b4b4b4",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "818181", "d6d683" : "b4b4b4", "e6e69c" : "dadada", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "b4b4b4", 
+		"b8a393" : "dadada", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "818181", 
+
+		"504900" : "818181", 
+		"d2f1ff" : "818181",
+		"5e2761" : "dadada", 
+		"b056b5" : "dadada", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //brawl
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "818181", "4a9cee" : "b4b4b4", "73bdf6" : "dadada",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "818181", "744393" : "b4b4b4",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "818181", 
+		"42217b" : "b4b4b4",
+		"431a9b" : "818181",
+		"4d26a5" : "b4b4b4",
+		"5463b7" : "818181",
+		"5e6fc0" : "b4b4b4",
+		"748db8" : "818181",
+		"7e99c2" : "b4b4b4",
+		"373a7d" : "818181",
+		"414686" : "b4b4b4",
+		"654384" : "818181",
+		"6f4f8d" : "b4b4b4",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "818181", "d6d683" : "b4b4b4", "e6e69c" : "dadada", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "b4b4b4",
+		"b8a393" : "dadada",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "818181",
+
+		"504900" : "818181", 
+		"d2f1ff" : "818181",
+		"5e2761" : "dadada",
+		"b056b5" : "dadada",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //brawl
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "000000", "4a9cee" : "212121", "73bdf6" : "4b4b4b", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "000000", 
+		"6b5b88" : "000000", 
+		"89eff1" : "000000", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "212121", 
+		"5e6fc0" : "212121", 
+		"748db8" : "000000",
+		"7e99c2" : "000000",
+		"373a7d" : "000000",
+		"414686" : "000000", 
+		"654384" : "000000", 
+		"6f4f8d" : "000000", 
+
+		"242d67" : "212121",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965", 
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //black
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "000000", "4a9cee" : "212121", "73bdf6" : "4b4b4b", 
+		"110064" : "000000", "280bb7" : "212121",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "000000", 
+		"6b5b88" : "212121", 
+		"89eff1" : "00000000", 
+
+		"371571" : "000000",
+		"42217b" : "000000", 
+		"431a9b" : "212121", 
+		"4d26a5" : "212121", 
+		"5463b7" : "212121", 
+		"5e6fc0" : "212121", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "000000", 
+		"414686" : "000000", 
+		"654384" : "212121",
+		"6f4f8d" : "212121", 
+
+		"242d67" : "212121",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683", 
+		"b8a393" : "e6e69c", 
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965", 
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c", 
+		"b056b5" : "e6e69c", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //black
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "000000", "4a9cee" : "212121", "73bdf6" : "4b4b4b",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "000000", "744393" : "212121",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "000000", 
+		"42217b" : "212121",
+		"431a9b" : "000000",
+		"4d26a5" : "212121",
+		"5463b7" : "000000",
+		"5e6fc0" : "212121",
+		"748db8" : "000000",
+		"7e99c2" : "212121",
+		"373a7d" : "000000",
+		"414686" : "212121",
+		"654384" : "000000",
+		"6f4f8d" : "212121",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "b9b965", "d6d683" : "d6d683", "e6e69c" : "e6e69c", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "d6d683",
+		"b8a393" : "e6e69c",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "b9b965",
+
+		"504900" : "b9b965", 
+		"d2f1ff" : "b9b965",
+		"5e2761" : "e6e69c",
+		"b056b5" : "e6e69c",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //black
+	{
+	//GLU Directives// Lucario Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "393939", "4a9cee" : "5a5a5a", "73bdf6" : "838383", 
+		"110064" : "00000000", "280bb7" : "00000000", 
+		"5f2b80" : "00000000", "744393" : "00000000", 
+
+		"104a08" : "00000000",
+
+		"391153" : "393939", 
+		"6b5b88" : "393939", 
+		"89eff1" : "393939", 
+
+		"371571" : "00000000", 
+		"42217b" : "00000000",
+		"431a9b" : "00000000", 
+		"4d26a5" : "00000000", 
+		"5463b7" : "5a5a5a", 
+		"5e6fc0" : "5a5a5a", 
+		"748db8" : "393939",
+		"7e99c2" : "393939",
+		"373a7d" : "393939",
+		"414686" : "393939", 
+		"654384" : "393939", 
+		"6f4f8d" : "393939", 
+
+		"242d67" : "5a5a5a",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "191963", "d6d683" : "35358a", "e6e69c" : "46469a", 
+
+		"808b5e" : "ffffff", 
+		"eddfd4" : "ffffff", 
+		"97463d" : "ffffff", 
+
+		"ba8b67" : "35358a", 
+		"b8a393" : "46469a", 
+
+		"713608" : "ffffff", 
+
+		"0c0750" : "191963", 
+
+		"504900" : "191963", 
+		"d2f1ff" : "191963", 
+		"5e2761" : "46469a", 
+		"b056b5" : "46469a", 
+
+		"b1ffa7" : "00000000", 
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //inverse
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "393939", "4a9cee" : "5a5a5a", "73bdf6" : "838383", 
+		"110064" : "393939", "280bb7" : "5a5a5a",
+		"5f2b80" : "00000000", "744393" : "00000000",
+
+		"104a08" : "00000000",
+
+		"391153" : "393939", 
+		"6b5b88" : "5a5a5a", 
+		"89eff1" : "00000000", 
+
+		"371571" : "393939",
+		"42217b" : "393939", 
+		"431a9b" : "5a5a5a", 
+		"4d26a5" : "5a5a5a", 
+		"5463b7" : "5a5a5a", 
+		"5e6fc0" : "5a5a5a", 
+		"748db8" : "00000000", 
+		"7e99c2" : "00000000", 
+		"373a7d" : "393939", 
+		"414686" : "393939", 
+		"654384" : "5a5a5a",
+		"6f4f8d" : "5a5a5a", 
+
+		"242d67" : "5a5a5a",
+
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "191963", "d6d683" : "35358a", "e6e69c" : "46469a", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "35358a",
+		"b8a393" : "46469a",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "191963",
+
+		"504900" : "191963", 
+		"d2f1ff" : "191963",
+		"5e2761" : "46469a",
+		"b056b5" : "46469a",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	}, //inverse
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "393939", "4a9cee" : "5a5a5a", "73bdf6" : "838383",
+		"110064" : "00000000", "280bb7" : "00000000",
+		"5f2b80" : "393939", "744393" : "5a5a5a",
+
+		"104a08" : "00000000",
+
+		"391153" : "00000000",
+		"6b5b88" : "00000000",
+		"89eff1" : "00000000",
+
+		"371571" : "393939", 
+		"42217b" : "5a5a5a",
+		"431a9b" : "393939",
+		"4d26a5" : "5a5a5a",
+		"5463b7" : "393939",
+		"5e6fc0" : "5a5a5a",
+		"748db8" : "393939",
+		"7e99c2" : "5a5a5a",
+		"373a7d" : "393939",
+		"414686" : "5a5a5a",
+		"654384" : "393939",
+		"6f4f8d" : "5a5a5a",
+
+		"242d67" : "00000000", 
+		
+		"352440" : "00000000", "49275f" : "00000000",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "191963", "d6d683" : "35358a", "e6e69c" : "46469a", 
+
+		"808b5e" : "ffffff",
+		"eddfd4" : "ffffff",
+		"97463d" : "ffffff",
+
+		"ba8b67" : "35358a",
+		"b8a393" : "46469a",
+
+		"713608" : "ffffff",
+
+		"0c0750" : "191963",
+
+		"504900" : "191963", 
+		"d2f1ff" : "191963",
+		"5e2761" : "46469a",
+		"b056b5" : "46469a",
+
+		"b1ffa7" : "00000000",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "ffffff"
+	} //inverse
+  ],
+  "undyColor" : [ 
+	{ 
+	//Hair Lucario//
+		"393939" : "393939", "5a5a5a" : "5a5a5a", "838383" : "838383",
+
+		"9cfcff" : "393939", "bffdff" : "5a5a5a", "dcfdff" : "838383",
+
+		"ffb247" : "393939", "ffc87c" : "5a5a5a",
+
+		"c4ea3a" : "393939", "cfef5e" : "5a5a5a", "ebfcb0" : "838383"
+	}, //default
+	{ 
+	//Hair Riolu//
+		"393939" : "393939", "5a5a5a" : "5a5a5a", "838383" : "838383",
+
+		"9cfcff" : "393939", "bffdff" : "5a5a5a", "dcfdff" : "838383",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "393939", "cfef5e" : "5a5a5a", "ebfcb0" : "838383"
+	}, //default
+	{ 
+	//Hair Null//
+		"393939" : "393939", "5a5a5a" : "5a5a5a", "838383" : "838383",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //default
+	{ 
+	//Hair Lucario//
+		"393939" : "242247", "5a5a5a" : "343965", "838383" : "425879",
+
+		"9cfcff" : "242247", "bffdff" : "343965", "dcfdff" : "425879",
+
+		"ffb247" : "242247", "ffc87c" : "343965",
+
+		"c4ea3a" : "242247", "cfef5e" : "343965", "ebfcb0" : "425879"
+	}, //blue
+	{ 
+	//Hair Riolu//
+		"393939" : "242247", "5a5a5a" : "343965", "838383" : "425879",
+
+		"9cfcff" : "242247", "bffdff" : "343965", "dcfdff" : "425879",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "242247", "cfef5e" : "343965", "ebfcb0" : "425879"
+	}, //blue
+	{ 
+	//Hair Null//
+		"393939" : "242247", "5a5a5a" : "343965", "838383" : "425879",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //blue
+	{ 
+	//Hair Lucario//
+		"393939" : "2e2a73", "5a5a5a" : "4d55b0", "838383" : "5d8bc7",
+
+		"9cfcff" : "2e2a73", "bffdff" : "4d55b0", "dcfdff" : "5d8bc7",
+
+		"ffb247" : "2e2a73", "ffc87c" : "4d55b0",
+
+		"c4ea3a" : "2e2a73", "cfef5e" : "4d55b0", "ebfcb0" : "5d8bc7"
+	}, //brightBlue
+	{ 
+	//Hair Riolu//
+		"393939" : "2e2a73", "5a5a5a" : "4d55b0", "838383" : "5d8bc7",
+
+		"9cfcff" : "2e2a73", "bffdff" : "4d55b0", "dcfdff" : "5d8bc7",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "2e2a73", "cfef5e" : "4d55b0", "ebfcb0" : "5d8bc7"
+	}, //brightBlue
+	{ 
+	//Hair Null//
+		"393939" : "2e2a73", "5a5a5a" : "4d55b0", "838383" : "5d8bc7",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //brightBlue
+	{ 
+	//Hair Lucario//
+		"393939" : "2252a2", "5a5a5a" : "609fc1", "838383" : "60d5c1",
+
+		"9cfcff" : "2252a2", "bffdff" : "609fc1", "dcfdff" : "60d5c1",
+
+		"ffb247" : "2252a2", "ffc87c" : "609fc1",
+
+		"c4ea3a" : "2252a2", "cfef5e" : "609fc1", "ebfcb0" : "60d5c1"
+	}, //swamp
+	{ 
+	//Hair Riolu//
+		"393939" : "2252a2", "5a5a5a" : "609fc1", "838383" : "60d5c1",
+
+		"9cfcff" : "2252a2", "bffdff" : "609fc1", "dcfdff" : "60d5c1",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "2252a2", "cfef5e" : "609fc1", "ebfcb0" : "60d5c1"
+	}, //swamp
+	{ 
+	//Hair Null//
+		"393939" : "2252a2", "5a5a5a" : "609fc1", "838383" : "60d5c1",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //swamp
+	{ 
+	//Hair Lucario//
+		"393939" : "394a5a", "5a5a5a" : "527384", "838383" : "638ca5",
+
+		"9cfcff" : "394a5a", "bffdff" : "527384", "dcfdff" : "638ca5",
+
+		"ffb247" : "394a5a", "ffc87c" : "527384",
+
+		"c4ea3a" : "394a5a", "cfef5e" : "527384", "ebfcb0" : "638ca5"
+	}, //shiny
+	{ 
+	//Hair Riolu//
+		"393939" : "394a5a", "5a5a5a" : "527384", "838383" : "638ca5",
+
+		"9cfcff" : "394a5a", "bffdff" : "527384", "dcfdff" : "638ca5",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "394a5a", "cfef5e" : "527384", "ebfcb0" : "638ca5"
+	}, //shiny
+	{ 
+	//Hair Null//
+		"393939" : "394a5a", "5a5a5a" : "527384", "838383" : "638ca5",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //shiny
+	{ 
+	//Hair Lucario//
+		"393939" : "228a38", "5a5a5a" : "34ae47", "838383" : "4ece61",
+
+		"9cfcff" : "228a38", "bffdff" : "34ae47", "dcfdff" : "4ece61",
+
+		"ffb247" : "228a38", "ffc87c" : "34ae47",
+
+		"c4ea3a" : "228a38", "cfef5e" : "34ae47", "ebfcb0" : "4ece61"
+	}, //green
+	{ 
+	//Hair Riolu//
+		"393939" : "228a38", "5a5a5a" : "34ae47", "838383" : "4ece61",
+
+		"9cfcff" : "228a38", "bffdff" : "34ae47", "dcfdff" : "4ece61",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "228a38", "cfef5e" : "34ae47", "ebfcb0" : "4ece61"
+	}, //green
+	{ 
+	//Hair Null//
+		"393939" : "228a38", "5a5a5a" : "34ae47", "838383" : "4ece61",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //green
+	{ 
+	//Hair Lucario//
+		"393939" : "1d4b28", "5a5a5a" : "2e6a38", "838383" : "3b7f44",
+
+		"9cfcff" : "1d4b28", "bffdff" : "2e6a38", "dcfdff" : "3b7f44",
+
+		"ffb247" : "1d4b28", "ffc87c" : "2e6a38",
+
+		"c4ea3a" : "1d4b28", "cfef5e" : "2e6a38", "ebfcb0" : "3b7f44"
+	}, //darkGreen
+	{ 
+	//Hair Riolu//
+		"393939" : "1d4b28", "5a5a5a" : "2e6a38", "838383" : "3b7f44",
+
+		"9cfcff" : "1d4b28", "bffdff" : "2e6a38", "dcfdff" : "3b7f44",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "1d4b28", "cfef5e" : "2e6a38", "ebfcb0" : "3b7f44"
+	}, //darkGreen
+	{ 
+	//Hair Null//
+		"393939" : "1d4b28", "5a5a5a" : "2e6a38", "838383" : "3b7f44",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //darkGreen
+	{ 
+	//Hair Lucario//
+		"393939" : "dac000", "5a5a5a" : "eed100", "838383" : "fff085",
+
+		"9cfcff" : "dac000", "bffdff" : "eed100", "dcfdff" : "fff085",
+
+		"ffb247" : "dac000", "ffc87c" : "eed100",
+
+		"c4ea3a" : "dac000", "cfef5e" : "eed100", "ebfcb0" : "fff085"
+	}, //crown
+	{ 
+	//Hair Riolu//
+		"393939" : "dac000", "5a5a5a" : "eed100", "838383" : "fff085",
+
+		"9cfcff" : "dac000", "bffdff" : "eed100", "dcfdff" : "fff085",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "dac000", "cfef5e" : "eed100", "ebfcb0" : "fff085"
+	}, //crown
+	{ 
+	//Hair Null//
+		"393939" : "dac000", "5a5a5a" : "eed100", "838383" : "fff085",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //crown
+	{ 
+	//Hair Lucario//
+		"393939" : "a9882f", "5a5a5a" : "c7ac3f", "838383" : "e6e756",
+
+		"9cfcff" : "a9882f", "bffdff" : "c7ac3f", "dcfdff" : "e6e756",
+
+		"ffb247" : "a9882f", "ffc87c" : "c7ac3f",
+
+		"c4ea3a" : "a9882f", "cfef5e" : "c7ac3f", "ebfcb0" : "e6e756"
+	}, //brightBlonde
+	{ 
+	//Hair Riolu//
+		"393939" : "a9882f", "5a5a5a" : "c7ac3f", "838383" : "e6e756",
+
+		"9cfcff" : "a9882f", "bffdff" : "c7ac3f", "dcfdff" : "e6e756",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "a9882f", "cfef5e" : "c7ac3f", "ebfcb0" : "e6e756"
+	}, //brightBlonde
+	{ 
+	//Hair Null//
+		"393939" : "a9882f", "5a5a5a" : "c7ac3f", "838383" : "e6e756",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //brightBlonde
+	{ 
+	//Hair Lucario//
+		"393939" : "c2b677", "5a5a5a" : "dcd28c", "838383" : "f2eba3",
+
+		"9cfcff" : "c2b677", "bffdff" : "dcd28c", "dcfdff" : "f2eba3",
+
+		"ffb247" : "c2b677", "ffc87c" : "dcd28c",
+
+		"c4ea3a" : "c2b677", "cfef5e" : "dcd28c", "ebfcb0" : "f2eba3"
+	}, //sandy
+	{ 
+	//Hair Riolu//
+		"393939" : "c2b677", "5a5a5a" : "dcd28c", "838383" : "f2eba3",
+
+		"9cfcff" : "c2b677", "bffdff" : "dcd28c", "dcfdff" : "f2eba3",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "c2b677", "cfef5e" : "dcd28c", "ebfcb0" : "f2eba3"
+	}, //sandy
+	{ 
+	//Hair Null//
+		"393939" : "c2b677", "5a5a5a" : "dcd28c", "838383" : "f2eba3",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //sandy
+	{ 
+	//Hair Lucario//
+		"393939" : "743e1d", "5a5a5a" : "915622", "838383" : "a6671d",
+
+		"9cfcff" : "743e1d", "bffdff" : "915622", "dcfdff" : "a6671d",
+
+		"ffb247" : "743e1d", "ffc87c" : "915622",
+
+		"c4ea3a" : "743e1d", "cfef5e" : "915622", "ebfcb0" : "a6671d"
+	}, //dirty
+	{ 
+	//Hair Riolu//
+		"393939" : "743e1d", "5a5a5a" : "915622", "838383" : "a6671d",
+
+		"9cfcff" : "743e1d", "bffdff" : "915622", "dcfdff" : "a6671d",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "743e1d", "cfef5e" : "915622", "ebfcb0" : "a6671d"
+	}, //dirty
+	{ 
+	//Hair Null//
+		"393939" : "743e1d", "5a5a5a" : "915622", "838383" : "a6671d",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //dirty
+	{ 
+	//Hair Lucario//
+		"393939" : "834012", "5a5a5a" : "be6d1d", "838383" : "efa838",
+
+		"9cfcff" : "834012", "bffdff" : "be6d1d", "dcfdff" : "efa838",
+
+		"ffb247" : "834012", "ffc87c" : "be6d1d",
+
+		"c4ea3a" : "834012", "cfef5e" : "be6d1d", "ebfcb0" : "efa838"
+	}, //orange
+	{ 
+	//Hair Riolu//
+		"393939" : "834012", "5a5a5a" : "be6d1d", "838383" : "efa838",
+
+		"9cfcff" : "834012", "bffdff" : "be6d1d", "dcfdff" : "efa838",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "834012", "cfef5e" : "be6d1d", "ebfcb0" : "efa838"
+	}, //orange
+	{ 
+	//Hair Null//
+		"393939" : "834012", "5a5a5a" : "be6d1d", "838383" : "efa838",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //orange
+	{ 
+	//Hair Lucario//
+		"393939" : "3b1f15", "5a5a5a" : "5b3523", "838383" : "7f5a39",
+
+		"9cfcff" : "3b1f15", "bffdff" : "5b3523", "dcfdff" : "7f5a39",
+
+		"ffb247" : "3b1f15", "ffc87c" : "5b3523",
+
+		"c4ea3a" : "3b1f15", "cfef5e" : "5b3523", "ebfcb0" : "7f5a39"
+	}, //brown
+	{ 
+	//Hair Riolu//
+		"393939" : "3b1f15", "5a5a5a" : "5b3523", "838383" : "7f5a39",
+
+		"9cfcff" : "3b1f15", "bffdff" : "5b3523", "dcfdff" : "7f5a39",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "3b1f15", "cfef5e" : "5b3523", "ebfcb0" : "7f5a39"
+	}, //brown
+	{ 
+	//Hair Null//
+		"393939" : "3b1f15", "5a5a5a" : "5b3523", "838383" : "7f5a39",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //brown
+	{ 
+	//Hair Lucario//
+		"393939" : "731a1a", "5a5a5a" : "8f1f1b", "838383" : "ad2716",
+
+		"9cfcff" : "731a1a", "bffdff" : "8f1f1b", "dcfdff" : "ad2716",
+
+		"ffb247" : "731a1a", "ffc87c" : "8f1f1b",
+
+		"c4ea3a" : "731a1a", "cfef5e" : "8f1f1b", "ebfcb0" : "ad2716"
+	}, //red
+	{ 
+	//Hair Riolu//
+		"393939" : "731a1a", "5a5a5a" : "8f1f1b", "838383" : "ad2716",
+
+		"9cfcff" : "731a1a", "bffdff" : "8f1f1b", "dcfdff" : "ad2716",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "731a1a", "cfef5e" : "8f1f1b", "ebfcb0" : "ad2716"
+	}, //red
+	{ 
+	//Hair Null//
+		"393939" : "731a1a", "5a5a5a" : "8f1f1b", "838383" : "ad2716",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //red
+	{ 
+	//Hair Lucario//
+		"393939" : "4b1d30", "5a5a5a" : "6a2e53", "838383" : "7f3b6d",
+
+		"9cfcff" : "4b1d30", "bffdff" : "6a2e53", "dcfdff" : "7f3b6d",
+
+		"ffb247" : "4b1d30", "ffc87c" : "6a2e53",
+
+		"c4ea3a" : "4b1d30", "cfef5e" : "6a2e53", "ebfcb0" : "7f3b6d"
+	}, //magenta
+	{ 
+	//Hair Riolu//
+		"393939" : "4b1d30", "5a5a5a" : "6a2e53", "838383" : "7f3b6d",
+
+		"9cfcff" : "4b1d30", "bffdff" : "6a2e53", "dcfdff" : "7f3b6d",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "4b1d30", "cfef5e" : "6a2e53", "ebfcb0" : "7f3b6d"
+	}, //magenta
+	{ 
+	//Hair Null//
+		"393939" : "4b1d30", "5a5a5a" : "6a2e53", "838383" : "7f3b6d",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //magenta
+	{ 
+	//Hair Lucario//
+		"393939" : "3f1d4b", "5a5a5a" : "562e6a", "838383" : "653b7f",
+
+		"9cfcff" : "3f1d4b", "bffdff" : "562e6a", "dcfdff" : "653b7f",
+
+		"ffb247" : "3f1d4b", "ffc87c" : "562e6a",
+
+		"c4ea3a" : "3f1d4b", "cfef5e" : "562e6a", "ebfcb0" : "653b7f"
+	}, //royal
+	{ 
+	//Hair Riolu//
+		"393939" : "3f1d4b", "5a5a5a" : "562e6a", "838383" : "653b7f",
+
+		"9cfcff" : "3f1d4b", "bffdff" : "562e6a", "dcfdff" : "653b7f",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "3f1d4b", "cfef5e" : "562e6a", "ebfcb0" : "653b7f"
+	}, //royal
+	{ 
+	//Hair Null//
+		"393939" : "3f1d4b", "5a5a5a" : "562e6a", "838383" : "653b7f",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //royal
+	{ 
+	//Hair Lucario//
+		"393939" : "ae00be", "5a5a5a" : "e600d2", "838383" : "ff00e9",
+
+		"9cfcff" : "ae00be", "bffdff" : "e600d2", "dcfdff" : "ff00e9",
+
+		"ffb247" : "ae00be", "ffc87c" : "e600d2",
+
+		"c4ea3a" : "ae00be", "cfef5e" : "e600d2", "ebfcb0" : "ff00e9"
+	}, //princess
+	{ 
+	//Hair Riolu//
+		"393939" : "ae00be", "5a5a5a" : "e600d2", "838383" : "ff00e9",
+
+		"9cfcff" : "ae00be", "bffdff" : "e600d2", "dcfdff" : "ff00e9",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "ae00be", "cfef5e" : "e600d2", "ebfcb0" : "ff00e9"
+	}, //princess
+	{ 
+	//Hair Null//
+		"393939" : "ae00be", "5a5a5a" : "e600d2", "838383" : "ff00e9",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //princess
+	{ 
+	//Hair Lucario//
+		"393939" : "161616", "5a5a5a" : "363636", "838383" : "525252",
+
+		"9cfcff" : "161616", "bffdff" : "363636", "dcfdff" : "525252",
+
+		"ffb247" : "161616", "ffc87c" : "363636",
+
+		"c4ea3a" : "161616", "cfef5e" : "363636", "ebfcb0" : "525252"
+	}, //darkGrey
+	{ 
+	//Hair Riolu//
+		"393939" : "161616", "5a5a5a" : "363636", "838383" : "525252",
+
+		"9cfcff" : "161616", "bffdff" : "363636", "dcfdff" : "525252",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "161616", "cfef5e" : "363636", "ebfcb0" : "525252"
+	}, //darkGrey
+	{ 
+	//Hair Null//
+		"393939" : "161616", "5a5a5a" : "363636", "838383" : "525252",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //darkGrey
+	{ 
+	//Hair Lucario//
+		"393939" : "7c7c7c", "5a5a5a" : "a5a5a5", "838383" : "c6c6c6",
+
+		"9cfcff" : "7c7c7c", "bffdff" : "a5a5a5", "dcfdff" : "c6c6c6",
+
+		"ffb247" : "7c7c7c", "ffc87c" : "a5a5a5",
+
+		"c4ea3a" : "7c7c7c", "cfef5e" : "a5a5a5", "ebfcb0" : "c6c6c6"
+	}, //nega
+	{ 
+	//Hair Riolu//
+		"393939" : "7c7c7c", "5a5a5a" : "a5a5a5", "838383" : "c6c6c6",
+
+		"9cfcff" : "7c7c7c", "bffdff" : "a5a5a5", "dcfdff" : "c6c6c6",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "7c7c7c", "cfef5e" : "a5a5a5", "ebfcb0" : "c6c6c6"
+	}, //nega
+	{ 
+	//Hair Null//
+		"393939" : "7c7c7c", "5a5a5a" : "a5a5a5", "838383" : "c6c6c6",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	}, //nega
+	{ 
+	//Hair Lucario//
+		"393939" : "828282", "5a5a5a" : "b8b8b8", "838383" : "eaeaea",
+
+		"9cfcff" : "828282", "bffdff" : "b8b8b8", "dcfdff" : "eaeaea",
+
+		"ffb247" : "828282", "ffc87c" : "b8b8b8",
+
+		"c4ea3a" : "828282", "cfef5e" : "b8b8b8", "ebfcb0" : "eaeaea"
+	}, //platinum
+	{ 
+	//Hair Riolu//
+		"393939" : "828282", "5a5a5a" : "b8b8b8", "838383" : "eaeaea",
+
+		"9cfcff" : "828282", "bffdff" : "b8b8b8", "dcfdff" : "eaeaea",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "828282", "cfef5e" : "b8b8b8", "ebfcb0" : "eaeaea"
+	}, //platinum
+	{ 
+	//Hair Null//
+		"393939" : "828282", "5a5a5a" : "b8b8b8", "838383" : "eaeaea",
+
+		"9cfcff" : "00000000", "bffdff" : "00000000", "dcfdff" : "00000000",
+
+		"ffb247" : "00000000", "ffc87c" : "00000000",
+
+		"c4ea3a" : "00000000", "cfef5e" : "00000000", "ebfcb0" : "00000000"
+	} //platinum
+  ],
+  "hairColor" : [
+	{ 
+	//Eye Normal//
+		"9a000a" : "9a020b", "ff0011" : "de4141",  "ff656f" : "e56f6f", 
+
+		"de4141" : "de4141", "e56f6f" : "e56f6f", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff" 
+	},//default
+	{ 
+	//Eye Mega//
+		"9a000a" : "393939", "ff0011" : "5a5a5a",  "ff656f" : "838383", 
+
+		"de4141" : "de4141", "e56f6f" : "e56f6f", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff"
+	},//default
+	{ 
+	//Eye Normal//
+		"9a000a" : "242247", "ff0011" : "8dcff4",  "ff656f" : "afdffe", 
+
+		"de4141" : "8dcff4", "e56f6f" : "afdffe", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff" 
+	},//blue
+	{ 
+	//Eye Mega//
+		"9a000a" : "393939", "ff0011" : "5a5a5a",  "ff656f" : "838383",
+
+		"de4141" : "8dcff4", "e56f6f" : "afdffe", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff"
+	},//blue
+	{ 
+	//Eye Normal//
+		"9a000a" : "228a38", "ff0011" : "79c471",  "ff656f" : "9fdf98", 
+
+		"de4141" : "79c471", "e56f6f" : "9fdf98", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff" 
+	},//green
+	{ 
+	//Eye Mega//
+		"9a000a" : "393939", "ff0011" : "5a5a5a",  "ff656f" : "838383", 
+
+		"de4141" : "79c471", "e56f6f" : "9fdf98", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff"
+	},//green
+	{ 
+	//Eye Normal//
+		"9a000a" : "161616", "ff0011" : "d5d364",  "ff656f" : "e9e785", 
+
+		"de4141" : "d5d364", "e56f6f" : "e9e785", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff" 
+	},//yellow
+	{ 
+	//Eye Mega//
+		"9a000a" : "393939", "ff0011" : "5a5a5a",  "ff656f" : "838383", 
+
+		"de4141" : "d5d364", "e56f6f" : "e9e785", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff"
+	},//yellow
+	{ 
+	//Eye Normal//
+		"9a000a" : "834012", "ff0011" : "ea6b48",  "ff656f" : "fc8aca", 
+
+		"de4141" : "ea6b48", "e56f6f" : "fc8aca", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff" 
+	},//orange
+	{ 
+	//Eye Mega//
+		"9a000a" : "393939", "ff0011" : "5a5a5a",  "ff656f" : "838383",
+
+		"de4141" : "ea6b48", "e56f6f" : "fc8aca", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff"
+	},//orange
+	{ 
+	//Eye Normal//
+		"9a000a" : "ae00be", "ff0011" : "f59fbc",  "ff656f" : "fcb5cd", 
+
+		"de4141" : "f59fbc", "e56f6f" : "fcb5cd", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff" 
+	},//pink
+	{ 
+	//Eye Mega//
+		"9a000a" : "393939", "ff0011" : "5a5a5a",  "ff656f" : "838383", 
+
+		"de4141" : "f59fbc", "e56f6f" : "fcb5cd", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff"
+	},//pink
+	{ 
+	//Eye Normal//
+		"9a000a" : "913b86", "ff0011" : "a53963",  "ff656f" : "de528c", 
+
+		"de4141" : "a53963", "e56f6f" : "de528c", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff" 
+	},//shiny
+	{ 
+	//Eye Mega//
+		"9a000a" : "393939", "ff0011" : "5a5a5a",  "ff656f" : "838383", 
+
+		"de4141" : "a53963", "e56f6f" : "de528c", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff"
+	},//shiny
+	{ 
+	//Eye Normal//
+		"9a000a" : "3e4352", "ff0011" : "9681b6",  "ff656f" : "b4a3cd", 
+
+		"de4141" : "9681b6", "e56f6f" : "b4a3cd", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff" 
+	},//purple
+	{ 
+	//Eye Mega//
+		"9a000a" : "393939", "ff0011" : "5a5a5a",  "ff656f" : "838383", 
+
+		"de4141" : "9681b6", "e56f6f" : "b4a3cd", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff"
+	},//purple
+	{ 
+	//Eye Normal//
+		"9a000a" : "2a251e", "ff0011" : "9a9a9a",  "ff656f" : "c1c1c1", 
+
+		"de4141" : "9a9a9a", "e56f6f" : "c1c1c1", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff" 
+	},//grey
+	{ 
+	//Eye Mega//
+		"9a000a" : "393939", "ff0011" : "5a5a5a",  "ff656f" : "838383", 
+
+		"de4141" : "9a9a9a", "e56f6f" : "c1c1c1", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff"
+	},//grey
+	{ 
+	//Eye Normal//
+		"9a000a" : "170f0d", "ff0011" : "3e3e3e",  "ff656f" : "737373", 
+
+		"de4141" : "3e3e3e", "e56f6f" : "737373", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff" 
+	},//black
+	{ 
+	//Eye Mega//
+		"9a000a" : "393939", "ff0011" : "5a5a5a",  "ff656f" : "838383", 
+
+		"de4141" : "3e3e3e", "e56f6f" : "737373", 
+
+		"504a00" : "ffffff", "ffb34a" : "ffffff", "fff64d" : "ffffff"
+	}//black
+  ]
+}

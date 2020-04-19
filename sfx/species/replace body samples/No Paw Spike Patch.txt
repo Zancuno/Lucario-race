@@ -1,0 +1,17 @@
+[
+{
+"op" : "replace",
+"path": "/hairColor/0/504a00",
+"value": "fcfcfc03"
+},
+{
+"op" : "replace",
+"path": "/hairColor/0/ffb34a",
+"value": "393939"
+},
+{
+"op" : "replace",
+"path": "/hairColor/0/fff64d",
+"value": "5a5a5a"
+},
+]

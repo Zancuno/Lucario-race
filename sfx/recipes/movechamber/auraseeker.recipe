@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "bauracite", "count" : 10 }
+  ],
+  "output" : {
+  "item" : "auraseeker", "count" : 1 },
+  "groups" : [ "movechamber", "all" ]
+}

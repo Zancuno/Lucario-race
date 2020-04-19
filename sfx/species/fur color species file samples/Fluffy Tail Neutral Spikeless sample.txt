@@ -1,0 +1,55 @@
+	{
+	//GLU Directives// Fluffy Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "FurDark1", "4a9cee" : "FurMed", "73bdf6" : "FurLight",
+		"110064" : "null", "280bb7" : "null",
+		"5f2b80" : "FurDark1", "744393" : "FurMed",
+
+		"104a08" : "FurDark1",
+
+		"391153" : "null",
+		"6b5b88" : "null",
+		"89eff1" : "null",
+
+		"371571" : "FurDark1",
+		"42217b" : "FurMed",
+		"431a9b" : "FurDark1",
+		"4d26a5" : "FurMed",
+		"5463b7" : "FurDark1",
+		"5e6fc0" : "FurMed",
+		"748db8" : "FurDark1",
+		"7e99c2" : "FurMed",
+		"373a7d" : "FurDark1",
+		"414686" : "FurMed",
+		"654384" : "FurDark1",
+		"6f4f8d" : "FurMed",
+
+		"242d67" : "null", 
+		
+		"352440" : "null", "49275f" : "null",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "ChestDark1", "d6d683" : "ChestMed", "e6e69c" : "ChestLight", 
+
+		"808b5e" : "ChestDark1",
+		"eddfd4" : "ChestMed",
+		"97463d" : "ChestLight",
+
+		"ba8b67" : "ChestDark1",
+		"b8a393" : "ChestMed",
+
+		"713608" : "null",
+
+		"0c0750" : "null",
+
+		"504900" : "MaskDark1",
+		"d2f1ff" : "MaskDark1",
+		"5e2761" : "MaskDark1",
+		"b056b5" : "MaskLight",
+
+		"b1ffa7" : "MaskLight",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "EyeWhites"
+	}, //WhichColor

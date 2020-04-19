@@ -1,0 +1,24 @@
+{
+  "itemName" : "GNCSU",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Unlocks recipes for ^red;|Gender No Chest Spike|^white; chest type.",
+  "shortdescription" : "^cyan;GCNSU^white;",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "GNCSUicon.png",
+  "animation" : "GNCSU.animation",
+  "animationCustom" : {},
+  "scripts" : ["GNCSU.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "GCNSU",
+    "level" : 1
+  }
+}

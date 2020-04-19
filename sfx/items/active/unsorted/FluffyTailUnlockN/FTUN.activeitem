@@ -1,0 +1,24 @@
+{
+  "itemName" : "FTUN",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Unlocks recipes for ^red;|Neutral Fluffy Tail|^white;",
+  "shortdescription" : "^orange;FTUN^white;",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "FTUNicon.png",
+  "animation" : "FTUN.animation",
+  "animationCustom" : {},
+  "scripts" : ["FTUN.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "FTUN",
+    "level" : 1
+  }
+}

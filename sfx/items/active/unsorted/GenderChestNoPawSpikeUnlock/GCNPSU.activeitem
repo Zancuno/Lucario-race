@@ -1,0 +1,24 @@
+{
+  "itemName" : "GCNPSU",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Unlocks recipes for ^red;|Gender No Paw Spike|^white; chest type.",
+  "shortdescription" : "^cyan;GCNPSU^white;",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "GCNPSUicon.png",
+  "animation" : "GCNPSU.animation",
+  "animationCustom" : {},
+  "scripts" : ["GCNPSU.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "GCNPSU",
+    "level" : 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "itemName" : "NCU",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Unlocks recipes for ^red;|Neutral Spiked|^white; chest type.",
+  "shortdescription" : "^orange;NCU^white;",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "NCUicon.png",
+  "animation" : "NCU.animation",
+  "animationCustom" : {},
+  "scripts" : ["NCU.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "NCU",
+    "level" : 1
+  }
+}

@@ -1,0 +1,11 @@
+[
+
+{ "op" : "add", "path" : "/acceptItems/-", "value" : "chestoberry" },
+
+{ "op" : "add", "path" : "/acceptItems/-", "value" : "pechaberry" },
+
+{ "op" : "add", "path" : "/acceptItems/-", "value" : "chestoberryseed" },
+
+{ "op" : "add", "path" : "/acceptItems/-", "value" : "pechaberryseed" }
+
+]

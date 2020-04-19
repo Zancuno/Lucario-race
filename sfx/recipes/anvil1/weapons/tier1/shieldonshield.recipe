@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 }
+  ],
+  "output" : { "item" : "shieldonshield", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

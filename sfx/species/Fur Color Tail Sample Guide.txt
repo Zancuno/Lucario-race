@@ -1,0 +1,836 @@
+	
+//This guide will be continuing to explain how to quickly rebuild the fur color recolor options using the sample files connected to this guide
+//There are 63 fur color options right now which following this guide will allow the re-creation to be revelantly easy
+//First off some new keys will be created for the sake of optimizing the speed of batch replacing. These new keys will be as of such
+
+{
+"colorReplaceKey": [
+	"FurDark2", //not in use yet only to be used if lucario sprites are upped from 3 colors a palette to 4 colors
+	"FurDark1", //dark shade of fur palette
+	"FurMed", //medium shade of fur palette
+	"FurLight", //light shade of fur palette
+	"ChestDark2", //not in use yet only to be used if lucario sprites are upped from 3 colors a palette to 4 colors
+	"ChestDark1", //dark shade of chest palette
+	"ChestMed", //medium shade of chest palette
+	"ChestLight", //light shade of chest palette
+	"MaskDark2", //not in use yet only to be used if lucario sprites are upped from 3 colors a palette to 4 colors
+	"MaskDark1", //dark shade of mask palette
+	"MaskMed", //medium shade of mask palette
+	"MaskLight", //light shade of mask palette
+	"SpikeDark2", //not in use and will only be used when spikes go up in pallet from 1 to 4 colors
+	"SpikeDark1", //not in use and will only be used when spikes go up in pallet from 1 to 4 colors
+	"SpikeMed", //not in use and will only be used when spikes go up in pallet from 1 to 4 colors
+	"SpikeLight", //light shade of spike palette
+	"EyeWhites", //color of the whites of the eyes
+	//WhichColor // adds a comment to the bottom of the file stating which palette this is for
+	"null" //used to change a color to 00000000 basically rendering non existant
+	]
+},
+
+//Using these keys parts of the sameple files will have hex color code replace with these which will allow a program or basic find and replace to change all values to their desired outcome
+//The order for batch replacing these colors will be discussed further down
+//Although an example is now due for how this will look in the samples
+
+	{
+	//GLU Directives//
+		"104a7b" : "FurDark1", "4a9cee" : "FurMed", "73bdf6" : "FurLight",  //standard fur color
+		"110064" : "null", "280bb7" : "null", //standard riolu color if active, converts to standard fur color
+		"5f2b80" : "null", "744393" : "null", //standard fluffy color if active, converts to standard fur color
+	//Neutral
+		"104a08" : "null", //used to convert hip fur to neutral shape 
+	//Combo Tail 1 pallet L+R Tail//
+		"391153" : "FurDark1", //used to convert 104a7b to 110064 of riolu tail
+		"6b5b88" : "FurDark1", //used to convert 104a7b to 280bb7 of riolu tail
+		"89eff1" : "FurDark1", //used to convert 104a7b to null in riolu tail
+	//Combo Tail 2 pallet Combo 1+ F Tail//
+		"371571" : "null", //used to convert 110064 to 5f2b80 of fluffy tail
+		"42217b" : "null", //used to convert 110064 to 744393 of fluffy tail
+		"431a9b" : "null", //used to convert 280bb7 to 5f2b80 of fluffy tail
+		"4d26a5" : "null", //used to convert 280bb7 to 744393 of fluffy tail
+		"5463b7" : "FurMed", //used to convert 4a9cee to 5f2b80 of fluffy tail
+		"5e6fc0" : "FurMed", //used to convert 4a9cee to 744393 of fluffy tail
+		"748db8" : "FurDark1", //used to convert 89eff1 to 5f2b80 of fluffy tail
+		"7e99c2" : "FurDark1", //used to convert 89eff1 to 744393 of fluffy tail
+		"373a7d" : "FurDark1", //used to convert 391153 to 5f2b80 of fluffy tail
+		"414686" : "FurDark1", //used to convert 391153 to 744393 of fluffy tail
+		"654384" : "FurDark1", //used to convert 6b5b88 to 5f2b80 of fluffy tail
+		"6f4f8d" : "FurDark1", //used to convert 6b5b88 to 744393 of fluffy tail
+	//Fluffy Tail FurMed Remover//
+		"242d67" : "FurMed", //used to convert 4a9cee to null in fluffy tail
+	//Unknown tail colors	
+		"352440" : "null", "49275f" : "null", //pending removal or change of use
+	//GLU End//
+	
+	//GCU Directives//
+	//Base directives
+		"b9b965" : "ChestDark1", "d6d683" : "ChestMed", "e6e69c" : "ChestLight", //standard chest colors
+	//Base spike change directives
+		"808b5e" : "SpikeLight", //used to convert ffffff to b9b965 of chest color
+		"eddfd4" : "SpikeLight", //used to convert ffffff to d6d683 of chest color
+		"97463d" : "SpikeLight", //used to convert ffffff to e6e69c of chest color
+	//Neutral spike changer
+		"ba8b67" : "ChestMed", //if neutral used to convert b9b965 to ffffff if spike to b9b965 if no spike otherwise d6d683
+		"b8a393" : "ChestLight", //if neutral used to convert d6d683 to ffffff if spike to d6d683 if no spike otherwise e6e69c
+	//Neutral Spike remover
+		"713608" : "ChestLight", //used to convert ffffff to nul if neutral spikeless body, e6e69c if gender different
+	//Neutral chest remover
+		"0c0750" : "ChestDark1", //used to turn b9b965 to null if neutral body
+	//Neutral chest to tekkan
+		"504900" : "ChestDark1", //used to convert b9b965 to 393939 if neutral body
+		"d2f1ff" : "ChestDark1", //used to convert b9b965 to 393939 if neutral body is a redundant color
+		"5e2761" : "ChestLight", //used to convert d6d683 to 393939 if neutral body
+		"b056b5" : "ChestLight", //used to convert d6d683 to 838383 if neutral body
+	//Neutral Tekkan adder
+		"b1ffa7" : "null", //used to add 838383 if neutral body may become redundant
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "EyeWhites" //white color of the eyes, only changes in nega colors to 000000
+	}, //WhichColor 
+	
+{
+"WhichColor": [
+	"default" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "104a7b",
+			"FurMed" : "4a9cee",
+			"FurLight" : "73bdf6"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "b9b965",
+			"ChestMed" : "d6d683",
+			"ChestLight" : "e6e69c"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"blue" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "0669b2",
+			"FurMed" : "157dca",
+			"FurLight" : "2897e9"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "b9b965",
+			"ChestMed" : "d6d683",
+			"ChestLight" : "e6e69c"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"sapphire" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "000d58",
+			"FurMed" : "00137f",
+			"FurLight" : "0026ff"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "b9b965",
+			"ChestMed" : "d6d683",
+			"ChestLight" : "e6e69c"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"cerulean" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "1f3355",
+			"FurMed" : "2f4daa",
+			"FurLight" : "395dcc"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "bebebe",
+			"ChestMed" : "d2d2d2",
+			"ChestLight" : "ebebeb"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"swamp" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "607d00",
+			"FurMed" : "60a400",
+			"FurLight" : "60e300"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "665100",
+			"ChestMed" : "aa8700",
+			"ChestLight" : "c69e00"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"green" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "7ba340",
+			"FurMed" : "94bd57",
+			"FurLight" : "abd46e"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "b9b965",
+			"ChestMed" : "d6d683",
+			"ChestLight" : "e6e69c"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"toxic" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "61c673",
+			"FurMed" : "7dff93",
+			"FurLight" : "beff93"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "131417",
+			"ChestMed" : "434430",
+			"ChestLight" : "565866"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"yellow" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "a6a633",
+			"FurMed" : "c3c34d",
+			"FurLight" : "e5e55d"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "b9b965",
+			"ChestMed" : "d6d683",
+			"ChestLight" : "e6e69c"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"shiny" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "736b21",
+			"FurMed" : "ada529",
+			"FurLight" : "e7ef7b"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "45839e",
+			"ChestMed" : "67a3bc",
+			"ChestLight" : "7bb5ce"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"orange" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "e98e4a",
+			"FurMed" : "f6a162",
+			"FurLight" : "fbb988"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "b9b965",
+			"ChestMed" : "d6d683",
+			"ChestLight" : "e6e69c"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"nega" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "8c4209",
+			"FurMed" : "b56311",
+			"FurLight" : "efb584"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "191963",
+			"ChestMed" : "35358a",
+			"ChestLight" : "46469a"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "000000"
+			],
+		"Eye" : [
+			"EyeWhites" : "000000"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"red" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "6c000a",
+			"FurMed" : "9f0816",
+			"FurLight" : "d01022"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "b9b965",
+			"ChestMed" : "d6d683",
+			"ChestLight" : "e6e69c"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"princess" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "ff988b",
+			"FurMed" : "ffb9b0",
+			"FurLight" : "ffdeda"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "e00000",
+			"ChestMed" : "ff3e3e",
+			"ChestLight" : "ff6363"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"pink" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "eb8aab",
+			"FurMed" : "f59fbc",
+			"FurLight" : "fcbdd2"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "b9b965",
+			"ChestMed" : "d6d683",
+			"ChestLight" : "e6e69c"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"purple" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "816ba2",
+			"FurMed" : "9681b6",
+			"FurLight" : "b09fca"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "b9b965",
+			"ChestMed" : "d6d683",
+			"ChestLight" : "e6e69c"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"melty" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "9d8cca",
+			"FurMed" : "b2a3d2",
+			"FurLight" : "94c9c8"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "d0cded",
+			"ChestMed" : "b4e4dd",
+			"ChestLight" : "dbecec"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"white" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "818181",
+			"FurMed" : "b4b4b4",
+			"FurLight" : "dadada"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "b9b965",
+			"ChestMed" : "d6d683",
+			"ChestLight" : "e6e69c"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"crown" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "d5d5d5",
+			"FurMed" : "e3e3e3",
+			"FurLight" : "ffffff"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "00b000",
+			"ChestMed" : "00e600",
+			"ChestLight" : "00f900"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"brawl" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "818181",
+			"FurMed" : "b4b4b4",
+			"FurLight" : "dadada"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "818181",
+			"ChestMed" : "b4b4b4",
+			"ChestLight" : "dadada"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"black" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "000000",
+			"FurMed" : "212121",
+			"FurLight" : "4b4b4b"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "b9b965",
+			"ChestMed" : "d6d683",
+			"ChestLight" : "e6e69c"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		],
+	"inverse" : [
+		"fur" : [
+			"FurDark2" : "",
+			"FurDark1" : "393939",
+			"FurMed" : "5a5a5a",
+			"FurLight" : "838383"
+			],
+		"chest" : [
+			"ChestDark2" : "",
+			"ChestDark1" : "191963",
+			"ChestMed" : "35358a",
+			"ChestLight" : "46469a"
+			],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+			],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+			],
+		"Eye" : [
+			"EyeWhites" : "ffffff"
+			],
+		"Null" : [
+			"null" : "00000000"
+			]
+		]
+	]
+},
+
+Try a regular expression replace of (good)|(great)|(fine) with (?1bad)(?2worse)(?3not).
+{
+"Search" : { ("FurDark1")|("FurMed")|("FurLight")|("ChestDark1")|("ChestMed")|("ChestLight")|("MaskDark1")|("MaskMed")|("MaskLight")|("SpikeLight")|("EyeWhites")|("null")|(//WhichColor) },
+"Replace" : {
+	"default" : [ 
+		(?1"104a7b")(?2"4a9cee")(?3"73bdf6")(?4"b9b965")(?5"d6d683")(?6"e6e69c")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//default)
+	],
+	"blue" : [ 
+		(?1"0669b2")(?2"157dca")(?3"2897e9")(?4"b9b965")(?5"d6d683")(?6"e6e69c")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//blue) 
+	],
+	"sapphire" : [ 
+		(?1"000d58")(?2"00137f")(?3"0026ff")(?4"b9b965")(?5"d6d683")(?6"e6e69c")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//sapphire) 
+	],
+	"cerulean" : [ 
+		(?1"1f3355")(?2"2f4daa")(?3"395dcc")(?4"bebebe")(?5"d2d2d2")(?6"ebebeb")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//cerulean) 
+	],
+	"swamp" : [ 
+		(?1"607d00")(?2"60a400")(?3"60e300")(?4"665100")(?5"aa8700")(?6"c69e00")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//swamp) 
+	],
+	"green" : [ 
+		(?1"7ba340")(?2"94bd57")(?3"abd46e")(?4"b9b965")(?5"d6d683")(?6"e6e69c")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//green) 
+	],
+	"toxic" : [ 
+		(?1"61c673")(?2"7dff93")(?3"beff93")(?4"131417")(?5"434430")(?6"565866")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//toxic) 
+	],
+	"yellow" : [ 
+		(?1"a6a633")(?2"c3c34d")(?3"e5e55d")(?4"b9b965")(?5"d6d683")(?6"e6e69c")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//yellow) 
+	],
+	"shiny" : [ 
+		(?1"736b21")(?2"ada529")(?3"e7ef7b")(?4"45839e")(?5"67a3bc")(?6"7bb5ce")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//shiny) 
+	],
+	"orange" : [ 
+		(?1"e98e4a")(?2"f6a162")(?3"fbb988")(?4"b9b965")(?5"d6d683")(?6"e6e69c")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//orange) 
+	],
+	"nega" : [ 
+		(?1"8c4209")(?2"b56311")(?3"efb584")(?4"191963")(?5"35358a")(?6"46469a")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"000000")(?11"000000")(?12"00000000")(?13//nega) 
+	],
+	"red" : [ 
+		(?1"6c000a")(?2"9f0816")(?3"d01022")(?4"b9b965")(?5"d6d683")(?6"e6e69c")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//red) 
+	],
+	"princess" : [ 
+		(?1"ff988b")(?2"ffb9b0")(?3"ffdeda")(?4"e00000")(?5"ff3e3e")(?6"ff6363")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//princess) 
+	],
+	"pink" : [ 
+		(?1"eb8aab")(?2"f59fbc")(?3"fcbdd2")(?4"b9b965")(?5"d6d683")(?6"e6e69c")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//pink) 
+	],
+	"purple" : [ 
+		(?1"816ba2")(?2"9681b6")(?3"b09fca")(?4"b9b965")(?5"d6d683")(?6"e6e69c")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//purple) 
+	],
+	"melty" : [ 
+		(?1"9d8cca")(?2"b2a3d2")(?3"94c9c8")(?4"d0cded")(?5"b4e4dd")(?6"dbecec")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//melty) 
+	],
+	"white" : [ 
+		(?1"818181")(?2"b4b4b4")(?3"dadada")(?4"b9b965")(?5"d6d683")(?6"e6e69c")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//white) 
+	],
+	"crown" : [ 
+		(?1"d5d5d5")(?2"e3e3e3")(?3"ffffff")(?4"00b000")(?5"00e600")(?6"00f900")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//crown) 
+	],
+	"brawl" : [ 
+		(?1"818181")(?2"b4b4b4")(?3"dadada")(?4"818181")(?5"b4b4b4")(?6"dadada")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13// brawl) 
+	],
+	"black" : [ 
+		(?1"000000")(?2"212121")(?3"4b4b4b")(?4"b9b965")(?5"d6d683")(?6"e6e69c")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//black) 
+	],
+	"inverse" : [ 
+		(?1"393939")(?2"5a5a5a")(?3"838383")(?4"191963")(?5"35358a")(?6"46469a")(?7"393939")(?8"5a5a5a")(?9"838383")(?10"ffffff")(?11"ffffff")(?12"00000000")(?13//inverse) 
+	]
+	}
+}

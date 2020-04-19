@@ -1,0 +1,9 @@
+{
+  "name" : "albino",
+  "category" : "petjackal",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "albino.png"
+  }
+}

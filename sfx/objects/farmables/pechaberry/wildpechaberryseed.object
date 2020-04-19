@@ -1,0 +1,54 @@
+{
+  "objectName" : "wildpechaberryseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "A berry that is sweet and removes poison from the body.",
+  "shortdescription" : "Pecha Berry Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 50,
+  "hasObjectItem" : false,
+
+  "apexDescription" : "A berry of the lucarios, it makes a good anti-poison.",
+  "avianDescription" : "So sweet, I must have more.",
+  "floranDescription" : "Thisss fruit isss sssweet, makesss good gift.",
+  "glitchDescription" : "Quarry. Should I start making anti-poison?",
+  "humanDescription" : "I have and idea, lets make smoothies!",
+  "hylotlDescription" : "A medical ingredient and a simple fruit! This can be of some use.",
+
+  "inventoryIcon" : "pechaberryseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pechaberryseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [55, 65]
+    },
+    {
+      "duration" : [200, 210]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "pechaberryHarvest",
+      "resetToStage" : 0
+    }
+  ],
+  
+  "breakDropOptions" : [
+    [ [ "pechaberryseed", 1, { } ] ]
+  ]
+}

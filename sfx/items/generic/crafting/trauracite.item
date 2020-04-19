@@ -1,0 +1,13 @@
+{
+  "itemName" : "trauracite",
+  "price" : 30,
+  "rarity" : "uncommon",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "inventoryIcon" : "triauracite.png",
+  "description" : "An auracite formed from durasteel. It emits aura, electricity, and light with a hard structure.",
+  "shortdescription" : "Dura-Auracite",
+  
+  "learnBlueprintsOnPickup" : [ "goldauracite" ]
+
+}

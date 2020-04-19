@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 1 },
+    { "item" : "coalore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "guardianssword",
+    "count" : 1
+  },
+  "groups" : [ "dangift", "all" ]
+}

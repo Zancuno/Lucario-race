@@ -1,0 +1,31 @@
+{
+	"partTagDefaults" : {
+		"species" : "human",
+		"bodyType" : ""
+	},
+
+	"animatedParts" : {
+		"parts" : {
+			"maleFrames" : {
+				"properties" : {
+					"centered" : false,
+					"image" : "/adaptParts/<species>/<bodyType>/head<species><bodyType>.png"
+				}
+			},
+				
+			"femaleFrames" : {
+				"properties" : {
+					"centered" : false,
+					"image" : "/adaptParts/<species>/<bodyType>/head<species><bodyType>.png"
+				}
+			},
+				
+			"mask" : {
+				"properties" : {
+					"centered" : false,
+					"image" : "mask.png"
+				}
+			}
+		}
+	}
+}

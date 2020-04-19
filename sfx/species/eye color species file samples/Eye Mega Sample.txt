@@ -1,0 +1,10 @@
+[
+	{ 
+	//Eye Mega//
+		"9a000a" : "MaskDark1", "ff0011" : "MaskMed",  "ff656f" : "MaskLight", 
+
+		"de4141" : "EyeMed", "e56f6f" : "EyeLight", 
+
+		"504a00" : "SpikeLight", "ffb34a" : "SpikeLight", "fff64d" : "SpikeLight"
+	},//WhichColor
+]

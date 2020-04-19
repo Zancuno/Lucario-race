@@ -1,0 +1,12 @@
+[
+	{ 
+	//Hair Lucario//
+		"393939" : "MaskDark1", "5a5a5a" : "MaskMed", "838383" : "MaskLight",
+
+		"9cfcff" : "MaskDark1", "bffdff" : "MaskMed", "dcfdff" : "MaskLight",
+
+		"ffb247" : "MaskDark1", "ffc87c" : "MaskMed",
+
+		"c4ea3a" : "MaskDark1", "cfef5e" : "MaskMed", "ebfcb0" : "MaskLight"
+	}, //WhichColor
+]

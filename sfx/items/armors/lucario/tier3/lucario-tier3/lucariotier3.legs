@@ -1,0 +1,71 @@
+{
+  "itemName" : "lucariotier3pants",
+  "price" : 1280,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "legarmour",
+  "description" : "^red;|Gender Legs|^white;
+  Extra armor covering the legs helps any tracker shrug off minor obstacles.",
+  "shortdescription" : "^cyan;|GLU|^white;Tracker's Trousers ",
+  "tooltipKind" : "armor",
+  "bodyType" : "GLU",
+
+  "maleFrames" : "pantsf.png",
+  "femaleFrames" : "pantsm.png",
+
+  "level" : 3,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier3armour" ],
+
+  "colorOptions" : [
+    // TITANIUM
+    { "ebe8ff" : "ebe8ff", "b4a1d2" : "b4a1d2", "817696" : "817696" },
+    // BLACK
+    { "ebe8ff" : "555555", "b4a1d2" : "383838", "817696" : "151515" },
+    // GREY
+    { "ebe8ff" : "808080", "b4a1d2" : "555555", "817696" : "303030" },
+    // WHITE
+    { "ebe8ff" : "b6b6b6", "b4a1d2" : "7b7b7b", "817696" : "373737" },
+    // RED
+    { "ebe8ff" : "d93a3a", "b4a1d2" : "932625", "817696" : "601119" },
+    // ORANGE
+    { "ebe8ff" : "ea9931", "b4a1d2" : "af4e00", "817696" : "6e2900" },
+    // YELLOW
+    { "ebe8ff" : "e2c344", "b4a1d2" : "a46e06", "817696" : "642f00" },
+    // GREEN
+    { "ebe8ff" : "51bd3b", "b4a1d2" : "247824", "817696" : "144216" },
+    // BLUE
+    { "ebe8ff" : "5588d4", "b4a1d2" : "344495", "817696" : "1a1c51" },
+    // PURPLE
+    { "ebe8ff" : "a451c4", "b4a1d2" : "6a2284", "817696" : "320c40" },
+    // PINK
+    { "ebe8ff" : "d35eae", "b4a1d2" : "97276d", "817696" : "59163f" },
+    // BROWN
+    { "ebe8ff" : "a47844", "b4a1d2" : "754c23", "817696" : "472b13" }
+  ],
+  
+  "learnBlueprintsOnPickup" : [ "lucariotier4pants" ]
+}

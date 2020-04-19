@@ -1,0 +1,24 @@
+{
+  "itemName" : "LTUN",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "Unlocks recipes for ^red;|Neutral Lucario Tail|^white;",
+  "shortdescription" : "^orange;LTUN^white;",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "LTUNicon.png",
+  "animation" : "LTUN.animation",
+  "animationCustom" : {},
+  "scripts" : ["LTUN.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "LTUN",
+    "level" : 1
+  }
+}

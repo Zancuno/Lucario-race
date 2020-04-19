@@ -1,0 +1,14 @@
+{
+    "eauraDrop" : [
+        [0, {
+		  "pool" : [
+			{"weight" : 0.5, "item" : ["eaura", 1]},
+			{"weight" : 0.3, "item" : ["eaura", 3]},
+			{"weight" : 0.1, "item" : ["eaura", 5]},
+			{"weight" : 0.06, "item" : ["eaura", 7]},
+			{"weight" : 0.04, "item" : ["eaura", 10]} 
+			]
+			}
+		]
+	]
+}
