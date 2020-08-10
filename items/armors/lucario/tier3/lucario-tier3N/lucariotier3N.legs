@@ -65,5 +65,7 @@
     { "ebe8ff" : "d35eae", "b4a1d2" : "97276d", "817696" : "59163f" },
     // BROWN
     { "ebe8ff" : "a47844", "b4a1d2" : "754c23", "817696" : "472b13" }
-  ]
+  ],
+  
+  "learnBlueprintsOnPickup" : [ "lucariotier4pantsN" ]
 }
