@@ -3,7 +3,7 @@
   "charCreationTooltip" : {
       "title" : "Lucario",
       "subTitle" : "L",
-      "description" : "Despite their fluffy appearance, this species is incredibly adaptive. They are no strangers to fighting and have their own unique power named Aura. In past they were guardians of their home world, and merged perfectly with the Protectorate."
+      "description" : "Despite their fluffy appearance, this species is incredibly adaptive. They are no strangers to fighting and have their own unique power named Aura. Although their origins are questionable, they have popped up in many places especially within the protectorate."
   },
   "nameGen" : [ "/species/lucarionamegen.config:names", "/species/lucarionamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/maleluhurt.ogg", "/sfx/humanoid/femaleluhurt.ogg" ],

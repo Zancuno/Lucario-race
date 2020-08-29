@@ -1,8 +1,14 @@
 {
   "id" : "lucario_bodyType",
   "mainQuest" : false,
+  "showInLog" : false,
+  "showAcceptDialog" : false,
+  "showCompleteDialog" : false,
+  "showFailDialog" : false,
   "canBeAbandoned" : false,
-  "invisible": true,
+  "title" : "Body Type Delivery",
+  "text" : "Quest used to deliver the correct recipes for your body type.",
+  "completionText" : "Correct Recipes Delivered for your Body Type.",
   "updateDelta" : 10,
   "script" : "/quests/lucario/bodyType.lua"
 }

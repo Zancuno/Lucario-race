@@ -6,5 +6,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "lucariotier5ahead", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "armours", "all", "ALALL" ]
+  "groups" : [ "craftingaccelerator", "armours" ]
 }

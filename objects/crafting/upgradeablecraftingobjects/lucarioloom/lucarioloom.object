@@ -56,9 +56,20 @@
         "hylotlDescription" : "The Hylotl consider making textiles an art form.",
         "novakidDescription" : "Maybe I can make myself a new shirt on this."
       },
-	  "interactAction" : "ScriptPane",
+
       "interactData" : {
         "config" : "/interface/scripted/LucarioCrafting/lucarioCrafting.config",
+        "paneLayoutOverride" : {
+			"menuTitle" : {
+				"value" : "^#b9b5b2;LucarioLoom"
+			},
+			"menuSubTitle" : {
+				"value" : "^#b9b5b2;Fabrics & Dyes"
+			},
+			"menuIcon" : {
+				"file" : "/interface/crafting/lucarioloomicon.png"
+			}
+        },
         "filter" : [ "craftingwheel" ],
         "upgradeMaterials" : [
           { "item" : "titaniumbar", "count" : 6 },
@@ -93,9 +104,20 @@
         "hylotlDescription" : "It may not be as traditional, but a mechanical loom is certainly a lot more efficient.",
         "novakidDescription" : "Maybe I can make myself a new shirt on this."
       },
-	  "interactAction" : "ScriptPane",
+
       "interactData" : {
         "config" : "/interface/scripted/LucarioCrafting/lucarioCrafting.config",
+        "paneLayoutOverride" : {
+			"menuTitle" : {
+				"value" : "^#b9b5b2;Mechanical Loom"
+			},
+			"menuSubTitle" : {
+				"value" : "^#b9b5b2;Fabrics & Dyes"
+			},
+			"menuIcon" : {
+				"file" : "/interface/crafting/lucarioloom2icon.png"
+			}
+        },
         "filter" : [ "craftingwheel", "craftingwheel2" ],
         "craftingSound" : "/sfx/interface/crafting_sewing.ogg"
       },

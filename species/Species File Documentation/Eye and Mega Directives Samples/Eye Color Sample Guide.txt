@@ -1,5 +1,5 @@
 //This guide will be continuing to explain how to quickly rebuild the eye color recolor options using the sample files connected to this guide
-//There are 40 eye color options right now which following this guide will allow the re-creation to be revelantly easy
+//There are 20 eye color options right now which following this guide will allow the re-creation to be revelantly easy
 //First off some new keys will be created for the sake of optimizing the speed of batch replacing. These new keys will be as of such
 {
 "colorReplaceKey": [	

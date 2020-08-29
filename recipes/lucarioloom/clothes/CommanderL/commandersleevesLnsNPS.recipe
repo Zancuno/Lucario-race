@@ -3,5 +3,5 @@
     { "item" : "fabric", "count" : 5 }
   ],
   "output" : { "item" : "commandersleevesLnsNPS", "count" : 1 },
-  "groups" : [ "craftingwheel", "GCNSNPSU" ]
+  "groups" : [ "craftingwheel", "clothes", "GCNSNPSU" ]
 }

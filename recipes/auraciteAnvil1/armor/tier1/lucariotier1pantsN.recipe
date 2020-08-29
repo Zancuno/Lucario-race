@@ -5,5 +5,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "lucariotier1pantsN", "count" : 1 },
-  "groups" : [ "craftinganvil", "armours", "all", "ALALL", "ANLU" ]
+  "groups" : [ "craftinganvil", "armours", "NLU" ]
 }

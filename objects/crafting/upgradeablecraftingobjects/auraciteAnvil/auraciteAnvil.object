@@ -59,15 +59,17 @@
       },
 
       "interactData" : {
-        "config" : "/interface/windowconfig/craftingAuraciteAnvil.config",
+        "config" : "/interface/scripted/LucarioCrafting/lucarioCrafting_anvil.config",
         "paneLayoutOverride" : {
-          "windowtitle" : {
-            "title" : " Anvil",
-            "subtitle" : " ^#b9b5b2;Armour and weapons",
-            "icon" : {
-              "file" : "/interface/crafting/auraciteAnvilicon.png"
-            }
-          }
+			"menuTitle" : {
+				"value" : "^#b9b5b2;Auracite Anvil"
+			},
+			"menuSubTitle" : {
+				"value" : "^#b9b5b2;Armour & Weapons"
+			},
+			"menuIcon" : {
+				"file" : "/interface/crafting/AuraciteAnvilicon.png"
+			}
         },
         "filter" : [ "craftinganvil" ],
         "upgradeMaterials" : [
@@ -106,15 +108,17 @@
       },
 
       "interactData" : {
-        "config" : "/interface/windowconfig/craftingAuraciteAnvil.config",
+        "config" : "/interface/scripted/LucarioCrafting/lucarioCrafting_anvil.config",
         "paneLayoutOverride" : {
-          "windowtitle" : {
-            "title" : " Forge",
-            "subtitle" : " ^#b9b5b2;Armour and weapons",
-            "icon" : {
-              "file" : "/interface/crafting/auraciteAnvil2icon.png"
-            }
-          }
+			"menuTitle" : {
+				"value" : "^#b9b5b2;Auracite Forge"
+			},
+			"menuSubTitle" : {
+				"value" : "^#b9b5b2;Armour & Weapons"
+			},
+			"menuIcon" : {
+				"file" : "/interface/crafting/AuraciteAnvil2icon.png"
+			}
         },
         "filter" : [ "craftinganvil", "craftinganvil2" ],
         "upgradeMaterials" : [
@@ -155,15 +159,17 @@
       },
 
       "interactData" : {
-        "config" : "/interface/windowconfig/craftingAuraciteAnvil.config",
+        "config" : "/interface/scripted/LucarioCrafting/lucarioCrafting_anvil.config",
         "paneLayoutOverride" : {
-          "windowtitle" : {
-            "title" : " Replicator",
-            "subtitle" : " ^#b9b5b2;Armour and weapons",
-            "icon" : {
-              "file" : "/interface/crafting/auraciteAnvil3icon.png"
-            }
-          }
+			"menuTitle" : {
+				"value" : "^#b9b5b2;Replicator"
+			},
+			"menuSubTitle" : {
+				"value" : "^#b9b5b2;Armour & Weapons"
+			},
+			"menuIcon" : {
+				"file" : "/interface/crafting/AuraciteAnvil3icon.png"
+			}
         },
         "filter" : [ "craftinganvil", "craftinganvil2", "craftinganvil3" ],
         "initialRecipeUnlocks" : [ "acceleratoraddon", "separatoraddon", "manipulatoraddon" ],
@@ -185,14 +191,17 @@
             "addonData" : {
               "animationState" : "accelerator",
               "interactData" : {
-                "paneLayoutOverride" : {
-                  "windowtitle" : {
-                    "title" : " Accelerator's Table",
-                    "icon" : {
-                      "file" : "/interface/crafting/acceleratortable.png"
-                    }
-                  }
-                },
+				"paneLayoutOverride" : {
+					"menuTitle" : {
+						"value" : "^#b9b5b2;Accelerator's Table"
+					},
+					"menuSubTitle" : {
+						"value" : "^#b9b5b2;Armour & Weapons"
+					},
+					"menuIcon" : {
+						"file" : "/interface/crafting/acceleratortable.png"
+					}
+				},
                 "filter" : [ "craftinganvil", "craftinganvil2", "craftinganvil3", "craftingaccelerator" ]
               }
             }
@@ -203,14 +212,17 @@
             "addonData" : {
               "animationState" : "separator",
               "interactData" : {
-                "paneLayoutOverride" : {
-                  "windowtitle" : {
-                    "title" : " Separator's Table",
-                    "icon" : {
-                      "file" : "/interface/crafting/separatortable.png"
-                    }
-                  }
-                },
+				"paneLayoutOverride" : {
+					"menuTitle" : {
+						"value" : "^#b9b5b2;Separator's Table"
+					},
+					"menuSubTitle" : {
+						"value" : "^#b9b5b2;Armour & Weapons"
+					},
+					"menuIcon" : {
+						"file" : "/interface/crafting/separatortable.png"
+					}
+				},
                 "filter" : [ "craftinganvil", "craftinganvil2", "craftinganvil3", "craftingseparator" ]
               }
             }
@@ -221,14 +233,17 @@
             "addonData" : {
               "animationState" : "manipulator",
               "interactData" : {
-                "paneLayoutOverride" : {
-                  "windowtitle" : {
-                    "title" : " Manipulator's Table",
-                    "icon" : {
-                      "file" : "/interface/crafting/manipulatortable.png"
-                    }
-                  }
-                },
+				"paneLayoutOverride" : {
+					"menuTitle" : {
+						"value" : "^#b9b5b2;Manipulator's Table"
+					},
+					"menuSubTitle" : {
+						"value" : "^#b9b5b2;Armour & Weapons"
+					},
+					"menuIcon" : {
+						"file" : "/interface/crafting/manipulatortable.png"
+					}
+				},
                 "filter" : [ "craftinganvil", "craftinganvil2", "craftinganvil3", "craftingmanipulator" ]
               }
             }
