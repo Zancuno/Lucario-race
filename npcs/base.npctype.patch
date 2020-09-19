@@ -2,14 +2,14 @@
 
 { "op" : "add", "path" : "/scriptConfig/chatSounds/lucario", "value" : {
 		 "male" : [
-			"/sfx/humanoid/maleluchat.ogg",
-			"/sfx/humanoid/maleluchat2.ogg",
-			"/sfx/humanoid/maleluchat3.ogg"
+			"/sfx/humanoid/maleluchatmaybe1.ogg",
+			"/sfx/humanoid/maleluchatmaybe2.ogg",
+			"/sfx/humanoid/maleluchatmaybe3.ogg"
 		],
 		"female" : [
-			"/sfx/humanoid/femaleluchat.ogg",
-			"/sfx/humanoid/femaleluchat2.ogg",
-			"/sfx/humanoid/femaleluchat3.ogg"
+			"/sfx/humanoid/femaleluchatmaybe1.ogg",
+			"/sfx/humanoid/femaleluchatmaybe2.ogg",
+			"/sfx/humanoid/femaleluchatmaybe3.ogg"
 		]
 	}
 }
