@@ -1,0 +1,122 @@
+{
+  "type" : "lucarioguardtenant",
+  "baseType" : "friendlyguard",
+
+  "levelVariance" : [0, 0],
+
+  "scriptConfig" : {
+
+    "questGenerator" : {
+      "pools" : ["common", "tenant", "guard"],
+      "enableParticipation" : true,
+      "timeLimit" : 30,
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50,
+      "questCountRange" : [1, 4],
+      
+      "graduation" : {
+        "nextNpcType" : [
+          [1, "crewmember"],
+          [0.5, "crewmemberengineer"],
+          [0.5, "crewmembermechanic"]
+        ]
+      }
+    },
+    
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "patrol"]
+      ]
+    },
+
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/lucario.config:tagCriteria",
+          "enclosedArea" : "/dialog/lucario.config:enclosedArea",
+          "otherDeed" : "/dialog/lucario.config:otherDeed",
+          "severe" : "/dialog/lucario.config:severe",
+          "final" : "/dialog/lucario.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/lucario.config:beacon",
+          "rent" : "/dialog/lucario.config:rent"
+        }
+      },
+
+      "greeting" : "/dialog/lucario.config:greeting",
+      "converse" : "/dialog/lucario.config:converse",
+      
+      "accuse" : "/dialog/lucario.config:accuse",
+
+      "attack" : "/dialog/lucario.config:attack",
+      "reattack" : "/dialog/lucario.config:reattack",
+      "killedTarget" : "/dialog/lucario.config:killedTarget",
+      "lostTarget" : "/dialog/lucario.config:lostTarget",
+      "outOfSight" : "/dialog/lucario.config:outOfSight",
+      "cheerOn" : "/dialog/lucario.config:cheerOn",
+      "cantReach" : "/dialog/lucario.config:cantReach"
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "humantier1head" } ],
+            "chest" : [ { "name" : "humantier1chest" } ],
+            "legs" : [ { "name" : "humantier1pants" } ],
+            "primary" : [
+              "npcpistol",
+              "npcmachinepistol",
+              "npcassaultrifle"
+            ],
+            "sheathedprimary" : [ "npcbroadsword" ]
+          }
+        ] ]
+    ],
+    "lucario" : [
+      [0, [
+			{
+				"head" : [ { "name" : "lucariotier1head", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+				"chest" : [ { "name" : "lucariotier1chestns", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+				"legs" : [ { "name" : "lucariotier1pantsN", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+				"primary" : [ "aurasphere" ],
+				"sheathedprimary" : [ "guardianssword" ]
+			}
+		] ],
+      [1, [
+			{
+				"head" : [ { "name" : "lucariotier2head", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+				"chest" : [ { "name" : "lucariotier2chestns", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+				"legs" : [ { "name" : "lucariotier2pantsN", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+				"primary" : [ "aurasphere2" ],
+				"sheathedprimary" : [ "nightsend"]
+			}
+		] ],
+      [2, [
+			{
+				"head" : [ { "name" : "lucariotier3head", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+				"chest" : [ { "name" : "lucariotier3chestns", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+				"legs" : [ { "name" : "lucariotier3pantsN" , "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+				"primary" : [ "aurasphere3" ],
+				"sheathedprimary" : [ "nightsend" ]
+			}
+		] ],
+      [3, [
+			{
+				"head" : [ { "name" : "lucariotier4head", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+				"chest" : [ { "name" : "lucariotier4chestns", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+				"legs" : [ { "name" : "lucariotier4pantsN", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+				"primary" : [ "aurasphere4" ],
+				"sheathedprimary" : [ "materiablade" ]
+			}
+		] ]
+    ]
+  }
+}

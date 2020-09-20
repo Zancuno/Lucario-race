@@ -8,6 +8,6 @@
   "description" : "A partial of aura manifested into a containable force.",
   "shortdescription" : "Essence of Aura", 
   
-  "learnBlueprintsOnPickup" : [ "auraseeker", "aurasphere" ]
+  "learnBlueprintsOnPickup" : [ "aurasphere" ]
 
 }

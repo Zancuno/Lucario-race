@@ -58,15 +58,17 @@
       },
 
       "interactData" : {
-        "config" : "/interface/windowconfig/craftinglucarioloom.config",
+        "config" : "/interface/scripted/LucarioCrafting/lucarioCrafting.config",
         "paneLayoutOverride" : {
-          "windowtitle" : {
-            "title" : " Lucario Loom",
-            "subtitle" : " ^#b9b5b2;Textiles and dyes",
-            "icon" : {
-              "file" : "/interface/crafting/lucarioloomicon.png"
-            }
-          }
+			"menuTitle" : {
+				"value" : "^#b9b5b2;LucarioLoom"
+			},
+			"menuSubTitle" : {
+				"value" : "^#b9b5b2;Fabrics & Dyes"
+			},
+			"menuIcon" : {
+				"file" : "/interface/crafting/lucarioloomicon.png"
+			}
         },
         "filter" : [ "craftingwheel" ],
         "upgradeMaterials" : [
@@ -104,15 +106,17 @@
       },
 
       "interactData" : {
-        "config" : "/interface/windowconfig/craftinglucarioloom.config",
+        "config" : "/interface/scripted/LucarioCrafting/lucarioCrafting.config",
         "paneLayoutOverride" : {
-          "windowtitle" : {
-            "title" : " Lucario Textile Machine",
-            "subtitle" : " ^#b9b5b2;Textiles and dyes",
-            "icon" : {
-              "file" : "/interface/crafting/lucarioloom2icon.png"
-            }
-          }
+			"menuTitle" : {
+				"value" : "^#b9b5b2;Mechanical Loom"
+			},
+			"menuSubTitle" : {
+				"value" : "^#b9b5b2;Fabrics & Dyes"
+			},
+			"menuIcon" : {
+				"file" : "/interface/crafting/lucarioloom2icon.png"
+			}
         },
         "filter" : [ "craftingwheel", "craftingwheel2" ],
         "craftingSound" : "/sfx/interface/crafting_sewing.ogg"

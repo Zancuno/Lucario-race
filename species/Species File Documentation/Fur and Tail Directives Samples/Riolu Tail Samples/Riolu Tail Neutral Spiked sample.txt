@@ -1,0 +1,55 @@
+	{
+	//GLU Directives// Riolu Tail //Refer to Fur Color Tail Sample Guide dot txt for additional info
+		"104a7b" : "FurDark1", "4a9cee" : "FurMed", "73bdf6" : "FurLight",
+		"110064" : "FurDark1", "280bb7" : "FurMed",
+		"5f2b80" : "null", "744393" : "null",
+
+		"104a08" : "FurDark1",
+
+		"391153" : "FurDark1",
+		"6b5b88" : "FurMed",
+		"89eff1" : "null",
+
+		"371571" : "FurDark1",
+		"42217b" : "FurDark1", 
+		"431a9b" : "FurMed", 
+		"4d26a5" : "FurMed", 
+		"5463b7" : "FurMed", 
+		"5e6fc0" : "FurMed",
+		"748db8" : "null",
+		"7e99c2" : "null",
+		"373a7d" : "FurDark1",
+		"414686" : "FurDark1", 
+		"654384" : "FurMed", 
+		"6f4f8d" : "FurMed",
+
+		"242d67" : "FurMed",
+
+		"352440" : "null", "49275f" : "null",
+	//GLU End//
+	
+	//GCU Directives//
+		"b9b965" : "ChestDark1", "d6d683" : "ChestMed", "e6e69c" : "ChestLight", 
+
+		"808b5e" : "SpikeLight",
+		"eddfd4" : "SpikeLight",
+		"97463d" : "SpikeLight",
+
+		"ba8b67" : "SpikeLight",
+		"b8a393" : "SpikeLight",
+
+		"713608" : "SpikeLight",
+
+		"0c0750" : "null",
+
+		"504900" : "MaskDark1",
+		"d2f1ff" : "MaskDark1",
+		"5e2761" : "MaskDark1",
+		"b056b5" : "MaskLight",
+
+		"b1ffa7" : "MaskLight",
+	//GCU End//
+	
+	//Eyewhites
+		"ffffff" : "EyeWhites"
+	}, //WhichColor

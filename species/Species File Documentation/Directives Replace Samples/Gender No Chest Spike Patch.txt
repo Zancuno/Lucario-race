@@ -1,0 +1,22 @@
+[
+{
+"op" : "replace",
+"path": "/bodyColor/0/808b5e",
+"value": "ChestDark1"
+},
+{
+"op" : "replace",
+"path": "/bodyColor/0/eddfd4",
+"value": "ChestMed"
+},
+{
+"op" : "replace",
+"path": "/bodyColor/0/97463d",
+"value": "ChestLight"
+},
+{
+"op" : "replace",
+"path": "/bodyColor/0/713608",
+"value": "ChestLight"
+},
+]

@@ -1,0 +1,15 @@
+{
+  "name" : "auraDrain",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "auraDrain.lua"
+  ],
+
+  "animationConfig" : "auraDrain.animation",
+
+  "label" : "Aura Drain",
+  "icon" : "/interface/statuses/eaura.png"
+}

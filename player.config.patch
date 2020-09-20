@@ -10,6 +10,5 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "chestojuice" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "chestojuice2" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "auracite" } },
-{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "crystalizestation" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "conductauracite" } }
 ]

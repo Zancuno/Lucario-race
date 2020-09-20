@@ -4,6 +4,7 @@
   "bounces" : 0,
   "damageKindImage" : "icon.png",
   "image" : "aura.png",
+  "fullbright" : true,
   "animationCycle" : 0.2,
   "frameNumber" : 2,
   "power" : 5.0,
@@ -15,6 +16,7 @@
       "file" : "/projectiles/explosions/aurahit/aurahit.config"
     }
   ],
-  "damageKind" : "plasma"
+  "damageKind" : "plasma",
+  "statusEffects" : ["auraDrain"]
   
 }

@@ -6,5 +6,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "lucariotier5schest", "count" : 1 },
-  "groups" : [ "craftingseparator", "armours", "all", "ALALL" ]
+  "groups" : [ "craftingseparator", "armours" ]
 }

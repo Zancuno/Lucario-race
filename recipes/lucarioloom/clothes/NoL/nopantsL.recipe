@@ -3,6 +3,6 @@
     { "item" : "fabric", "count" : 20 }
   ],
   "output" : { "item" : "nopantsL", "count" : 1 },
-  "groups" : [ "craftingwheel", "LALL" ]
+  "groups" : [ "craftingwheel", "clothes" ]
 }
 

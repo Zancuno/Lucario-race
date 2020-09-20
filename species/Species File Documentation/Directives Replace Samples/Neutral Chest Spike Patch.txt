@@ -1,0 +1,47 @@
+[
+{
+"op" : "replace",
+"path": "/bodyColor/0/104a08",
+"value": "FurDark1"
+},
+{
+"op" : "replace",
+"path": "/bodyColor/0/ba8b67",
+"value": "SpikeLight"
+},
+{
+"op" : "replace",
+"path": "/bodyColor/0/b8a393",
+"value": "SpikeLight"
+},
+{
+"op" : "replace",
+"path": "/bodyColor/0/0c0750",
+"value": "null"
+},
+{
+"op" : "replace",
+"path": "/bodyColor/0/504900",
+"value": "MaskDark1"
+},
+{
+"op" : "replace",
+"path": "/bodyColor/0/d2f1ff",
+"value": "MaskDark1"
+},
+{
+"op" : "replace",
+"path": "/bodyColor/0/5e2761",
+"value": "MaskDark1"
+},
+{
+"op" : "replace",
+"path": "/bodyColor/0/b056b5",
+"value": "MaskLight"
+},
+{
+"op" : "replace",
+"path": "/bodyColor/0/b1ffa7",
+"value": "MaskLight"
+},
+]

@@ -1,0 +1,304 @@
+//This guide will be continuing to explain how to quickly rebuild the eye color recolor options using the sample files connected to this guide
+//There are 20 eye color options right now which following this guide will allow the re-creation to be revelantly easy
+//First off some new keys will be created for the sake of optimizing the speed of batch replacing. These new keys will be as of such
+{
+"colorReplaceKey": [	
+	"EyeDark2", //not in use yet only to be used if lucario sprites are upped from 3 colors a palette to 4 colors
+	"EyeDark1", //dark shade of eye palette
+	"EyeMed", //medium shade of eye palette
+	"EyeLight", //light shade of eye palette
+	"MaskDark2", //not in use yet only to be used if lucario sprites are upped from 3 colors a palette to 4 colors
+	"MaskDark1", //dark shade of mask palette
+	"MaskMed", //medium shade of mask palette
+	"MaskLight", //light shade of mask palette
+	"SpikeDark2", //not in use and will only be used when spikes go up in pallet from 1 to 4 colors
+	"SpikeDark1", //not in use and will only be used when spikes go up in pallet from 1 to 4 colors
+	"SpikeMed", //not in use and will only be used when spikes go up in pallet from 1 to 4 colors
+	"SpikeLight", //light shade of spike palette	
+	"null" //used to change a color to 00000000 basically rendering non existant
+	//WhichColor // adds a comment to the bottom of the file stating which palette this is for
+
+	]
+},
+//Using these keys parts of the sameple files will have hex color code replace with these which will allow a program or basic find and replace to change all values to their desired outcome
+//The order for batch replacing these colors will be discussed further down
+//Although an example is now due for how this will look in the samples
+	{ 
+	//Mega Directives//
+		"9a000a" : "EyeDark1", "ff0011" : "EyeMed",  "ff656f" : "EyeLight" //Colors of paws that can either change to hair colors for non mega or change to eye color for mega
+	//Eyes
+		"de4141" : "EyeMed", "e56f6f" : "EyeLight", //Base eye colors also known as mega colors
+	//SPIKES
+		"504a00" : "SpikeLight", "ffb34a" : "SpikeLight", "fff64d" : "SpikeLight", //controls if paw spikes turn ffffff when active or hair slash null colors if removed
+	},//WhichColor
+{
+"WhichColor": [
+	"default" : [
+		"eye" : [
+			"EyeDark2" : "",
+			"EyeDark1" : "9a020b",
+			"EyeMed" : "de4141",
+			"EyeLight" : "e56f6f"
+		],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+		],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+		],
+		"Null" : [
+			"null" : "00000000"
+		]
+	],
+	"blue" : [
+		"eye" : [
+			"EyeDark2" : "",
+			"EyeDark1" : "242247",
+			"EyeMed" : "8dcff4",
+			"EyeLight" : "afdffe"
+		],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+		],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+		],
+		"Null" : [
+			"null" : "00000000"
+		]
+	],
+	"green" : [
+		"eye" : [
+			"EyeDark2" : "",
+			"EyeDark1" : "228a38",
+			"EyeMed" : "79c471",
+			"EyeLight" : "9fdf98"
+		],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+		],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+		],
+		"Null" : [
+			"null" : "00000000"
+		]
+	],
+	"yellow" : [
+		"eye" : [
+			"EyeDark2" : "",
+			"EyeDark1" : "161616",
+			"EyeMed" : "d5d364",
+			"EyeLight" : "e9e785"
+		],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+		],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+		],
+		"Null" : [
+			"null" : "00000000"
+		]
+	],
+	"orange" : [
+		"eye" : [
+			"EyeDark2" : "",
+			"EyeDark1" : "834012",
+			"EyeMed" : "ea6b48",
+			"EyeLight" : "fc8aca"
+		],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+		],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+		],
+		"Null" : [
+			"null" : "00000000"
+		]
+	],
+	"pink" : [
+		"eye" : [
+			"EyeDark2" : "",
+			"EyeDark1" : "ae00be",
+			"EyeMed" : "f59fbc",
+			"EyeLight" : "fcb5cd"
+		],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+		],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+		],
+		"Null" : [
+			"null" : "00000000"
+		]
+	],
+	"shiny" : [
+		"eye" : [
+			"EyeDark2" : "",
+			"EyeDark1" : "913b86",
+			"EyeMed" : "a53963",
+			"EyeLight" : "de528c"
+		],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+		],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+		],
+		"Null" : [
+			"null" : "00000000"
+		]
+	],
+	"purple" : [
+		"eye" : [
+			"EyeDark2" : "",
+			"EyeDark1" : "3e4352",
+			"EyeMed" : "9681b6",
+			"EyeLight" : "b4a3cd"
+		],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+		],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+		],
+		"Null" : [
+			"null" : "00000000"
+		]
+	],
+	"grey" : [
+		"eye" : [
+			"EyeDark2" : "",
+			"EyeDark1" : "2a251e",
+			"EyeMed" : "9a9a9a",
+			"EyeLight" : "c1c1c1"
+		],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+		],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+		],
+		"Null" : [
+			"null" : "00000000"
+		]
+	],
+	"black" : [
+		"eye" : [
+			"EyeDark2" : "",
+			"EyeDark1" : "170f0d",
+			"EyeMed" : "3e3e3e",
+			"EyeLight" : "737373"
+		],
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+		],
+		"spike" : [
+			"SpikeDark2" : "",
+			"SpikeDark1" : "",
+			"SpikeMed" : "",
+			"SpikeLight" : "ffffff"
+		],
+		"Null" : [
+			"null" : "00000000"
+		]
+	]
+]
+},
+
+Try a regular expression replace of (good)|(great)|(fine) with (?1bad)(?2worse)(?3not).
+{
+"Search" : { ("EyeDark1")|("EyeMed")|("EyeLight")|("MaskDark1")|("MaskMed")|("MaskLight")|("SpikeLight")|("null")|(//WhichColor) },
+"Replace" : { 
+	"default" : [ 
+		(?1"9a020b")(?2"de4141")(?3"e56f6f")(?4"393939")(?5"5a5a5a")(?6"838383")(?7"ffffff")(?8"00000000")(?9//default) 
+	],
+	"blue" : [ 
+		(?1"242247")(?2"8dcff4")(?3"afdffe")(?4"393939")(?5"5a5a5a")(?6"838383")(?7"ffffff")(?8"00000000")(?9//blue) 
+	],
+	"green" : [ 
+		(?1"228a38")(?2"79c471")(?3"9fdf98")(?4"393939")(?5"5a5a5a")(?6"838383")(?7"ffffff")(?8"00000000")(?9//green) 
+	],
+	"yellow" : [ 
+		(?1"161616")(?2"d5d364")(?3"e9e785")(?4"393939")(?5"5a5a5a")(?6"838383")(?7"ffffff")(?8"00000000")(?9//yellow) 
+	],
+	"orange" : [ 
+		(?1"834012")(?2"ea6b48")(?3"fc8aca")(?4"393939")(?5"5a5a5a")(?6"838383")(?7"ffffff")(?8"00000000")(?9//orange) 
+	],
+	"pink" : [ 
+		(?1"ae00be")(?2"f59fbc")(?3"fcb5cd")(?4"393939")(?5"5a5a5a")(?6"838383")(?7"ffffff")(?8"00000000")(?9//pink) 
+	],
+	"shiny" : [ 
+		(?1"913b86")(?2"a53963")(?3"de528c")(?4"393939")(?5"5a5a5a")(?6"838383")(?7"ffffff")(?8"00000000")(?9//shiny) 
+	],
+	"purple" : [ 
+		(?1"3e4352")(?2"9681b6")(?3"b4a3cd")(?4"393939")(?5"5a5a5a")(?6"838383")(?7"ffffff")(?8"00000000")(?9//purple) 
+	],
+	"grey" : [ 
+		(?1"2a251e")(?2"9a9a9a")(?3"c1c1c1")(?4"393939")(?5"5a5a5a")(?6"838383")(?7"ffffff")(?8"00000000")(?9//grey) 
+	],
+	"black" : [ 
+		(?1"170f0d")(?2"3e3e3e")(?3"737373")(?4"393939")(?5"5a5a5a")(?6"838383")(?7"ffffff")(?8"00000000")(?9//black) 
+	]	
+}
+}

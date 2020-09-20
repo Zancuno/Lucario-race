@@ -5,5 +5,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "lucariotier6mpants", "count" : 1 },
-  "groups" : [ "craftingmanipulator", "armours", "all", "ALALL" ]
+  "groups" : [ "craftingmanipulator", "armours" ]
 }

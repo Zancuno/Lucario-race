@@ -16,58 +16,58 @@
     "chatSounds" : {
       "avian" : {
         "male" : [
-          "/sfx/humanoid/femaleluchat.ogg"
+          "/sfx/humanoid/femaleluchatnew1.ogg"
         ],
         "female" : [
-          "/sfx/humanoid/femaleluchat.ogg"
+          "/sfx/humanoid/femaleluchatnew1.ogg"
         ]
       },
       "apex" : {
         "male" : [
-          "/sfx/humanoid/femaleluchat.ogg"
+          "/sfx/humanoid/femaleluchatnew1.ogg"
         ],
         "female" : [
-          "/sfx/humanoid/femaleluchat.ogg"
+          "/sfx/humanoid/femaleluchatnew1.ogg"
         ]
       },
       "floran" : {
         "male" : [
-          "/sfx/humanoid/femaleluchat.ogg"
+          "/sfx/humanoid/femaleluchatnew1.ogg"
         ],
         "female" : [
-          "/sfx/humanoid/femaleluchat.ogg"
+          "/sfx/humanoid/femaleluchatnew1.ogg"
         ]
       },
       "glitch" : {
         "male" : [
-          "/sfx/humanoid/femaleluchat.ogg"
+          "/sfx/humanoid/femaleluchatnew1.ogg"
         ],
         "female" : [
-          "/sfx/humanoid/femaleluchat.ogg"
+          "/sfx/humanoid/femaleluchatnew1.ogg"
         ]
       },
       "human" : {
         "male" : [
-          "/sfx/humanoid/femaleluchat.ogg"
+          "/sfx/humanoid/femaleluchatnew1.ogg"
         ],
         "female" : [
-          "/sfx/humanoid/femaleluchat.ogg"
+          "/sfx/humanoid/femaleluchatnew1.ogg"
         ]
       },
       "hylotl" : {
         "male" : [
-          "/sfx/humanoid/femaleluchat.ogg"
+          "/sfx/humanoid/femaleluchatnew1.ogg"
         ],
         "female" : [
-          "/sfx/humanoid/femaleluchat.ogg"
+          "/sfx/humanoid/femaleluchatnew1.ogg"
         ]
       },
       "default" : {
         "male" : [
-          "/sfx/humanoid/femaleluchat.ogg"
+          "/sfx/humanoid/femaleluchatnew1.ogg"
         ],
         "female" : [
-          "/sfx/humanoid/femaleluchat.ogg"
+          "/sfx/humanoid/femaleluchatnew1.ogg"
         ]
       }
     },

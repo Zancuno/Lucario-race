@@ -1,0 +1,386 @@
+//This guide will be continuing to explain how to quickly rebuild the hair color recolor options using the sample files connected to this guide
+//There are 60 hair color options right now which following this guide will allow the re-creation to be revelantly easy
+//First off some new keys will be created for the sake of optimizing the speed of batch replacing. These new keys will be as of such
+{
+"colorReplaceKey": [
+	"MaskDark2", //not in use yet only to be used if lucario sprites are upped from 3 colors a palette to 4 colors
+	"MaskDark1", //dark shade of mask palette
+	"MaskMed", //medium shade of mask palette
+	"MaskLight", //light shade of mask palette
+	"MegaDark2", //not is use yet only to be used if lucario sprites are upped from 3 colors a palette to 4 colors
+	"MegaDark1", // dark shade of mega palette
+	"MegaMed", // medium shade of mega palette
+	"MegaLight", //light shade of mega palette
+	"null" //used to change a color to 00000000 basically rendering non existant
+	//WhichColor // adds a comment to the bottom of the file stating which palette this is for
+	]
+},
+//Using these keys parts of the sameple files will have hex color code replace with these which will allow a program or basic find and replace to change all values to their desired outcome
+//The order for batch replacing these colors will be discussed further down
+//Although an example is now due for how this will look in the samples
+	{ 
+	//Hair Directives//
+		"393939" : "MaskDark1", "5a5a5a" : "MaskMed", "838383" : "MaskLight", //Base hair colors which also refers to all grey parts
+	//Outer Appendage
+		"9cfcff" : "MaskDark1", "bffdff" : "MaskMed", "dcfdff" : "MaskLight", //Changes to hair colors if active otherwise null
+	//Inner Appendage
+		"ffb247" : "MaskDark1", "ffc87c" : "MaskMed",  //Changes to hair colors if active otherwise null
+	//Mega Appendage
+		"c4ea3a" : "MegaDark1", "cfef5e" : "MegaMed", "ebfcb0" : "MegaLight", //Changes to hair colors or mega colors if active otherwise null	
+	}, //WhichColor
+
+{
+"WhichColor" : [
+	"default" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "393939",
+			"MaskMed" : "5a5a5a",
+			"MaskLight" : "838383"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"blue" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "242247",
+			"MaskMed" : "343965",
+			"MaskLight" : "425879"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"brightBlue" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "2e2a73",
+			"MaskMed" : "4d55b0",
+			"MaskLight" : "5d8bc7"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"swamp" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "2252a2",
+			"MaskMed" : "609fc1",
+			"MaskLight" : "60d5c1"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"shiny" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "394a5a",
+			"MaskMed" : "527384",
+			"MaskLight" : "638ca5"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"green" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "228a38",
+			"MaskMed" : "34ae47",
+			"MaskLight" : "4ece61"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"darkGreen" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "1d4b28",
+			"MaskMed" : "2e6a38",
+			"MaskLight" : "3b7f44"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"crown" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "dac000",
+			"MaskMed" : "eed100",
+			"MaskLight" : "fff085"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"brightBlonde" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "a9882f",
+			"MaskMed" : "c7ac3f",
+			"MaskLight" : "e6e756"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"sandy" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "c2b677",
+			"MaskMed" : "dcd28c",
+			"MaskLight" : "f2eba3"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"dirty" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "743e1d",
+			"MaskMed" : "915622",
+			"MaskLight" : "a6671d"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"orange" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "834012",
+			"MaskMed" : "be6d1d",
+			"MaskLight" : "efa838"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"brown" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "3b1f15",
+			"MaskMed" : "5b3523",
+			"MaskLight" : "7f5a39"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"red" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "731a1a",
+			"MaskMed" : "8f1f1b",
+			"MaskLight" : "ad2716"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"magenta" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "4b1d30",
+			"MaskMed" : "6a2e53",
+			"MaskLight" : "7f3b6d"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"royal" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "3f1d4b",
+			"MaskMed" : "562e6a",
+			"MaskLight" : "653b7f"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"princess" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "ae00be",
+			"MaskMed" : "e600d2",
+			"MaskLight" : "ff00e9"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"darkGrey" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "161616",
+			"MaskMed" : "363636",
+			"MaskLight" : "525252"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"nega" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "7c7c7c",
+			"MaskMed" : "a5a5a5",
+			"MaskLight" : "c6c6c6"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	],
+	"platinum" : [
+		"mask" : [
+			"MaskDark2" : "",
+			"MaskDark1" : "828282",
+			"MaskMed" : "b8b8b8",
+			"MaskLight" : "eaeaea"
+		],
+		"mega" : [
+			"MegaDark2" : "",
+			"MegaDark1" : "9a000a",
+			"MegaMed" : "ff0011",
+			"MegaLight" : "ff656f"
+		]
+	]	
+]
+},
+
+Try a regular expression replace of (good)|(great)|(fine) with (?1bad)(?2worse)(?3not).
+{
+"Search" : { ("MaskDark1")|("MaskMed")|("MaskLight")|("MegaDark1")|("MegaMed")|("MegaLight")|("null")|(//WhichColor) },
+"Replace" : {
+	"default" : [ 
+		(?1"393939")(?2"5a5a5a")(?3"838383")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//default) 
+	],
+	"blue" : [ 
+		(?1"242247")(?2"343965")(?3"425879")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//blue) 
+	],
+	"brightBlue" : [ 
+		(?1"2e2a73")(?2"4d55b0")(?3"5d8bc7")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//brightBlue) 
+	],
+	"swamp" : [ 
+		(?1"2252a2")(?2"609fc1")(?3"60d5c1")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//swamp) 
+	],
+	"shiny" : [ 
+		(?1"394a5a")(?2"527384")(?3"638ca5")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//shiny) 
+	],
+	"green" : [ 
+		(?1"228a38")(?2"34ae47")(?3"4ece61")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//green) 
+	],
+	"darkGreen" : [ 
+		(?1"1d4b28")(?2"2e6a38")(?3"3b7f44")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//darkGreen) 
+	],
+	"crown" : [ 
+		(?1"dac000")(?2"eed100")(?3"fff085")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//crown) 
+	],
+	"brightBlonde" : [ 
+		(?1"a9882f")(?2"c7ac3f")(?3"e6e756")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//brightBlonde) 
+	],
+	"sandy" : [ 
+		(?1"c2b677")(?2"dcd28c")(?3"f2eba3")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//sandy) 
+	],
+	"dirty" : [ 
+		(?1"743e1d")(?2"915622")(?3"a6671d")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//dirty) 
+	],
+	"orange" : [ 
+		(?1"834012")(?2"be6d1d")(?3"efa838")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//orange) 
+	],
+	"brown" : [ 
+		(?1"3b1f15")(?2"5b3523")(?3"7f5a39")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//brown) 
+	],
+	"red" : [ 
+		(?1"731a1a")(?2"8f1f1b")(?3"ad2716")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//red) 
+	],
+	"magenta" : [ 
+		(?1"4b1d30")(?2"6a2e53")(?3"7f3b6d")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//magenta) 
+	],
+	"royal" : [ 
+		(?1"3f1d4b")(?2"562e6a")(?3"653b7f")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//royal) 
+	],
+	"princess" : [ 
+		(?1"ae00be")(?2"e600d2")(?3"ff00e9")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//princess) 
+	],
+	"darkGrey" : [ 
+		(?1"161616")(?2"363636")(?3"525252")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//darkGrey) 
+	],
+	"nega" : [ 
+		(?1"7c7c7c")(?2"a5a5a5")(?3"c6c6c6")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//nega) 
+	],
+	"platinum" : [ 
+		(?1"828282")(?2"b8b8b8")(?3"eaeaea")(?4"9a000a")(?5"ff0011")(?6"ff656f")(?7"00000000")(?8//platinum) 
+	]
+	}
+}	
+	
+	
+	
+	

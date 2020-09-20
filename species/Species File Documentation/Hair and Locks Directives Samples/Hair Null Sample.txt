@@ -1,0 +1,12 @@
+[
+	{ 
+	//Hair Null//
+		"393939" : "MaskDark1", "5a5a5a" : "MaskMed", "838383" : "MaskLight",
+
+		"9cfcff" : "null", "bffdff" : "null", "dcfdff" : "null",
+
+		"ffb247" : "null", "ffc87c" : "null",
+
+		"c4ea3a" : "null", "cfef5e" : "null", "ebfcb0" : "null"
+	}, //WhichColor
+]
