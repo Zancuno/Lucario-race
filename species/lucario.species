@@ -6,7 +6,7 @@
       "description" : "Despite their fluffy appearance, this species is incredibly adaptive. They are no strangers to fighting and have their own unique power named Aura. Although their origins are questionable, they have popped up in many places especially within the protectorate."
   },
   "nameGen" : [ "/species/lucarionamegen.config:names", "/species/lucarionamegen.config:names" ],
-  "ouchNoises" : [ "/sfx/humanoid/maleluhurtmaybe.ogg", "/sfx/humanoid/femaleluhurtmaybe.ogg" ],
+  "ouchNoises" : [ "/sfx/humanoid/maleluhurtNew.ogg", "/sfx/humanoid/femaleluhurtNew.ogg" ],
   "charGenTextLabels" : [ "Tail:Fur Colour", "Hair Style", "Shirt", "Pants", "Lock:Hair Colour", "Mega:Eye Colour", "Shirt Colour", "Pants Colour", "LUCARIO", "Personality" ],
   "skull" : "/humanoid/lucario/dead.png",
   "effectDirectives" : "?replace=FEFFFFFF=89eff1FF?replace=9bd4ffFF=4f76cfFF?replace=31a6ffFF=6b5b88FF",
