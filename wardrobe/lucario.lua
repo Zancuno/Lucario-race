@@ -25,7 +25,7 @@ local backArm = portrait[1].image:lower()
 
 local gender = not not (backArm:find("b1ffa7=00000000")) -- false: neutral
 local bodySpike = not not (backArm:find("eddfd4=ffffff") or backArm:find("eddfd4=000000"))
-local pawSpike = not not (backArm:find("ffb34a=fefefe"))
+local pawSpike = not not (backArm:find("ffb34a=ffffff"))
 local megaPaw = not (backArm:find("ff0011=5a5a5a"))
 local tail = backArm:find("42217b=00000000") and 1 -- Lucario
               or backArm:find("748db8=00000000") and 2 -- Riolu
