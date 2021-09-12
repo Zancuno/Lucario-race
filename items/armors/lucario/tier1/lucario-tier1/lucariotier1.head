@@ -8,6 +8,8 @@
   "description" : "A simple training armor for what is to come.",
   "shortdescription" : "^red;|ALL|^white;Page Helmet",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -10,6 +10,8 @@
   "shortdescription" : "^cyan;|GCNSNPSU|^white;Tracker's Suit ",
   "tooltipKind" : "armor",
   "bodyType" : "GCNSNPSU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : {
     "body" : "chestm.png",

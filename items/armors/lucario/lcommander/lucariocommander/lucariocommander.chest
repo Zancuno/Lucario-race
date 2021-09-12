@@ -10,6 +10,8 @@
   "shortdescription" : "^cyan;|GCU|^white;Commander Jacket ",
   "tooltipKind" : "armor",
   "bodyType" : "GCU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : {
     "body" : "chestm.png",

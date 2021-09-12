@@ -10,6 +10,8 @@
   "shortdescription" : "^cyan;|GLU|^white;Tracker's Trousers ",
   "tooltipKind" : "armor",
   "bodyType" : "GLU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "pantsf.png",
   "femaleFrames" : "pantsm.png",

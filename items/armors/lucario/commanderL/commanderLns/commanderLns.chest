@@ -9,6 +9,8 @@
   "shortdescription" : "^cyan;|GCNSU|^white;Commander Sleeves ",
   "tooltipKind" : "armor",
   "bodyType" : "GCNSU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : {
     "body" : "chestm.png",

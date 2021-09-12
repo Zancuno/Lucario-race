@@ -8,6 +8,8 @@
   "description" : "The Uniform of the Aura Guardians with a rather sturdy hat.",
   "shortdescription" : "^red;|ALL|^white;Guardian Hat",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

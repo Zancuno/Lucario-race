@@ -10,6 +10,8 @@
   "shortdescription" : "^orange;|NCNSU|^white;Specialist Jacket",
   "tooltipKind" : "armor",
   "bodyType" : "NCNSU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : {
     "body" : "chest.png",

@@ -10,6 +10,8 @@
   "shortdescription" : "^cyan;|GLU|^white;Guardian Uniform ",
   "tooltipKind" : "armor",
   "bodyType" : "GLU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

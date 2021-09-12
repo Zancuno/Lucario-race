@@ -11,6 +11,8 @@
   "tooltipKind" : "armor",
   "bodyType" : "GCNSNPSU",
   
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : {
     "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",

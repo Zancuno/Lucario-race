@@ -10,6 +10,8 @@
   "shortdescription" : "^cyan;|GCNSNPSU|^white;Auracle Chest",
   "tooltipKind" : "armor",
   "bodyType" : "GCNSNPSU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : {
     "body" : "chestm.png",

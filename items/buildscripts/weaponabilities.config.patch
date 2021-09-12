@@ -1,0 +1,9 @@
+[
+
+	{
+	"op" : "add",
+	"path" : "/monkspearcombo",
+	"value" : "/items/active/weapons/melee/abilities/spear/LucaCombo.weaponability"
+	}
+
+]

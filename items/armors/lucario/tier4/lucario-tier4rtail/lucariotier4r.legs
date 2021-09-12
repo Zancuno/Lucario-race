@@ -10,6 +10,8 @@
   "shortdescription" : "^cyan;|GLU||RTU|^white;Auracle Suit",
   "tooltipKind" : "armor",
   "bodyType" : "RTU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

@@ -9,6 +9,8 @@
   "shortdescription" : "^orange;|NCNSU|^white;Commander Sleeves ",
   "tooltipKind" : "armor",
   "bodyType" : "NCNSU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : {
     "body" : "chestm.png",

@@ -8,6 +8,8 @@
   "description" : "With a visual display for aura tracking, it can show all dangers.",
   "shortdescription" : "^red;|ALL|^white;Tracker's Helm",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

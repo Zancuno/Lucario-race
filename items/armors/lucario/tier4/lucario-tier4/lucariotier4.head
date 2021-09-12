@@ -8,6 +8,8 @@
   "description" : "This helmet was designed upon the age of space to influence Aura Tech.",
   "shortdescription" : "^red;|ALL|^white;Auracle Helm",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

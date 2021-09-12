@@ -10,6 +10,8 @@
   "shortdescription" : "^cyan;|GLU|^white;Page Fauld Set",
   "tooltipKind" : "armor",
   "bodyType" : "GLU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

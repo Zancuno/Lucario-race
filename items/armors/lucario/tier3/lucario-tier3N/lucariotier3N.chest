@@ -10,6 +10,8 @@
   "shortdescription" : "^orange;|NCU|^white;Tracker's Suit ",
   "tooltipKind" : "armor",
   "bodyType" : "NCU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : {
     "body" : "chest.png",

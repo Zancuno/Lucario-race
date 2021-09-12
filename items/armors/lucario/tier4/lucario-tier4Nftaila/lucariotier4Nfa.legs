@@ -10,6 +10,8 @@
   "shortdescription" : "^orange;|NLU||FTUN|^white;Auracle Suit A",
   "tooltipKind" : "armor",
   "bodyType" : "FTUN",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
