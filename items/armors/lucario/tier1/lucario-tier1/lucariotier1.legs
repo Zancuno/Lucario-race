@@ -5,11 +5,12 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "legarmour",
-  "description" : "^red;|Gender Legs|^white;
-  A somewhat protective fauld and boots set for training..",
-  "shortdescription" : "^cyan;|GLU|^white;Page Fauld Set",
+  "description" : "A somewhat protective fauld and boots set for training..",
+  "shortdescription" : "Page Fauld Set",
   "tooltipKind" : "armor",
   "bodyType" : "GLU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

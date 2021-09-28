@@ -5,11 +5,12 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "chestarmour",
-  "description" : "^red;|Gender Spiked|^white;
-  Armor designed for surviving hostile environments for the tracking of aura waves.",
-  "shortdescription" : "^cyan;|GCU|^white;Tracker's Suit",
+  "description" : "Armor designed for surviving hostile environments for the tracking of aura waves.",
+  "shortdescription" : "Tracker's Suit",
   "tooltipKind" : "armor",
   "bodyType" : "GCU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : {
     "body" : "chestm.png",

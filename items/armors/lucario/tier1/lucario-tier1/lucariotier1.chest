@@ -5,11 +5,12 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "^red;|Gender Spiked|^white;
-  A simple piece of body armor and gloves for your training.",
-  "shortdescription" : "^cyan;|GCU|^white;Page Cuirass",
+  "description" : "A simple piece of body armor and gloves for your training.",
+  "shortdescription" : "Page Cuirass",
   "tooltipKind" : "armor",
   "bodyType" : "GCU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : {
     "body" : "chestm.png",

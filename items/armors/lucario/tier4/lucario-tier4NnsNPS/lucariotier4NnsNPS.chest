@@ -10,6 +10,8 @@
   "shortdescription" : "^orange;|NCNSNPSU|^white;Auracle Chest ",
   "tooltipKind" : "armor",
   "bodyType" : "NCNSNPSU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : {
     "body" : "chest.png",

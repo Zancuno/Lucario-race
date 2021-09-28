@@ -5,11 +5,12 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "legarmour",
-  "description" : "^red;|Gender Legs|^white;
-  Using Aura Tech, the user is able to survive hostile areas on it's life aura.",
-  "shortdescription" : "^cyan;|GLU|^white;Auracle Suit",
+  "description" : "Using Aura Tech, the user is able to survive hostile areas on it's life aura.",
+  "shortdescription" : "Auracle Suit",
   "tooltipKind" : "armor",
   "bodyType" : "GLU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

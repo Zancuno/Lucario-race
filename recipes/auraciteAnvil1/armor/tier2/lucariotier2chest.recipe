@@ -6,5 +6,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "lucariotier2chest", "count" : 1 },
-  "groups" : [ "craftinganvil", "GCU" ]
+  "groups" : [ "craftinganvil", "armours", "GCU" ]
 }

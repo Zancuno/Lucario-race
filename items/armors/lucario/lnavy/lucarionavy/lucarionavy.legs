@@ -5,11 +5,12 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "legarmour",
-  "description" : "^red;|Gender Legs|^white;
-  Standard issue Apex Navy pants fitted for a Lucario.",
-  "shortdescription" : "^cyan;|GLU|^white;Apex Navy Pants",
+  "description" : "Standard issue Apex Navy pants fitted for a Lucario.",
+  "shortdescription" : "Apex Navy Pants",
   "tooltipKind" : "armor",
   "bodyType" : "GLU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

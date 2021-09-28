@@ -9,6 +9,8 @@
   "shortdescription" : "^orange;|NCNPSU|^white;Commander Suit",
   "tooltipKind" : "armor",
   "bodyType" : "NCNPSU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

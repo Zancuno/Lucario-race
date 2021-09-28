@@ -10,6 +10,8 @@
   "shortdescription" : "^orange;|NCNPSU|^white;Guardian Tunic ",
   "tooltipKind" : "armor",
   "bodyType" : "NCNPSU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : {
     "body" : "chest.png",

@@ -10,6 +10,8 @@
   "shortdescription" : "^cyan;|GLU||LTU|^white;Auracle Suit A",
   "tooltipKind" : "armor",
   "bodyType" : "LTU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

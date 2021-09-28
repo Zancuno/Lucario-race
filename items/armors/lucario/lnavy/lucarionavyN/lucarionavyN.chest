@@ -10,6 +10,8 @@
   "shortdescription" : "^orange;|NCU|^white;Navy Jacket",
   "tooltipKind" : "armor",
   "bodyType" : "NCU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : {
     "body" : "chest.png",

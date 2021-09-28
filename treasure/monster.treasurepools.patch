@@ -1,0 +1,98 @@
+[
+	[
+		{
+		"op": "test",
+		"path": "/basicMonsterTreasure/0/1/fill",
+		"inverse": true
+		},
+		{
+		"op" : "add",
+		"path": "/basicMonsterTreasure/0/1/fill",
+		"value" :  [{ "pool" : "eauraDrop" } ]
+		}
+	],
+	[
+		{
+		"op": "test",
+		"path": "/basicMonsterTreasure/0/1/fill",
+		"inverse": false
+		},
+		{
+		"op" : "add",
+		"path": "/basicMonsterTreasure/0/1/fill/-",
+		"value" :  { "pool" : "eauraDrop" }
+		}
+	],
+	[
+		{
+		"op": "test",
+		"path": "/flyingMonsterTreasure/0/1/fill",
+		"inverse": true
+		},
+		{
+		"op" : "add",
+		"path": "/flyingMonsterTreasure/0/1/fill",
+		"value" :   [{ "pool" : "eauraDrop"} ]
+		}
+	],
+	[
+		{
+		"op": "test",
+		"path": "/flyingMonsterTreasure/0/1/fill",
+		"inverse": false
+		},
+		{
+		"op" : "add",
+		"path": "/flyingMonsterTreasure/0/1/fill/-",
+		"value" :  { "pool" : "eauraDrop" }
+		}
+	],
+	[
+		{
+		"op": "test",
+		"path": "/noMeatMonsterTreasure/0/1/fill",
+		"inverse": true
+		},
+		{
+		"op" : "add",
+		"path": "/noMeatMonsterTreasure/0/1/fill",
+		"value" :  [{ "pool" : "eauraDrop" }]
+		}
+	],
+	[
+		{
+		"op": "test",
+		"path": "/noMeatMonsterTreasure/0/1/fill",
+		"inverse": false
+		},
+		{
+		"op" : "add",
+		"path": "/noMeatMonsterTreasure/0/1/fill/-",
+		"value" :  { "pool" : "eauraDrop" } 
+		}
+	],
+	[
+		{
+		"op": "test",
+		"path": "/largefishtreasure/0/1/fill",
+		"inverse": true
+		},
+		{
+		"op" : "add",
+		"path": "/largefishtreasure/0/1/fill",
+		"value" :  [{ "pool" : "eauraDrop" }]
+		}
+	],
+	[
+		{
+		"op": "test",
+		"path": "/largefishtreasure/0/1/fill",
+		"inverse": false
+		},
+		{
+		"op" : "add",
+		"path": "/largefishtreasure/0/1/fill/-",
+		"value" :  { "pool" : "eauraDrop" }
+		}
+	]
+]

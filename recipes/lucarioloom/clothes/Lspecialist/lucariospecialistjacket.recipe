@@ -3,5 +3,5 @@
     { "item" : "fabric", "count" : 5 }
   ],
   "output" : { "item" : "lucariospecialistjacket", "count" : 1 },
-  "groups" : [ "craftingwheel", "GCU" ]
+  "groups" : [ "craftingwheel", "clothes", "GCU" ]
 }

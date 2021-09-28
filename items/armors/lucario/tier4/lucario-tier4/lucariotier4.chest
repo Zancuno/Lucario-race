@@ -5,11 +5,12 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "chestarmour",
-  "description" : "^red;|Gender Spiked|^white;
-  The chest armor of a lucario who has merged aura with technology.",
-  "shortdescription" : "^cyan;|GCU|^white;Auracle Chest",
+  "description" : "The chest armor of a lucario who has merged aura with technology.",
+  "shortdescription" : "Auracle Chest",
   "tooltipKind" : "armor",
   "bodyType" : "GCU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : {
     "body" : "chestm.png",

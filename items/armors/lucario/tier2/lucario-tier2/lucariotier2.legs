@@ -5,11 +5,12 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "legarmour",
-  "description" : "^red;|Gender Legs|^white;
-  The uniform of the Aura Guardians as the lower armor.",
-  "shortdescription" : "^cyan;|GLU|^white;Guardian Uniform ",
+  "description" : "The uniform of the Aura Guardians as the lower armor.",
+  "shortdescription" : "Guardian Uniform ",
   "tooltipKind" : "armor",
   "bodyType" : "GLU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",

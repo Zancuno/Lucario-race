@@ -10,6 +10,8 @@
   "shortdescription" : "^orange;|NCNSU|^white;Page Cuirass ",
   "tooltipKind" : "armor",
   "bodyType" : "NCNSU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : {
     "body" : "chest.png",

@@ -5,11 +5,12 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "legarmour",
-  "description" : "^red;|Gender Legs|^white;
-  Extra armor covering the legs helps any tracker shrug off minor obstacles.",
-  "shortdescription" : "^cyan;|GLU|^white;Tracker's Trousers ",
+  "description" : "Extra armor covering the legs helps any tracker shrug off minor obstacles.",
+  "shortdescription" : "Tracker's Trousers ",
   "tooltipKind" : "armor",
   "bodyType" : "GLU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "pantsf.png",
   "femaleFrames" : "pantsm.png",

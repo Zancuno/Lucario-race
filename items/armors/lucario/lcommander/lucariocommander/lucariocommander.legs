@@ -5,11 +5,12 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "legarmour",
-  "description" : "^red;|Gender legs|^white;
-  Standard issue Apex Commander pants fitted for a Lucario.",
-  "shortdescription" : "^cyan;|GLU|^white;Apex Commander Pants ",
+  "description" : "Standard issue Apex Commander pants fitted for a Lucario.",
+  "shortdescription" : "Apex Commander Pants ",
   "tooltipKind" : "armor",
   "bodyType" : "GLU",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "pantsm.png",
   "femaleFrames" : "pantsf.png",
