@@ -5,9 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "^red;|Gender Spiked|^white;
-  The uniform of the Aura Guardians now an armor.",
-  "shortdescription" : "^cyan;|GCU|^white;Guardian Tunic ",
+  "description" : "The uniform of the Aura Guardians now an armor.",
+  "shortdescription" : "Guardian Tunic ",
   "tooltipKind" : "armor",
   "bodyType" : "GCU",
   

@@ -5,9 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestwear",
-  "description" : "^red;|Gender Spiked|^white;
-  A standard issue Apex specialist jacket fitted for a Lucario.",
-  "shortdescription" : "^cyan;|GCU|^white;Specialist Jacket",
+  "description" : "A standard issue Apex specialist jacket fitted for a Lucario.",
+  "shortdescription" : "Specialist Jacket",
   "tooltipKind" : "armor",
   "bodyType" : "GCU",
   

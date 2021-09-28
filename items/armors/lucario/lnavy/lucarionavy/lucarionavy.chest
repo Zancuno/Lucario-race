@@ -5,9 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestwear",
-  "description" : "^red;|Gender Spiked|^white;
-  A standard issue Apex navy jacket fitted for a Lucario.",
-  "shortdescription" : "^cyan;|GCU|^white;Navy Jacket",
+  "description" : "A standard issue Apex navy jacket fitted for a Lucario.",
+  "shortdescription" : "Navy Jacket",
   "tooltipKind" : "armor",
   "bodyType" : "GCU",
   

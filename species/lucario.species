@@ -20,9 +20,11 @@
 
 // Anvil
 	  { "item" : "lucariotier1head" },
-	  { "item" : "lucariotier1chestns" },
-	  { "item" : "lucariotier1pantsN" },
+	  { "item" : "lucariotier1chest" },
+	  { "item" : "lucariotier1pants" },
 	  { "item" : "lucariotier2head" },
+	  { "item" : "lucariotier2chest" },
+	  { "item" : "lucariotier2pants" },
 	  { "item" : "ironshortsword" },
       { "item" : "ironbroadsword" },
       { "item" : "tungstenaxe" },
@@ -30,6 +32,8 @@
 
 // Anvil2
 	  { "item" : "lucariotier3head" },
+	  { "item" : "lucariotier3chest" },
+	  { "item" : "lucariotier3pants" },
       { "item" : "titaniumdagger" },
       { "item" : "titaniumspear" },
       { "item" : "durasteelbroadsword" },
@@ -37,6 +41,8 @@
 	  
 // Anvil3
       { "item" : "lucariotier4head" },
+	  { "item" : "lucariotier4chest" },
+	  { "item" : "lucariotier4pants" },
 
       { "item" : "lucariotier5ahead" },
       { "item" : "lucariotier5achest" },
@@ -74,14 +80,14 @@
       { "item" : "lucarioshiphatch" },
 	  
 // Spinning Wheel
-	  { "item" : "lucariocommanderjacketns" },
-	  { "item" : "lucariocommanderpantsN" },
-	  { "item" : "lucarionavyjacketns" },
-	  { "item" : "lucarionavypantsN" },
-	  { "item" : "lucarioofficerjacketns" },
-	  { "item" : "lucarioofficerpantsN" },
-	  { "item" : "lucariospecialistjacketns" },
-	  { "item" : "lucariospecialistpantsN" },
+	  { "item" : "lucariocommanderjacket" },
+	  { "item" : "lucariocommanderpants" },
+	  { "item" : "lucarionavyjacket" },
+	  { "item" : "lucarionavypants" },
+	  { "item" : "lucarioofficerjacket" },
+	  { "item" : "lucarioofficerpants" },
+	  { "item" : "lucariospecialistjacket" },
+	  { "item" : "lucariospecialistpants" },
       { "item" : "conceptchest" },
       { "item" : "coolchest" },
       { "item" : "sweatervestchest" },
@@ -96,7 +102,6 @@
 	  
 // Inventors Table
       { "item" : "movechamber" },
-	  { "item" : "lucarioloom" },
 	  { "item" : "lsu" },
       { "item" : "dangift" },
 	  

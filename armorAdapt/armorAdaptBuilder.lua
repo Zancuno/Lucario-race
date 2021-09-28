@@ -68,17 +68,17 @@ function build(directory, config, parameters, level, seed)
 				end
 			end
 			if root.imageSize(maleFrames)[1] <= 64 then
-				if root.imageSize(string.format("/items/armors/armorAdapt/default/%s/%s/head.png", parameters.itemTags[2], parameters.itemTags[3]))[1] <= 64 then
-					if root.imageSize(string.format("/items/armors/armorAdapt/default/%s/head.png", parameters.itemTags[2]))[1] <= 64 then
+				if root.imageSize(string.format("/items/armors/armorAdapt/default/%s/%s/headm.png", parameters.itemTags[2], parameters.itemTags[3]))[1] <= 64 then
+					if root.imageSize(string.format("/items/armors/armorAdapt/default/%s/headm.png", parameters.itemTags[2]))[1] <= 64 then
 						config.maleFrames = config.maleFrames
 						config.femaleFrames = config.femaleFrames
 					else
-						config.maleFrames = string.format("/items/armors/armorAdapt/default/%s/head.png", parameters.itemTags[2])
-						config.femaleFrames = string.format("/items/armors/armorAdapt/default/%s/head.png", parameters.itemTags[2])
+						config.maleFrames = string.format("/items/armors/armorAdapt/default/%s/headm.png", parameters.itemTags[2])
+						config.femaleFrames = string.format("/items/armors/armorAdapt/default/%s/headf.png", parameters.itemTags[2])
 					end
 				else
-					config.maleFrames = string.format("/items/armors/armorAdapt/default/%s/%s/head.png", parameters.itemTags[2], parameters.itemTags[3])
-					config.femaleFrames = string.format("/items/armors/armorAdapt/default/%s/%s/head.png", parameters.itemTags[2], parameters.itemTags[3])
+					config.maleFrames = string.format("/items/armors/armorAdapt/default/%s/%s/headm.png", parameters.itemTags[2], parameters.itemTags[3])
+					config.femaleFrames = string.format("/items/armors/armorAdapt/default/%s/%s/headf.png", parameters.itemTags[2], parameters.itemTags[3])
 				end
 			else
 				config.maleFrames = maleFrames

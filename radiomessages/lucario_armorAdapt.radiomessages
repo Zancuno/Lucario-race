@@ -1,0 +1,7 @@
+{
+  "lucarioArmorAdapt" : {
+	"persistTime" : 20.0,
+	"unique" : false,
+	"text" : "I noticed that you do not have Armor Adapt installed. To unlock the full features of outfits to automatically shape to your body, I suggest installing it."
+  }
+}

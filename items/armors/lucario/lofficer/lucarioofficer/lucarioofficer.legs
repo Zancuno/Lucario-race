@@ -5,9 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "legarmour",
-  "description" : "^red;|Gender Legs|^white;
-  Standard issue Apex Officer pants fitted for a Lucario.",
-  "shortdescription" : "^cyan;|GLU|^white;Apex Officer Pants ",
+  "description" : "Standard issue Apex Officer pants fitted for a Lucario.",
+  "shortdescription" : "Apex Officer Pants ",
   "tooltipKind" : "armor",
   "bodyType" : "GLU",
   

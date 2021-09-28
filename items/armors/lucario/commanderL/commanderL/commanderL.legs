@@ -4,9 +4,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "legarmour",
-  "description" : "^red;|Gender Spiked|^white;
-  Standard issue Commander suit.",
-  "shortdescription" : "^cyan;|GCU|^white;Commander Suit",
+  "description" : "Standard issue Commander suit.",
+  "shortdescription" : "Commander Suit",
   "tooltipKind" : "armor",
   "bodyType" : "GCU",
   

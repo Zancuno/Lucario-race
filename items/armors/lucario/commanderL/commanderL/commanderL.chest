@@ -4,9 +4,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "^red;|Gender Spiked|^white;
-  Standard issue Commander sleeves.",
-  "shortdescription" : "^cyan;|GCU|^white;Commander Sleeves ",
+  "description" : "Standard issue Commander sleeves.",
+  "shortdescription" : "Commander Sleeves",
   "tooltipKind" : "armor",
   "bodyType" : "GCU",
 
