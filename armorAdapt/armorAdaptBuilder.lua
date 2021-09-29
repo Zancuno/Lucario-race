@@ -51,7 +51,7 @@ function build(directory, config, parameters, level, seed)
 	
 		if parameters.itemTags ~= nil and parameters.itemTags[4] == "head" then
 		config = util.mergeTable({ }, config)
-		local mask = parameters.mask 
+		local mask = string.format("/items/armors/armorAdapt/%s/%s/%s/mask.png", parameters.itemTags[2], parameters.itemTags[5], parameters.itemTags[3]) 
 		local maleFrames = parameters.maleFrames
 		local femaleFrames = parameters.femaleFrames
 			if root.imageSize(mask)[1] <= 43 then
