@@ -1,18 +1,20 @@
 require "/scripts/util.lua"
 
 function build(directory, config, parameters, level, seed)
+	local imgchk = root.imageSize
+	local imageTable = {"/headf.png", "/headm.png", "/mask.png", "/bsleeve.png", "/bsleevef.png", "/chestf.png", "/chestm.png", "/fsleeve.png", "/fsleevef.png", "/pantsf.png", "/pantsm.png", "/back.png"}
 	armorAdaptCheck = root.assetJson("/cinematics/apex/intro.cinematic.disabled:muteMusic")
+	
 	if armorAdaptCheck == false then
 		if parameters.itemTags ~= nil and parameters.itemTags[4] == "chest" then
 		config = util.mergeTable({ }, config)
+		local adtspc,adtbdy,adtpath = parameters.itemTags[2], parameters.itemTags[3], "/items/armors/armorAdapt/default/"
 		local maleFrames = parameters.maleFrames
 		local femaleFrames = parameters.femaleFrames
-
-
 		if type(config.maleFrames or config.femaleFrames) == "table" then
-			if root.imageSize(maleFrames.body)[1] <= 64 then
-				if root.imageSize(string.format("/items/armors/armorAdapt/default/%s/%s/chestm.png", parameters.itemTags[2], parameters.itemTags[3]))[1] <= 64 then
-					if root.imageSize(string.format("/items/armors/armorAdapt/default/%s/chestm.png", parameters.itemTags[2]))[1] <=64 then
+			if imgchk(maleFrames.body)[1] <= 64 then
+				if imgchk(adtpath..adtspc.."/"..adtbdy..imageTable[7])[1] <= 64 then
+					if imgchk(adtpath..adtspc..imageTable[7])[1] <=64 then
 						config.maleFrames.body = config.maleFrames.body
 						config.maleFrames.frontSleeve = config.maleFrames.frontSleeve
 						config.maleFrames.backSleeve = config.maleFrames.backSleeve
@@ -20,20 +22,20 @@ function build(directory, config, parameters, level, seed)
 						config.femaleFrames.frontSleeve = config.femaleFrames.frontSleeve
 						config.femaleFrames.backSleeve = config.femaleFrames.backSleeve
 					else
-						maleFrames.body = string.format("/items/armors/armorAdapt/default/%s/chestm.png", parameters.itemTags[2])
-						maleFrames.frontSleeve = string.format("/items/armors/armorAdapt/default/%s/fsleeve.png", parameters.itemTags[2])
-						maleFrames.backSleeve = string.format("/items/armors/armorAdapt/default/%s/bsleeve.png", parameters.itemTags[2])
-						femaleFrames.body = string.format("/items/armors/armorAdapt/default/%s/chestf.png", parameters.itemTags[2])
-						femaleFrames.frontSleeve = string.format("/items/armors/armorAdapt/default/%s/fsleeve.png", parameters.itemTags[2])
-						femaleFrames.backSleeve = string.format("/items/armors/armorAdapt/default/%s/bsleeve.png", parameters.itemTags[2])
+						maleFrames.body = adtpath..adtspc..imageTable[7]
+						maleFrames.frontSleeve = adtpath..adtspc..imageTable[8]
+						maleFrames.backSleeve = adtpath..adtspc..imageTable[4]
+						femaleFrames.body = adtpath..adtspc..imageTable[6]
+						femaleFrames.frontSleeve = adtpath..adtspc..imageTable[5]
+						femaleFrames.backSleeve = adtpath..adtspc..imageTable[9]
 					end
-				else	
-					maleFrames.body = string.format("/items/armors/armorAdapt/default/%s/%s/chestm.png", parameters.itemTags[2], parameters.itemTags[3])
-					maleFrames.frontSleeve = string.format("/items/armors/armorAdapt/default/%s/%s/fsleeve.png", parameters.itemTags[2], parameters.itemTags[3])
-					maleFrames.backSleeve = string.format("/items/armors/armorAdapt/default/%s/%s/bsleeve.png", parameters.itemTags[2], parameters.itemTags[3])
-					femaleFrames.body = string.format("/items/armors/armorAdapt/default/%s/%s/chestf.png", parameters.itemTags[2], parameters.itemTags[3])
-					femaleFrames.frontSleeve = string.format("/items/armors/armorAdapt/default/%s/%s/fsleeve.png", parameters.itemTags[2], parameters.itemTags[3])
-					femaleFrames.backSleeve = string.format("/items/armors/armorAdapt/default/%s/%s/bsleeve.png", parameters.itemTags[2], parameters.itemTags[3])
+				else
+					maleFrames.body = adtpath..adtspc.."/"..adtbdy..imageTable[7]
+					maleFrames.frontSleeve = adtpath..adtspc.."/"..adtbdy..imageTable[8]
+					maleFrames.backSleeve = adtpath..adtspc.."/"..adtbdy..imageTable[4]
+					femaleFrames.body = adtpath..adtspc.."/"..adtbdy..imageTable[6]
+					femaleFrames.frontSleeve = adtpath..adtspc.."/"..adtbdy..imageTable[5]
+					femaleFrames.backSleeve = adtpath..adtspc.."/"..adtbdy..imageTable[9]
 				end
 			else
 				maleFrames.body = maleFrames.body
@@ -51,34 +53,35 @@ function build(directory, config, parameters, level, seed)
 	
 		if parameters.itemTags ~= nil and parameters.itemTags[4] == "head" then
 		config = util.mergeTable({ }, config)
-		local mask = string.format("/items/armors/armorAdapt/%s/%s/%s/mask.png", parameters.itemTags[2], parameters.itemTags[5], parameters.itemTags[3]) 
+		local adtspc,adtbdy,adtpath = parameters.itemTags[2], parameters.itemTags[3], "/items/armors/armorAdapt/default/"
+		local mask = "/items/armors/armorAdapt/"..adtspc.."/"..parameters.itemTags[5].."/"..adtbdy..imageTable[3] 
 		local maleFrames = parameters.maleFrames
 		local femaleFrames = parameters.femaleFrames
-			if root.imageSize(mask)[1] <= 43 then
+			if imgchk(mask)[1] <= 43 then
 				config.mask = mask
-			elseif root.imageSize(mask)[1] > 43 then
-				if root.imageSize(string.format("/items/armors/armorAdapt/default/%s/%s/mask.png", parameters.itemTags[2], parameters.itemTags[3]))[1] > 43 then
-					if root.imageSize(string.format("/items/armors/armorAdapt/default/%s/mask.png", parameters.itemTags[2]))[1] > 43 then
+			elseif imgchk(mask)[1] > 43 then
+				if imgchk(adtpath..adtspc.."/"..adtbdy..imageTable[3])[1] > 43 then
+					if imgchk(adtpath..adtspc..imageTable[3])[1] > 43 then
 						config.mask = config.mask
 					else
-						config.mask = string.format("/items/armors/armorAdapt/default/%s/mask.png", parameters.itemTags[2])
+						config.mask = adtpath..adtspc..imageTable[3]
 					end
 				else
-					config.mask = string.format("/items/armors/armorAdapt/default/%s/%s/mask.png", parameters.itemTags[2], parameters.itemTags[3])
+					config.mask = adtpath..adtspc.."/"..adtbdy..imageTable[3]
 				end
 			end
-			if root.imageSize(maleFrames)[1] <= 64 then
-				if root.imageSize(string.format("/items/armors/armorAdapt/default/%s/%s/headm.png", parameters.itemTags[2], parameters.itemTags[3]))[1] <= 64 then
-					if root.imageSize(string.format("/items/armors/armorAdapt/default/%s/headm.png", parameters.itemTags[2]))[1] <= 64 then
+			if imgchk(maleFrames)[1] <= 64 then
+				if imgchk(adtpath..adtspc.."/"..adtbdy..imageTable[2])[1] <= 64 then
+					if imgchk(adtpath..adtspc..imageTable[2])[1] <=64 then
 						config.maleFrames = config.maleFrames
 						config.femaleFrames = config.femaleFrames
 					else
-						config.maleFrames = string.format("/items/armors/armorAdapt/default/%s/headm.png", parameters.itemTags[2])
-						config.femaleFrames = string.format("/items/armors/armorAdapt/default/%s/headf.png", parameters.itemTags[2])
+						config.maleFrames = adtpath..adtspc..imageTable[2]
+						config.femaleFrames = adtpath..adtspc..imageTable[1]
 					end
 				else
-					config.maleFrames = string.format("/items/armors/armorAdapt/default/%s/%s/headm.png", parameters.itemTags[2], parameters.itemTags[3])
-					config.femaleFrames = string.format("/items/armors/armorAdapt/default/%s/%s/headf.png", parameters.itemTags[2], parameters.itemTags[3])
+					config.maleFrames = adtpath..adtspc.."/"..adtbdy..imageTable[2]
+					config.femaleFrames = adtpath..adtspc.."/"..adtbdy..imageTable[1]
 				end
 			else
 				config.maleFrames = maleFrames
@@ -88,23 +91,24 @@ function build(directory, config, parameters, level, seed)
 		
 		if parameters.itemTags ~= nil and parameters.itemTags[4] == "pants" then
 		config = util.mergeTable({ }, config)
+		local adtspc,adtbdy,adtpath = parameters.itemTags[2], parameters.itemTags[3], "/items/armors/armorAdapt/default/"
 		local maleFrames = parameters.maleFrames
 		local femaleFrames = parameters.femaleFrames
 			if parameters.itemTags ~= nil and parameters.itemTags[5] ~= nil and parameters.itemTags[5] == "hideBody" then
 				config.hideBody = true
 			end
-			if root.imageSize(maleFrames)[1] <= 64 then
-				if root.imageSize(string.format("/items/armors/armorAdapt/default/%s/%s/pantsm.png", parameters.itemTags[2], parameters.itemTags[3]))[1] <= 64 then
-					if root.imageSize(string.format("/items/armors/armorAdapt/default/%s/pantsm.png", parameters.itemTags[2]))[1] <= 64 then
+			if imgchk(maleFrames)[1] <= 64 then
+				if imgchk(adtpath..adtspc.."/"..adtbdy..imageTable[11])[1] <= 64 then
+					if imgchk(adtpath..adtspc..imageTable[11])[1] <=64 then
 						config.maleFrames = config.maleFrames
 						config.femaleFrames = config.femaleFrames
 					else
-						config.maleFrames = string.format("/items/armors/armorAdapt/default/%s/pantsm.png", parameters.itemTags[2])
-						config.femaleFrames = string.format("/items/armors/armorAdapt/default/%s/pantsf.png", parameters.itemTags[2])
+						config.maleFrames = adtpath..adtspc..imageTable[11]
+						config.femaleFrames = adtpath..adtspc..imageTable[10]
 					end
 				else
-					config.maleFrames = string.format("/items/armors/armorAdapt/default/%s/%s/pantsm.png", parameters.itemTags[2], parameters.itemTags[3])
-					config.femaleFrames = string.format("/items/armors/armorAdapt/default/%s/%s/pantsf.png", parameters.itemTags[2], parameters.itemTags[3])
+					config.maleFrames = adtpath..adtspc.."/"..adtbdy..imageTable[11]
+					config.femaleFrames = adtpath..adtspc.."/"..adtbdy..imageTable[10]
 				end
 			else
 				config.maleFrames = maleFrames
@@ -114,20 +118,21 @@ function build(directory, config, parameters, level, seed)
 		
 		if parameters.itemTags ~= nil and parameters.itemTags[4] == "back" then
 		config = util.mergeTable({ }, config)
+		local adtspc,adtbdy,adtpath = parameters.itemTags[2], parameters.itemTags[3], "/items/armors/armorAdapt/default/"
 		local maleFrames = parameters.maleFrames
 		local femaleFrames = parameters.femaleFrames
-			if root.imageSize(maleFrames)[1] <= 64 then
-				if root.imageSize(string.format("/items/armors/armorAdapt/default/%s/%s/back.png", parameters.itemTags[2], parameters.itemTags[3]))[1] <= 64 then
-					if root.imageSize(string.format("/items/armors/armorAdapt/default/%s/back.png", parameters.itemTags[2]))[1] <= 64 then
+			if imgchk(maleFrames)[1] <= 64 then
+				if imgchk(adtpath..adtspc.."/"..adtbdy..imageTable[12])[1] <= 64 then
+					if imgchk(adtpath..adtspc..imageTable[12])[1] <=64 then
 						config.maleFrames = config.maleFrames
 						config.femaleFrames = config.femaleFrames
 					else
-						config.maleFrames = string.format("/items/armors/armorAdapt/default/%s/back.png", parameters.itemTags[2])
-						config.femaleFrames = string.format("/items/armors/armorAdapt/default/%s/back.png", parameters.itemTags[2])
+						config.maleFrames = adtpath..adtspc..imageTable[12]
+						config.femaleFrames = adtpath..adtspc..imageTable[12]
 					end
 				else
-					config.maleFrames = string.format("/items/armors/armorAdapt/default/%s/%s/back.png", parameters.itemTags[2], parameters.itemTags[3])
-					config.femaleFrames = string.format("/items/armors/armorAdapt/default/%s/%s/back.png", parameters.itemTags[2], parameters.itemTags[3])
+					config.maleFrames = adtpath..adtspc.."/"..adtbdy..imageTable[12]
+					config.femaleFrames = adtpath..adtspc.."/"..adtbdy..imageTable[12]
 				end
 			else
 				config.maleFrames = maleFrames
