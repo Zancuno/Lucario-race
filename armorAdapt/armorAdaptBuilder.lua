@@ -1,6 +1,6 @@
 require "/scripts/util.lua"
 
-armorAdabtBuilderVersion = 3
+armorAdabtBuilderVersion = 4
 
 function build(directory, config, parameters, level, seed)
 	local imgchk = root.imageSize
@@ -30,16 +30,16 @@ function build(directory, config, parameters, level, seed)
 						config.maleFrames.frontSleeve = adtpath..adtspc..imageTable[8]
 						config.maleFrames.backSleeve = adtpath..adtspc..imageTable[4]
 						config.femaleFrames.body = adtpath..adtspc..imageTable[6]
-						config.femaleFrames.frontSleeve = adtpath..adtspc..imageTable[5]
-						config.femaleFrames.backSleeve = adtpath..adtspc..imageTable[9]
+						config.femaleFrames.frontSleeve = adtpath..adtspc..imageTable[9]
+						config.femaleFrames.backSleeve = adtpath..adtspc..imageTable[5]
 					end
 				else
 					config.maleFrames.body = adtpath..adtspc.."/"..adtbdy..imageTable[7]
 					config.maleFrames.frontSleeve = adtpath..adtspc.."/"..adtbdy..imageTable[8]
 					config.maleFrames.backSleeve = adtpath..adtspc.."/"..adtbdy..imageTable[4]
 					config.femaleFrames.body = adtpath..adtspc.."/"..adtbdy..imageTable[6]
-					config.femaleFrames.frontSleeve = adtpath..adtspc.."/"..adtbdy..imageTable[5]
-					config.femaleFrames.backSleeve = adtpath..adtspc.."/"..adtbdy..imageTable[9]
+					config.femaleFrames.frontSleeve = adtpath..adtspc.."/"..adtbdy..imageTable[9]
+					config.femaleFrames.backSleeve = adtpath..adtspc.."/"..adtbdy..imageTable[5]
 				end
 			else
 				config.maleFrames.body = maleFrames.body
@@ -135,6 +135,9 @@ function build(directory, config, parameters, level, seed)
 
 	else
 		config = config
+		if imgchk(parameters.mask)[1] ~= 43 then
+			parameters.mask = config.mask
+		end
 		return config, parameters
 	end
 end
