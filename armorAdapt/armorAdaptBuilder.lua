@@ -1,6 +1,6 @@
 require "/scripts/util.lua"
 
-armorAdabtBuilderVersion = 4
+armorAdabtBuilderVersion = 5
 
 function build(directory, config, parameters, level, seed)
 	local imgchk = root.imageSize
@@ -135,9 +135,7 @@ function build(directory, config, parameters, level, seed)
 
 	else
 		config = config
-		if imgchk(parameters.mask)[1] ~= 43 then
-			parameters.mask = config.mask
-		end
+		parameters.mask = config.mask
 		return config, parameters
 	end
 end
