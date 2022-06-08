@@ -1,10 +1,12 @@
 { "height":200,
+ "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2AGOqzYQBuDtAbaXzSFy7baq0Gb9DNgY7AF\/n\/TrjVKwomUcPP36AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABo8zqY97\/5+6\/\/\/1WPr7\/V3esIz10dpx9mqyM8d\/Xxd\/hnlrX++1c9tl722Le6Wx3huav1v\/5Xn\/E+X9Z6q0PUtWdrdXsd4bmr4\/TDbHWE5642nz+tjnBen62O8NzV+l\/\/q83nz6trz9bq9jrCc1fH6YfZ6gjPXW0+f1od4bw+Wx3huav1v\/5XR5jPc+uV3Lv2XVq\/z93r2rP1d8GzOHLv64Tvc5d6ZM\/7f2Qx+n9tnQj9Ga3\/j+6F2hkzSk\/2qkfP50fXzF3zOvgdnlS3nLPXnkXLvZ\/v9AizRIT5pKXnS87VEfpwtv7fWmd0f0br\/5a9UDtjRujJnvUZ7\/NlrXdlvXaW2jtjrZ3hauacJ9dHztlrs0TJjLF1Teucc5e6R88fvXe2unf\/567PnQei9OrI\/m\/dC+nvSYR+i1Sf8T4\/cp4oPYdt3Ztes3b9TPWRc\/beHPL533PXbM0he\/c+oe7Z87l7Z59JRvd\/bh3z+TV7YWuPqMfN53v3lp7DPq9xbvvZYzV1+ruTXrM1Y7fc+6T66p7f6m3z+bj+X7vGfH7NXjCfb9cj5vO9M1bN+ubz33Xt2bp09t6bYVpnmzvXvXs+7X\/z+dj+z83h5vNr9oL5vOxv23M+35tDXpl6bU3z+Z91zdm6dPbem2Fytfnkmp7P7dsovReh7tn\/e5\/r\/3P3gvm87G8bYT5PPzef19dnzSfp57Xz+dF5\/o51r54\/cw8+te7Z\/zW\/kVF6dVT\/n7UXSubKCH04qj7jfb6s9S6sc2es9Nml162t+bmOc9vPHiutc\/NJbq5Ym0NK13x63aPnt\/ZflN6LUPfq\/9rfyCi9OqL\/z9oLV7yPnlSf8T4\/eoZYPl9bp2T9dJ2RZ6MIdet8kv6W7X2e1unvXoT5IcJ8cmbP5\/ZthN6LUPfu\/9LfyCi9Oqr\/r9wL6fWf7\/QIPdmzPuN9vqz1Lqw\/79uaMUrW\/7zXrPKzx0rrrWfxvfIs1tYsueapdc+ez12fzjYz16P6P3f9q\/L73LUe9fuf1rPvhRHzee4csXbOKFknV9d+n6fUR87Ze7NEyYwxwxzSOp+09PxWb88+k0To\/601R\/dnlP6\/4vffXsj\/3XrO5++vP59lek3JuS29xqzys8dq6r1ZYmtuSX\/vjn6Hu9e9ej63vp4f2\/9H1nxa3fP3f6uefS+Mms\/TZ1by+VLvndtmPp8dPWevzRJ7M0b6mxVlZog6n7T0\/NF7Z6p79\/\/evjCfn78XjuyRWepR83n67GrW3Du3zXw+W\/bYkXrrWazdW9MjLd8ten11z5fs1Qi9F6Hu2f8l+yJCf0bq\/5a9cPX76O71Ge\/z1rNFbr2a67eeaYQzU8+69cyd\/h1rr19LlFkiynxS2\/NLfdUefErdu\/9L1hndnxH7\/+heKHkXRejDUfUZ7\/Nlrbc6RB3hvD5bHeG5q+P0w2x1hOeujjGfq8+rI5zXZ6sjPHe1\/tf\/avP58+ras7W6vY7w3NVx+mG2OsJzV5\/zPhcREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREZHYYQzPqtzoPSIicocwhmdVbvQeERG5QyC60XtEROQOgTsYvU9ERKIH7mD0PhERiR64i9F7RUQkauBuRu8ZEZGIgTsavW9ERCIFoNbo3y0R+R0AiGL0O\/GuAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgt38AmsPcug==",
+         "data":"eJzt2A2OszYUBdDpTuhmZxFZbVtVaBh\/Ntj82A84R7rqVUpoNDwndr++AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACO+d6Zz7\/5+6\/\/\/6mP75PevUd47nqceXhbj\/Dc9f2\/4cvM9\/rvn\/rYPq+xSe\/WIzx33fybf\/2M3\/P5Xh89RJ\/07j3Cc9fjzMPbeoTnrjufP60v9816nx7huevm3\/zrzufP65PevUd47nqceXhbj\/Dcdefzp\/Xlvlnv0yM8d938m389wvk8d7+a95Y+y9HPc\/c+Heilv+ee936f8Hnu0kfOvP9HFmP+S\/eJMJ\/R5n\/vWmg9Y0aZyV599Pl87z1z13zv\/AxP6q1762UvPYsj713+ph\/5bJF7z5mv2VdHmMO3zf\/afUbPZ7T5P7IWWs+YEWayZz\/j93y+16exl\/ZSW3us0h6u5Zzz5D7t6KWzRM0ZY+2ao+ecu\/QeM7\/3vW\/rvec\/d31uPxBlVkfO\/9G1kH6fRJi3SP2M3\/M9+4nafdjae9NrSte\/qZf20Gt96xyy\/Pe5a9bOIVvvfULvOfO59779TDJ6\/nP3cT6\/Zi2srRF93Pl86721+7DlNfZtP2uspaffO+k1a2fsI+99Ur965tdm2\/l83PyXrnE+v2YtOJ+v9xHn8609Vsv9nc9\/99a9de3Ze+sMs\/f+T+i9Zz6df+fzsfOfO4c7n1+zFpzP6\/62Pc\/nW+eQ70wv3dP5\/M8+NfTas\/fWGSbXnU+umfncuo0yexF6z\/nfet38n7sWnM\/r\/rYRzufp687n7b11b106n6Svt57P957n79h7zfyZa\/Cpvef8t3xHRpnVUfN\/1lqoOVdGmMNR\/Yzf8\/len8qe22Olzy69rnTP5X3s237WWG3PnU9y54rSOaT2nk\/vPWZ+bf1Fmb0Ivdf8t35HRpnVEfN\/1lq44vfoSf2M3\/O9e4j59dJ9au6f3mfk3ihCb91bp+eH9Lts6\/W0p997rZ\/njr33zOfWbYTZi9B7z3\/td2SUWR01\/1euhfT65W96hJns2c\/4PZ\/v9ansy\/etnTFq7r98r7PKzxqr7WvPYio8i9I9a655au8587nr07PNm\/uo+c9d\/934ee7aR33\/p\/3ta2HE+Ty3jyjtM2ruk+utn+cpfc8+e+ssUXPGeMM5pNR7zPzabL\/9TBJh\/tfuOXo+o8z\/Fd\/\/1kL+79bzfP75+vNZptfU7NvSa5xVftZYS986S6ydW9Lvu72f4e6918zn7m\/mx87\/nns+rff8\/l\/rb18Lo87n6TOreX3uW\/u2N+\/PavbTuV46S2ydMdLvrNb\/7hN6r5nf+9439d7zv7UunM\/PXwt71shb+qjzefrsWu65tW978\/5sXmN7+tqzKL23ZUaOfLbo\/eqZr1mrEWYvQu85\/zXrIsJ8Rpr\/I2vh6t+ju\/czfs+P7i1y92u5fu2ZRtgz9exH9tlT5m\/ben0pez\/PHXqPmZ\/7VWvwKb33\/NfcZ\/R8Rpz\/vWuh5rcowhyO6mf8ns\/3+ugh+qR37xGeux5nHt7WIzx3Pcb5XD+vL\/fNep8e4bnr5t\/8687nz+uT3r1HeO56nHl4W4\/w3PVzfs9FREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREQkdhjDs6o3eo2IiNwhjOFZ1Ru9RkRE7hCIbvQaERG5Q+AORq8TEZHogTsYvU5ERKIH7mL0WhERiRq4m9FrRkQkYuCORq8bEZFIAWg1+ntLRH4HAKIY\/Zt41wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8Ns\/IMYTKg==",
          "encoding":"base64",
          "height":200,
+         "id":1,
          "name":"back",
          "opacity":1,
          "type":"tilelayer",
@@ -15,9 +17,10 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt3EFqHFEMRVH3jrKDrCIQyCgr8P5noQYhYILjUG3pSf8c0NTVLRmuG2y\/vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMz09WGMMcaY7rnj9Tk\/EgAAN9ztsZ4DQD89B4D59BwA5tNzAJhPzwFgPj0HgPn0HADm03MAmG97z18Lh39zj3p23sPeM5x0h7uvIeE9vKfq9aXvIYV71LPzHvae4aQ76Pms50znHvXsvIe9ZzjpDtt7DgAn0HMAmE\/PAWA+PQeA+fQcAObb2vPKvzlM+xvERO5Rz8572HuGE+9w99mp30Ndryt1H93co56d97D3DCfeQc93PDede9Sz8x72nuHEO2ztOQCcRM8BYL7P7PmXx80vDgB8iM\/nADCfngPAfM\/o+eT5+fjYdL\/OU8Y97PyUsfeM2XaHba739KNxNu70jmsf3xvnxHtc7\/lb45y488ud9\/27G13P38Qd9tDzLHpeT8976EgGd9hDz7PoeT0976EjGdxhDz3Pouf19LyHjmRwhz30PIue19PzHjqSwR320PMsel5Pz3v8z+9Lf8acuve33GEPPc+i5\/X0vIfPhRncYQ89z6Ln9fS8h45kcIc99DyLntfT8x46ksEd9tDzLHpeT8976EgGd9hDz7PoeT0976EjGdxhj2f9H9w7wx\/dtzjxHt37PnHnl+6dn7r3t7pv4A4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDf\/AJuCuvV",
+         "data":"eJzt3GFqVGEMhtHO9tyBOxAEtyB05XJ\/iFCkVu40eZPvHMjf3pmk8HSg7csLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADATF8fxhhjjOmeO16f8yMBAHDD3R7rOQD003MAmE\/PAWA+PQeA+fQcAObTcwCYT88BYD49B4D5tvf8tXD4N\/eoZ+c97D3DSXe4+xoS3sN7ql5f+h5SuEc9O+9h7xlOuoOez3rOdO5Rz8572HuGk+6wvecAcAI9B4D59BwA5tNzAJhPzwFgvq09r\/ybw7S\/QUzkHvXsvIe9ZzjxDnefnfo91PW6UvfRzT3q2XkPe89w4h30fMdz07lHPTvvYe8ZTrzD1p4DwEn0HADm+8yef3nc\/OIAwIf4fA4A8+k5AMz3jJ5Pnp+Pj0336zxl3MPOTxl7z5htd9jmek8\/GmfjTu+49vG9cU68x\/WevzXOiTu\/3Hnfv7vR9fxN3GEPPc+i5\/X0vIeOZHCHPfQ8i57X0\/MeOpLBHfbQ8yx6Xk\/Pe+hIBnfYQ8+z6Hk9Pe+hIxncYQ89z6Ln9fS8x\/\/8vvRnzKl7f8sd9tDzLHpeT897+FyYwR320PMsel5Pz3voSAZ32EPPs+h5PT3voSMZ3GEPPc+i5\/X0vIeOZHCHPfQ8i57X0\/MeOpLBHfZ41v\/BvTP80X2LE+\/Rve8Td37p3vmpe3+r+wbuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\/M0v3ADLyQ==",
          "encoding":"base64",
          "height":200,
+         "id":2,
          "name":"front",
          "opacity":1,
          "type":"tilelayer",
@@ -28,103 +31,124 @@
         }, 
         {
          "draworder":"topdown",
-         "height":0,
+         "id":3,
          "name":"mods",
-         "objects":[],
+         "objects":[
+                {
+                 "height":8,
+                 "id":164,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"Image",
+                         "type":"string",
+                         "value":"rock01.png"
+                        }, 
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"supermatter"
+                        }, 
+                        {
+                         "name":"front",
+                         "type":"string",
+                         "value":"supermatter"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":1952,
+                 "y":1224
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
-         "width":0,
          "x":0,
          "y":0
         }, 
         {
          "draworder":"topdown",
-         "height":0,
+         "id":4,
          "name":"objects",
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
-         "width":0,
          "x":0,
          "y":0
         }, 
         {
          "draworder":"topdown",
-         "height":0,
+         "id":5,
          "name":"wiring - lights & guns",
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
-         "width":0,
          "x":0,
          "y":0
         }, 
         {
          "draworder":"topdown",
-         "height":0,
+         "id":6,
          "name":"monsters & npcs",
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
-         "width":0,
          "x":0,
          "y":0
         }, 
         {
          "draworder":"topdown",
-         "height":0,
+         "id":7,
          "name":"wiring - locked door",
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
-         "width":0,
          "x":0,
          "y":0
         }, 
         {
          "draworder":"topdown",
-         "height":0,
+         "id":8,
          "name":"outside the map",
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
-         "width":0,
          "x":0,
          "y":0
         }, 
         {
          "draworder":"topdown",
-         "height":0,
+         "id":9,
          "name":"anchors etc",
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
-         "width":0,
          "x":0,
          "y":0
         }, 
         {
          "draworder":"topdown",
-         "height":0,
+         "id":10,
          "name":"wiring - lights",
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
-         "width":0,
          "x":0,
          "y":0
         }],
- "nextobjectid":1,
+ "nextlayerid":11,
+ "nextobjectid":165,
  "orientation":"orthogonal",
  "renderorder":"right-down",
+ "tiledversion":"1.2.1",
  "tileheight":8,
  "tilesets":[
         {
@@ -132,22 +156,23 @@
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/huge-objects.json"
         }, 
         {
-         "firstgid":83,
+         "firstgid":102,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/liquids.json"
         }, 
         {
-         "firstgid":111,
+         "firstgid":130,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/materials.json"
         }, 
         {
-         "firstgid":301,
+         "firstgid":327,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
-         "firstgid":321,
+         "firstgid":351,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/supports.json"
         }],
  "tilewidth":8,
- "version":1,
+ "type":"map",
+ "version":1.2,
  "width":500
 }
